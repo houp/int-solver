@@ -1,0 +1,7 @@
+# X-permutive family: toggling the north-west corner x flips the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(0, y, z, t, u, w, a, b, c) != f(1, y, z, t, u, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

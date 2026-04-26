@@ -1,0 +1,10 @@
+# Diagonal-monotone family: the local rule is monotone increasing in the four diagonal neighbors.
+vars: x, y, z, t, u, w, a, b, c
+
+f(0, y, z, t, u, w, a, b, c) <= f(1, y, z, t, u, w, a, b, c);
+f(x, y, 0, t, u, w, a, b, c) <= f(x, y, 1, t, u, w, a, b, c);
+f(x, y, z, t, u, w, 0, b, c) <= f(x, y, z, t, u, w, 1, b, c);
+f(x, y, z, t, u, w, a, b, 0) <= f(x, y, z, t, u, w, a, b, 1);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

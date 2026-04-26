@@ -1,0 +1,22 @@
+[project]
+name = "omp-functional-equation-system"
+version = "0.1.0"
+description = "Generate algebraic equation systems from functional identities."
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+analysis = ["sympy>=1.13"]
+compression = ["zstandard>=0.23"]
+search = ["numpy>=2.0", "mlx>=0.31.0"]
+
+[project.scripts]
+generate-functional-equation-system = "generate_functional_equation_system:main"
+ca-search = "ca_search.cli:main"
+
+[tool.pytest.ini_options]
+# Only collect test files under tests/. Avoid pytest accidentally picking up
+# utility functions named `test_*` defined inside ca_search/* (e.g.
+# ca_search/reversibility.py exposes `test_sector_injective` as a public
+# helper, not a pytest case).
+testpaths = ["tests"]

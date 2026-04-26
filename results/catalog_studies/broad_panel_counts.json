@@ -1,0 +1,114 @@
+{
+  "format": "ca_property_mask_v1",
+  "base_property": {
+    "path": "simplified_equations.txt",
+    "nvars": 510,
+    "nrows": 399
+  },
+  "additional_properties": [
+    {
+      "bit": 0,
+      "name": "rotation",
+      "path": "rotation_symmetric_equations.txt",
+      "nrows": 492,
+      "fixed_checks": 0,
+      "relation_checks": 372,
+      "generic_rows": 0
+    },
+    {
+      "bit": 1,
+      "name": "outer",
+      "path": "outer_totalistic_equations.txt",
+      "nrows": 896,
+      "fixed_checks": 0,
+      "relation_checks": 494,
+      "generic_rows": 0
+    },
+    {
+      "bit": 2,
+      "name": "total",
+      "path": "totalistic_equations.txt",
+      "nrows": 1024,
+      "fixed_checks": 0,
+      "relation_checks": 502,
+      "generic_rows": 0
+    },
+    {
+      "bit": 3,
+      "name": "int",
+      "path": "isotropic_non_totalistic_equations.txt",
+      "nrows": 664,
+      "fixed_checks": 0,
+      "relation_checks": 410,
+      "generic_rows": 0
+    },
+    {
+      "bit": 4,
+      "name": "bw",
+      "path": "black_white_symmetric_equations.txt",
+      "nrows": 255,
+      "fixed_checks": 0,
+      "relation_checks": 255,
+      "generic_rows": 0
+    }
+  ],
+  "mask_bits_are_little_endian": true,
+  "mask_bytes_per_record": 1,
+  "solution_bytes_per_record": 64,
+  "total_base_solutions": 147309433,
+  "elapsed_seconds": 37.222,
+  "property_counts": [
+    {
+      "bit": 0,
+      "name": "rotation",
+      "count": 5
+    },
+    {
+      "bit": 1,
+      "name": "outer",
+      "count": 1
+    },
+    {
+      "bit": 2,
+      "name": "total",
+      "count": 0
+    },
+    {
+      "bit": 3,
+      "name": "int",
+      "count": 1
+    },
+    {
+      "bit": 4,
+      "name": "bw",
+      "count": 1447
+    }
+  ],
+  "exact_mask_counts": [
+    {
+      "mask": 0,
+      "mask_hex": "0x0",
+      "count": 147307984
+    },
+    {
+      "mask": 1,
+      "mask_hex": "0x1",
+      "count": 2
+    },
+    {
+      "mask": 16,
+      "mask_hex": "0x10",
+      "count": 1444
+    },
+    {
+      "mask": 17,
+      "mask_hex": "0x11",
+      "count": 2
+    },
+    {
+      "mask": 27,
+      "mask_hex": "0x1b",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Center-blind family: the local rule does not depend on the center cell u.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, 1 - u, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

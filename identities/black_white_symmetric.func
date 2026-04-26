@@ -1,0 +1,10 @@
+# Black/white symmetric family for 2D binary cellular automata with a Moore neighborhood.
+# Also called complement symmetry or state-complement symmetry:
+# complementing all input cells complements the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) =
+    1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

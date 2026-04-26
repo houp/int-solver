@@ -1,0 +1,18 @@
+# Outer-totalistic identity family for 2D binary cellular automata with a Moore neighborhood.
+# The local rule depends on:
+#   1. the center cell u, and
+#   2. the total number of live outer neighbors (x, y, z, t, w, a, b, c).
+# For binary rules this is equivalent to invariance under all permutations of the
+# eight outer cells while keeping u fixed.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(y, x, z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, z, y, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, w, u, t, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, a, w, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, b, a, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, a, c, b);
+f(x, y, z, t, u, w, a, b, c) = f(t, y, z, x, u, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

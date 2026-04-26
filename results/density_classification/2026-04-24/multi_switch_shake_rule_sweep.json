@@ -1,0 +1,328 @@
+{
+  "runs": [
+    {
+      "shake_sid": "sid:58ed6b657afb",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 16,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 0.9375,
+          "correct_consensus_rate": 0.9375,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.9375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.497550010681152
+    },
+    {
+      "shake_sid": "sid:58ed6b657afb",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 32,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.96875,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.561692237854004
+    },
+    {
+      "shake_sid": "sid:58ed6b657afb",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 64,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.497176885604858
+    },
+    {
+      "shake_sid": "sid:29154e9615d8",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 16,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.96875,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.592363119125366
+    },
+    {
+      "shake_sid": "sid:29154e9615d8",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 32,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.449346780776978
+    },
+    {
+      "shake_sid": "sid:29154e9615d8",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 64,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.776853799819946
+    },
+    {
+      "shake_sid": "sid:812b7dae7aa7",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 16,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.96875,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.580235958099365
+    },
+    {
+      "shake_sid": "sid:812b7dae7aa7",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 32,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.73668885231018
+    },
+    {
+      "shake_sid": "sid:812b7dae7aa7",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 64,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.822251081466675
+    },
+    {
+      "shake_sid": "sid:029b09cea0b5",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 16,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.96875,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.655302047729492
+    },
+    {
+      "shake_sid": "sid:029b09cea0b5",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 32,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 0.96875,
+          "correct_consensus_rate": 0.96875,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.96875,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.670545816421509
+    },
+    {
+      "shake_sid": "sid:029b09cea0b5",
+      "T_pre": 128,
+      "T_amp": 256,
+      "T_shake": 64,
+      "num_shakes": 2,
+      "T_amp_final": 512,
+      "grid": 192,
+      "amplifier": "moore81",
+      "per_probability": [
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "probability": 0.49
+        },
+        {
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 0.984375,
+          "probability": 0.51
+        }
+      ],
+      "min_correct_consensus_rate": 0.984375,
+      "min_final_majority_accuracy": 0.984375,
+      "elapsed_seconds": 11.748628854751587
+    }
+  ]
+}

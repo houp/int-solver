@@ -1,0 +1,10 @@
+# Diagonal-only family: the orthogonal neighbors are irrelevant.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(x, 1 - y, z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, 1 - t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, 1 - w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, a, 1 - b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

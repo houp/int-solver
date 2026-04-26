@@ -1,0 +1,7 @@
+# Center-monotone family: the local rule is monotone increasing in the center cell only.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, 0, w, a, b, c) <= f(x, y, z, t, 1, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

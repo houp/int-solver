@@ -1,0 +1,193 @@
+{
+  "grid": [
+    96,
+    96
+  ],
+  "trials": 32,
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "reports": [
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "cand_ac809_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.9497172037760416,
+        "local_density_variance": 0.027610156685113907,
+        "final_majority_accuracy": 0.96875,
+        "final_consensus_accuracy": 0.625,
+        "final_consensus_rate": 0.625,
+        "mean_final_density": 0.04496595594618055
+      }
+    },
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "cand_2667f_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8133782280815972,
+        "local_density_variance": 0.09079571068286896,
+        "final_majority_accuracy": 0.96875,
+        "final_consensus_accuracy": 0.21875,
+        "final_consensus_rate": 0.21875,
+        "mean_final_density": 0.18473646375868055
+      }
+    },
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "cand_d3ed8_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.6009046766493056,
+        "local_density_variance": 0.10491760075092316,
+        "final_majority_accuracy": 0.6875,
+        "final_consensus_accuracy": 0.0625,
+        "final_consensus_rate": 0.09375,
+        "mean_final_density": 0.3916117350260417
+      }
+    },
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "cand_029b0_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.834075927734375,
+        "local_density_variance": 0.06134890019893646,
+        "final_majority_accuracy": 0.84375,
+        "final_consensus_accuracy": 0.34375,
+        "final_consensus_rate": 0.34375,
+        "mean_final_density": 0.163726806640625
+      }
+    },
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "cand_812b7_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8165418836805556,
+        "local_density_variance": 0.04527090862393379,
+        "final_majority_accuracy": 0.78125,
+        "final_consensus_accuracy": 0.53125,
+        "final_consensus_rate": 0.53125,
+        "mean_final_density": 0.181884765625
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "cand_ac809_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8123813205295138,
+        "local_density_variance": 0.06276773661375046,
+        "final_majority_accuracy": 0.875,
+        "final_consensus_accuracy": 0.3125,
+        "final_consensus_rate": 0.3125,
+        "mean_final_density": 0.7878587510850694
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "cand_2667f_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8556281195746528,
+        "local_density_variance": 0.06289483606815338,
+        "final_majority_accuracy": 0.9375,
+        "final_consensus_accuracy": 0.28125,
+        "final_consensus_rate": 0.28125,
+        "mean_final_density": 0.8841824001736112
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "cand_d3ed8_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.9788106282552084,
+        "local_density_variance": 0.005467862356454134,
+        "final_majority_accuracy": 0.96875,
+        "final_consensus_accuracy": 0.90625,
+        "final_consensus_rate": 0.90625,
+        "mean_final_density": 0.9875454372829862
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "cand_029b0_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8818325466579862,
+        "local_density_variance": 0.05587630346417427,
+        "final_majority_accuracy": 0.9375,
+        "final_consensus_accuracy": 0.34375,
+        "final_consensus_rate": 0.34375,
+        "mean_final_density": 0.8556857638888888
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "cand_812b7_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8839653862847222,
+        "local_density_variance": 0.022986549884080887,
+        "final_majority_accuracy": 0.875,
+        "final_consensus_accuracy": 0.625,
+        "final_consensus_rate": 0.625,
+        "mean_final_density": 0.9113905164930556
+      }
+    }
+  ]
+}

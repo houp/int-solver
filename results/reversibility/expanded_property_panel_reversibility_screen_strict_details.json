@@ -1,0 +1,674 @@
+[
+  {
+    "stable_id": "49b77993e37417b7204e3691920ada756330c1f2e11e8a65d0aecfe395758ed7",
+    "simple_tags": [
+      "isolated_particle:north",
+      "isolated_hole:north"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 8481,
+          "input_b": 4626,
+          "output": 8738
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 1257,
+    "stable_index": 127142
+  },
+  {
+    "stable_id": "76b223c548e0f481cd0cadbb49def68f198fd7b6e2b252ddf3c4f0197e4fd59d",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 41985,
+          "input_b": 4110,
+          "output": 49155
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 2704,
+    "stable_index": 90306
+  },
+  {
+    "stable_id": "0ccdf669802dcf690bf62dd65a311c93e210c726f845c710b62cae59b663afce",
+    "simple_tags": [
+      "isolated_particle:east",
+      "isolated_hole:east"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 41985,
+          "input_b": 4110,
+          "output": 49155
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 3775,
+    "stable_index": 89942
+  },
+  {
+    "stable_id": "2eb27be27db8ce46e86ab2b05a451f5271dab3fbf1ed4fea921dadd8b1b9f88e",
+    "simple_tags": [
+      "isolated_particle:west",
+      "isolated_hole:west"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 1185,
+          "input_b": 30,
+          "output": 105
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 9390,
+    "stable_index": 75970
+  },
+  {
+    "stable_id": "c2da5951cce9d7535f6975a11d6df96cf8b0e1b09914a8cebc5b1de020ca76c2",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 8481,
+          "input_b": 4626,
+          "output": 8738
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 16812,
+    "stable_index": 43055
+  },
+  {
+    "stable_id": "031fcca44fffaa9f0033bc5556013381185bc8141146288a9611b9259dc8a637",
+    "simple_tags": [
+      "isolated_particle:south",
+      "isolated_hole:south"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 8481,
+          "input_b": 4626,
+          "output": 8738
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 17673,
+    "stable_index": 4010
+  },
+  {
+    "stable_id": "3c27c4b7667eb5eb14582a880ab04ad33bd14050e7e9b76b57c6de83c81e3631",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 41985,
+          "input_b": 4110,
+          "output": 24585
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 37886,
+    "stable_index": 108616
+  },
+  {
+    "stable_id": "8f6652013a043b2a96acdaf5c63e416a191d656092598287d0c676703db8bf6b",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 8481,
+          "input_b": 4626,
+          "output": 8738
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 39393,
+    "stable_index": 52582
+  },
+  {
+    "stable_id": "e679173c8e4de228ee15ca0dd8e55d3641a8ba51b4f871b1f2f1b56aac0d62fd",
+    "simple_tags": [
+      "isolated_particle:south",
+      "isolated_hole:south"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 9249,
+          "input_b": 4370,
+          "output": 8721
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 69869,
+    "stable_index": 3722
+  },
+  {
+    "stable_id": "d8c7e97578bac99ab2d6df95cca9f334e7bde6ff8ebfc73899179fe068b53f5a",
+    "simple_tags": [
+      "isolated_particle:east",
+      "isolated_hole:east"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 1185,
+          "input_b": 30,
+          "output": 195
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 74003,
+    "stable_index": 15468
+  },
+  {
+    "stable_id": "c93b34359c476342045fb00a595d574c5379577b0e4a9f206b6f7add5073b783",
+    "simple_tags": [
+      "isolated_particle:west",
+      "isolated_hole:west"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 41985,
+          "input_b": 4110,
+          "output": 24585
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 92481,
+    "stable_index": 111151
+  },
+  {
+    "stable_id": "bcb2ec769989ee9a1c09673f09a86dd184f6b9e4711210c04a5b055e1cfeae87",
+    "simple_tags": [
+      "isolated_particle:north",
+      "isolated_hole:north"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 9249,
+          "input_b": 4370,
+          "output": 4641
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 108414,
+    "stable_index": 130629
+  },
+  {
+    "stable_id": "1fa2cf090b656245335d4164f78aa6681ed5d142f92d23eab2d31ef7eaaec773",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 1185,
+          "input_b": 30,
+          "output": 105
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 118603,
+    "stable_index": 61602
+  },
+  {
+    "stable_id": "0746ae08faf2c184dc0abb1cad3c74d9a9470cf6267bc396df9659d749caa735",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 9249,
+          "input_b": 4370,
+          "output": 4641
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 119810,
+    "stable_index": 59931
+  },
+  {
+    "stable_id": "ba15ab0e41835035b3f4c7c12535ed82b7bc5065cff58108acd6cf0ae06f8128",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 9249,
+          "input_b": 4370,
+          "output": 8721
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 124120,
+    "stable_index": 42561
+  },
+  {
+    "stable_id": "a2dd8ba227aba88ac1ea0d0267798f61a84f3f4647eda8be3ad09c291036ccd0",
+    "simple_tags": [
+      "isolated_particle:static",
+      "isolated_hole:static"
+    ],
+    "trivial_reversible": false,
+    "sector_results": [
+      {
+        "width": 4,
+        "height": 4,
+        "population": 2,
+        "tested_states": 120,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 3,
+        "tested_states": 560,
+        "is_injective": true,
+        "witness": null
+      },
+      {
+        "width": 4,
+        "height": 4,
+        "population": 4,
+        "tested_states": 1820,
+        "is_injective": false,
+        "witness": {
+          "input_a": 1185,
+          "input_b": 30,
+          "output": 195
+        }
+      }
+    ],
+    "torus_results": [],
+    "rejection_stage": "particle-sector:4",
+    "legacy_index": 126195,
+    "stable_index": 46721
+  }
+]

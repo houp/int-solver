@@ -1,0 +1,1382 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "grid": [
+    64,
+    64
+  ],
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "trials": 32,
+  "schedule_count": 70,
+  "candidate_preprocessors": {
+    "eq_29154": "sid:29154e9615d8",
+    "eq_93f01": "sid:93f0176f55d8",
+    "eq_5dceb": "sid:5dceb34ea73f",
+    "eq_812b7": "sid:812b7dae7aa7"
+  },
+  "results": [
+    {
+      "schedule_name": "eq_812b7_8_then_majority_vn_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.21875,
+      "max_local_density_variance": 0.07303313165903091,
+      "min_local_majority_agreement": 0.8152999877929688,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.8152999877929688,
+          "local_density_variance": 0.07303313165903091,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.21875,
+          "final_consensus_accuracy": 0.21875,
+          "mean_final_density": 0.23119354248046875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9127197265625,
+          "local_density_variance": 0.04012451320886612,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.4375,
+          "final_consensus_accuracy": 0.4375,
+          "mean_final_density": 0.8844985961914062
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_8_then_majority_moore_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.90625,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.1875,
+      "max_local_density_variance": 0.08775173127651215,
+      "min_local_majority_agreement": 0.8098831176757812,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.8098831176757812,
+          "local_density_variance": 0.08390495181083679,
+          "final_majority_accuracy": 0.90625,
+          "final_consensus_rate": 0.25,
+          "final_consensus_accuracy": 0.25,
+          "mean_final_density": 0.2041778564453125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.8138656616210938,
+          "local_density_variance": 0.08775173127651215,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.1875,
+          "final_consensus_accuracy": 0.1875,
+          "mean_final_density": 0.7860794067382812
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_8_then_majority_moore_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.125,
+      "max_local_density_variance": 0.09820207208395004,
+      "min_local_majority_agreement": 0.7899856567382812,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.7899856567382812,
+          "local_density_variance": 0.09820207208395004,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.21749114990234375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7987823486328125,
+          "local_density_variance": 0.08752758800983429,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.21875,
+          "final_consensus_accuracy": 0.21875,
+          "mean_final_density": 0.7623672485351562
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_8_then_majority_moore_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.6875,
+      "mean_final_majority_accuracy": 0.84375,
+      "final_majority_accuracy_gap": 0.3125,
+      "min_final_consensus_rate": 0.09375,
+      "max_local_density_variance": 0.10648848861455917,
+      "min_local_majority_agreement": 0.6678237915039062,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6678237915039062,
+          "local_density_variance": 0.10648848861455917,
+          "final_majority_accuracy": 0.6875,
+          "final_consensus_rate": 0.09375,
+          "final_consensus_accuracy": 0.09375,
+          "mean_final_density": 0.3469390869140625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.92315673828125,
+          "local_density_variance": 0.04152461513876915,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.40625,
+          "final_consensus_accuracy": 0.40625,
+          "mean_final_density": 0.8791351318359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_8_then_majority_vn_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.90625,
+      "mean_final_majority_accuracy": 0.921875,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0625,
+      "max_local_density_variance": 0.10041731595993042,
+      "min_local_majority_agreement": 0.7583770751953125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.7583770751953125,
+          "local_density_variance": 0.10041731595993042,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.23834991455078125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7841796875,
+          "local_density_variance": 0.08822344243526459,
+          "final_majority_accuracy": 0.90625,
+          "final_consensus_rate": 0.09375,
+          "final_consensus_accuracy": 0.09375,
+          "mean_final_density": 0.7726669311523438
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_8_then_majority_vn_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.84375,
+      "mean_final_majority_accuracy": 0.890625,
+      "final_majority_accuracy_gap": 0.09375,
+      "min_final_consensus_rate": 0.0625,
+      "max_local_density_variance": 0.10733339935541153,
+      "min_local_majority_agreement": 0.717559814453125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.717559814453125,
+          "local_density_variance": 0.10733339935541153,
+          "final_majority_accuracy": 0.84375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.29763031005859375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7559967041015625,
+          "local_density_variance": 0.10098950564861298,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.7109146118164062
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_8_then_majority_moore_8_x4",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.03125,
+      "max_local_density_variance": 0.11814554035663605,
+      "min_local_majority_agreement": 0.6865921020507812,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6865921020507812,
+          "local_density_variance": 0.11814554035663605,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.30229949951171875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.71490478515625,
+          "local_density_variance": 0.10977618396282196,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.6999130249023438
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_8_then_majority_vn_8_x4",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.03125,
+      "max_local_density_variance": 0.10637057572603226,
+      "min_local_majority_agreement": 0.660247802734375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.660247802734375,
+          "local_density_variance": 0.10637057572603226,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.35390472412109375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7908248901367188,
+          "local_density_variance": 0.0836014375090599,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.7994461059570312
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_8_then_majority_moore_8_x4",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.90625,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.09375,
+      "min_final_consensus_rate": 0.03125,
+      "max_local_density_variance": 0.11224421858787537,
+      "min_local_majority_agreement": 0.7052078247070312,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.7052078247070312,
+          "local_density_variance": 0.11091750860214233,
+          "final_majority_accuracy": 0.90625,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.287078857421875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7119674682617188,
+          "local_density_variance": 0.11224421858787537,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.7104568481445312
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_8_then_majority_moore_8_x8",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.921875,
+      "final_majority_accuracy_gap": 0.09375,
+      "min_final_consensus_rate": 0.03125,
+      "max_local_density_variance": 0.1416538953781128,
+      "min_local_majority_agreement": 0.6985702514648438,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6985702514648438,
+          "local_density_variance": 0.1416538953781128,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.03125,
+          "final_consensus_accuracy": 0.03125,
+          "mean_final_density": 0.3089141845703125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.73553466796875,
+          "local_density_variance": 0.1303243488073349,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.09375,
+          "final_consensus_accuracy": 0.09375,
+          "mean_final_density": 0.7404327392578125
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_64_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005430292338132858,
+      "min_local_majority_agreement": 0.5485458374023438,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5499343872070312,
+          "local_density_variance": 0.005430292338132858,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.32695770263671875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5485458374023438,
+          "local_density_variance": 0.005386995151638985,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6666412353515625
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_64_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005890128202736378,
+      "min_local_majority_agreement": 0.5468673706054688,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.548095703125,
+          "local_density_variance": 0.005890128202736378,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3424224853515625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5468673706054688,
+          "local_density_variance": 0.0056970687583088875,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6587142944335938
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_5dceb_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.006021994166076183,
+      "min_local_majority_agreement": 0.5465240478515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5471878051757812,
+          "local_density_variance": 0.006021994166076183,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.34075164794921875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5465240478515625,
+          "local_density_variance": 0.005949310027062893,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6738739013671875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_5dceb_32_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.16686847805976868,
+      "min_local_majority_agreement": 0.6705245971679688,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6705245971679688,
+          "local_density_variance": 0.16686847805976868,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.34075164794921875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.680908203125,
+          "local_density_variance": 0.16564306616783142,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6738739013671875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_64_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.16901986300945282,
+      "min_local_majority_agreement": 0.6788330078125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6815414428710938,
+          "local_density_variance": 0.16901986300945282,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.32695770263671875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6788330078125,
+          "local_density_variance": 0.16739729046821594,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6666412353515625
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_64_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.17344817519187927,
+      "min_local_majority_agreement": 0.66741943359375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.66741943359375,
+          "local_density_variance": 0.17344817519187927,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3424224853515625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6766433715820312,
+          "local_density_variance": 0.16779164969921112,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6587142944335938
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_64_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005488689988851547,
+      "min_local_majority_agreement": 0.5496444702148438,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5504226684570312,
+          "local_density_variance": 0.005488689988851547,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.32822418212890625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5496444702148438,
+          "local_density_variance": 0.005331423133611679,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.680908203125
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_29154_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005682345014065504,
+      "min_local_majority_agreement": 0.5465927124023438,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5493316650390625,
+          "local_density_variance": 0.005682345014065504,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.338714599609375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5465927124023438,
+          "local_density_variance": 0.005642438307404518,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6507339477539062
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_32_then_eq_29154_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.0056874314323067665,
+      "min_local_majority_agreement": 0.5475692749023438,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5491485595703125,
+          "local_density_variance": 0.0056874314323067665,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3414306640625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5475692749023438,
+          "local_density_variance": 0.005599676631391048,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6714248657226562
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_32_then_eq_93f01_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.00573603343218565,
+      "min_local_majority_agreement": 0.5477447509765625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5492935180664062,
+          "local_density_variance": 0.00573603343218565,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38530731201171875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5477447509765625,
+          "local_density_variance": 0.005713458172976971,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6259689331054688
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_93f01_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005771448835730553,
+      "min_local_majority_agreement": 0.5477828979492188,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5486526489257812,
+          "local_density_variance": 0.005771448835730553,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.34206390380859375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5477828979492188,
+          "local_density_variance": 0.005626426078379154,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.639129638671875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_93f01_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005771448835730553,
+      "min_local_majority_agreement": 0.5477828979492188,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5486526489257812,
+          "local_density_variance": 0.005771448835730553,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3330535888671875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5477828979492188,
+          "local_density_variance": 0.005626426078379154,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6508636474609375
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_32_then_eq_812b7_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.008817555382847786,
+      "min_local_majority_agreement": 0.53961181640625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.53961181640625,
+          "local_density_variance": 0.008817555382847786,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3641510009765625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.54803466796875,
+          "local_density_variance": 0.0078054191544651985,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6953659057617188
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_32_then_eq_812b7_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.009118209592998028,
+      "min_local_majority_agreement": 0.5374603271484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5374603271484375,
+          "local_density_variance": 0.009118209592998028,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38092041015625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5469512939453125,
+          "local_density_variance": 0.008266196586191654,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6863327026367188
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_29154_32_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.16838400065898895,
+      "min_local_majority_agreement": 0.6647262573242188,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6729736328125,
+          "local_density_variance": 0.1661565750837326,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.338714599609375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6647262573242188,
+          "local_density_variance": 0.16838400065898895,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6507339477539062
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_93f01_32_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.16908657550811768,
+      "min_local_majority_agreement": 0.6544113159179688,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6686782836914062,
+          "local_density_variance": 0.1663929522037506,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.34206390380859375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6544113159179688,
+          "local_density_variance": 0.16908657550811768,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6391220092773438
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_64_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.1713954508304596,
+      "min_local_majority_agreement": 0.6820831298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6820831298828125,
+          "local_density_variance": 0.1713954508304596,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.328216552734375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6966705322265625,
+          "local_density_variance": 0.16235016286373138,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.680908203125
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_32_then_eq_29154_32_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.17498792707920074,
+      "min_local_majority_agreement": 0.6627349853515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6627349853515625,
+          "local_density_variance": 0.17498792707920074,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3414306640625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6887588500976562,
+          "local_density_variance": 0.16471417248249054,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6714248657226562
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_93f01_32_then_eq_812b7_32_then_moore32_then_vn32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.96875,
+      "mean_final_majority_accuracy": 0.984375,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.17527726292610168,
+      "min_local_majority_agreement": 0.64886474609375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.64886474609375,
+          "local_density_variance": 0.17527726292610168,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3641510009765625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.7038345336914062,
+          "local_density_variance": 0.15524691343307495,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6953659057617188
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_5dceb_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.006021994166076183,
+      "min_local_majority_agreement": 0.5465240478515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5471878051757812,
+          "local_density_variance": 0.006021994166076183,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3353271484375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5465240478515625,
+          "local_density_variance": 0.005949310027062893,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6645965576171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_29154_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.008783082477748394,
+      "min_local_majority_agreement": 0.5379486083984375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5389556884765625,
+          "local_density_variance": 0.008783082477748394,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38767242431640625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5379486083984375,
+          "local_density_variance": 0.008753913454711437,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6258773803710938
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_8_then_majority_vn_8_x4",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.1010255366563797,
+      "min_local_majority_agreement": 0.6724395751953125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6724395751953125,
+          "local_density_variance": 0.1010255366563797,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.31478118896484375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6923980712890625,
+          "local_density_variance": 0.0962931215763092,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.693359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_64_then_vn32_then_moore32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.120017409324646,
+      "min_local_majority_agreement": 0.6688079833984375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.6688079833984375,
+          "local_density_variance": 0.120017409324646,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.319000244140625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.6980133056640625,
+          "local_density_variance": 0.11226961016654968,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6989822387695312
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.005890128202736378,
+      "min_local_majority_agreement": 0.5468673706054688,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.548095703125,
+          "local_density_variance": 0.005890128202736378,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.355316162109375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5468673706054688,
+          "local_density_variance": 0.0056970687583088875,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.633758544921875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_93f01_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.007603445090353489,
+      "min_local_majority_agreement": 0.5419235229492188,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5437774658203125,
+          "local_density_variance": 0.007603445090353489,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.37783050537109375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5419235229492188,
+          "local_density_variance": 0.007589535787701607,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6013946533203125
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_5dceb_32_then_eq_812b7_32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.008688325993716717,
+      "min_local_majority_agreement": 0.541717529296875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.541717529296875,
+          "local_density_variance": 0.008688325993716717,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.311370849609375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.546630859375,
+          "local_density_variance": 0.008223434910178185,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6951065063476562
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_32_then_eq_29154_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.008783082477748394,
+      "min_local_majority_agreement": 0.5379486083984375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5389556884765625,
+          "local_density_variance": 0.008783082477748394,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4044952392578125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5379486083984375,
+          "local_density_variance": 0.008753913454711437,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5848846435546875
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_29154_32_then_eq_812b7_32_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.009118209592998028,
+      "min_local_majority_agreement": 0.5374603271484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5374603271484375,
+          "local_density_variance": 0.009118209592998028,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.392852783203125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5469512939453125,
+          "local_density_variance": 0.008266196586191654,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6598052978515625
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_64_then_majority_moore_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.009411893784999847,
+      "min_local_majority_agreement": 0.5377044677734375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5377044677734375,
+          "local_density_variance": 0.009411893784999847,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.345672607421875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5471878051757812,
+          "local_density_variance": 0.008352475240826607,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6862106323242188
+        }
+      ]
+    },
+    {
+      "schedule_name": "eq_812b7_64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 32,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.953125,
+      "final_majority_accuracy_gap": 0.03125,
+      "min_final_consensus_rate": 0.0,
+      "max_local_density_variance": 0.009411893784999847,
+      "min_local_majority_agreement": 0.5377044677734375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.5377044677734375,
+          "local_density_variance": 0.009411893784999847,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.34113311767578125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.5471878051757812,
+          "local_density_variance": 0.008352475240826607,
+          "final_majority_accuracy": 0.96875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.683807373046875
+        }
+      ]
+    }
+  ]
+}

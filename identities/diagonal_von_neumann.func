@@ -1,0 +1,14 @@
+# Diagonal von Neumann embedded family: the orthogonal neighbors are irrelevant,
+# so the rule depends only on the center and the four diagonals.
+#
+# This is mathematically the same family as diagonal_only.func; this file exists
+# as a clearer alias by analogy with von_neumann.func.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(x, 1 - y, z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, 1 - t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, 1 - w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, a, 1 - b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

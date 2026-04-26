@@ -1,0 +1,16 @@
+vars: x, y, z, t, u, w, a, b, c
+
+# Isolated-particle one-step motion: static.
+# The support of the single live cell is fully resolved over the affected 3x3 window.
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;
+f(1, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(0, 1, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(0, 0, 1, 0, 0, 0, 0, 0, 0) = 0;
+f(0, 0, 0, 1, 0, 0, 0, 0, 0) = 0;
+f(0, 0, 0, 0, 1, 0, 0, 0, 0) = 1;
+f(0, 0, 0, 0, 0, 1, 0, 0, 0) = 0;
+f(0, 0, 0, 0, 0, 0, 1, 0, 0) = 0;
+f(0, 0, 0, 0, 0, 0, 0, 1, 0) = 0;
+f(0, 0, 0, 0, 0, 0, 0, 0, 1) = 0;

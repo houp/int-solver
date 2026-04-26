@@ -1,0 +1,18 @@
+# Totalistic identity family for 2D binary cellular automata with a Moore neighborhood.
+# The local rule depends only on the total number of live cells in the 3x3 neighborhood.
+# For binary rules this is equivalent to invariance under all permutations of the 9 inputs.
+# The adjacent transpositions below generate the full permutation group on
+# (x, y, z, t, u, w, a, b, c).
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(y, x, z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, z, y, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, t, z, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, u, t, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, w, u, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, a, w, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, b, a, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, a, c, b);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

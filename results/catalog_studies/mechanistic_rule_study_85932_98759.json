@@ -1,0 +1,941 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "backend": "mlx",
+  "candidate_ids": [
+    85932,
+    98759
+  ],
+  "reports": [
+    {
+      "id": 85932,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:northwest"
+      ],
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northwest",
+      "particle_pair_collisions": [
+        {
+          "offset": [
+            0,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 3,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 4,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 258,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            0
+          ],
+          "collision": true,
+          "first_collision_step": 1,
+          "first_separation_step": null,
+          "final_matches_free_transport": false,
+          "final_overlap_with_free_transport": 0.999879814914969,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 256,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 256,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 384,
+          "final_bbox_area": 9,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 256,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            3,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            4
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 5,
+          "final_bbox_area": 5,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            4,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        }
+      ],
+      "hole_pair_collisions": [
+        {
+          "offset": [
+            0,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            1
+          ],
+          "collision": true,
+          "first_collision_step": 1,
+          "first_separation_step": null,
+          "final_matches_free_transport": false,
+          "final_overlap_with_free_transport": 0.999879814914969,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            1
+          ],
+          "collision": true,
+          "first_collision_step": 1,
+          "first_separation_step": null,
+          "final_matches_free_transport": false,
+          "final_overlap_with_free_transport": 0.999879814914969,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16384,
+          "final_bbox_area": 9,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16384,
+          "final_bbox_area": 9,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            3,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            4
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            4,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        }
+      ],
+      "interfaces": [
+        {
+          "name": "vertical_interface",
+          "steps": 384,
+          "dominant_shift": "east",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 2,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.8346354166666666,
+          "late_mean_activity": 1.0
+        },
+        {
+          "name": "horizontal_interface",
+          "steps": 384,
+          "dominant_shift": "north",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 2,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.99609375,
+          "late_mean_activity": 1.0
+        },
+        {
+          "name": "diagonal_stripes",
+          "steps": 384,
+          "dominant_shift": "north",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 2,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.9954427083333334,
+          "late_mean_activity": 1.0
+        }
+      ],
+      "longrun_motifs": [
+        {
+          "name": "single_particle",
+          "background": "zeros",
+          "steps": 192,
+          "exact_tail_period": null,
+          "dominant_shift": "south",
+          "dominant_overlap": 1.0,
+          "final_cluster_count": 1,
+          "max_bbox_area": 1,
+          "final_bbox_area": 1,
+          "population_constant": true
+        },
+        {
+          "name": "single_hole",
+          "background": "ones",
+          "steps": 192,
+          "exact_tail_period": null,
+          "dominant_shift": "northwest",
+          "dominant_overlap": 1.0,
+          "final_cluster_count": 1,
+          "max_bbox_area": 1,
+          "final_bbox_area": 1,
+          "population_constant": true
+        }
+      ]
+    },
+    {
+      "id": 98759,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northeast",
+        "isolated_hole:southwest"
+      ],
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "southwest",
+      "particle_pair_collisions": [
+        {
+          "offset": [
+            0,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 258,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 384,
+          "final_bbox_area": 9,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            3,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            4
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            4,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        }
+      ],
+      "hole_pair_collisions": [
+        {
+          "offset": [
+            0,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            3
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 258,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 128,
+          "final_bbox_area": 3,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 387,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            2,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 384,
+          "final_bbox_area": 9,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -1,
+            2
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            -2,
+            1
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 16512,
+          "final_bbox_area": 6,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            3,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 127,
+          "final_bbox_area": 4,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            0,
+            4
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        },
+        {
+          "offset": [
+            4,
+            0
+          ],
+          "collision": false,
+          "first_collision_step": null,
+          "first_separation_step": null,
+          "final_matches_free_transport": true,
+          "final_overlap_with_free_transport": 1.0,
+          "exact_tail_period": null,
+          "final_cluster_count": 2,
+          "max_bbox_area": 126,
+          "final_bbox_area": 5,
+          "final_population": 2
+        }
+      ],
+      "interfaces": [
+        {
+          "name": "vertical_interface",
+          "steps": 384,
+          "dominant_shift": "east",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 2,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.8346354166666666,
+          "late_mean_activity": 1.0
+        },
+        {
+          "name": "horizontal_interface",
+          "steps": 384,
+          "dominant_shift": "north",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 2,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.99609375,
+          "late_mean_activity": 1.0
+        },
+        {
+          "name": "diagonal_stripes",
+          "steps": 384,
+          "dominant_shift": "static",
+          "dominant_overlap": 1.0,
+          "exact_tail_period": 1,
+          "mean_interface_width": 0.0,
+          "max_interface_width": 0,
+          "late_mean_interface_width": 0.0,
+          "mean_activity": 0.00390625,
+          "late_mean_activity": 0.0
+        }
+      ],
+      "longrun_motifs": [
+        {
+          "name": "single_particle",
+          "background": "zeros",
+          "steps": 192,
+          "exact_tail_period": null,
+          "dominant_shift": "northeast",
+          "dominant_overlap": 1.0,
+          "final_cluster_count": 1,
+          "max_bbox_area": 1,
+          "final_bbox_area": 1,
+          "population_constant": true
+        },
+        {
+          "name": "single_hole",
+          "background": "ones",
+          "steps": 192,
+          "exact_tail_period": null,
+          "dominant_shift": "southwest",
+          "dominant_overlap": 1.0,
+          "final_cluster_count": 1,
+          "max_bbox_area": 1,
+          "final_bbox_area": 1,
+          "population_constant": true
+        }
+      ]
+    }
+  ]
+}

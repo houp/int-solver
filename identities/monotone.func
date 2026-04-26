@@ -1,0 +1,16 @@
+# Monotone family for 2D binary cellular automata with a Moore neighborhood.
+# Flipping any input bit from 0 to 1 may not decrease the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(0, y, z, t, u, w, a, b, c) <= f(1, y, z, t, u, w, a, b, c);
+f(x, 0, z, t, u, w, a, b, c) <= f(x, 1, z, t, u, w, a, b, c);
+f(x, y, 0, t, u, w, a, b, c) <= f(x, y, 1, t, u, w, a, b, c);
+f(x, y, z, 0, u, w, a, b, c) <= f(x, y, z, 1, u, w, a, b, c);
+f(x, y, z, t, 0, w, a, b, c) <= f(x, y, z, t, 1, w, a, b, c);
+f(x, y, z, t, u, 0, a, b, c) <= f(x, y, z, t, u, 1, a, b, c);
+f(x, y, z, t, u, w, 0, b, c) <= f(x, y, z, t, u, w, 1, b, c);
+f(x, y, z, t, u, w, a, 0, c) <= f(x, y, z, t, u, w, a, 1, c);
+f(x, y, z, t, u, w, a, b, 0) <= f(x, y, z, t, u, w, a, b, 1);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

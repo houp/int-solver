@@ -1,0 +1,8 @@
+# Invariance under both axis reflections (left-right and top-bottom).
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(z, y, x, w, u, t, c, b, a);
+f(x, y, z, t, u, w, a, b, c) = f(a, b, c, t, u, w, x, y, z);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

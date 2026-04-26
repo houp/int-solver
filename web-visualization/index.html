@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Number-Conserving CA Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Web Visualization</p>
+          <h1>Number-Conserving 2D Binary CA Explorer</h1>
+          <p class="hero-copy">
+            Explore the materialized Moore-neighborhood rules, select structural properties on
+            demand, and keep the simulation grid at the center of the workflow.
+          </p>
+        </div>
+        <div class="hero-stats" id="dataset-summary" aria-live="polite"></div>
+      </header>
+
+      <section class="workspace-bar">
+        <div class="workspace-summary">
+          <p class="workspace-label">Current Selection</p>
+          <div id="selection-summary">No additional filters selected.</div>
+        </div>
+        <div class="workspace-actions">
+          <form class="sid-jump" id="sid-jump-form">
+            <label for="sid-jump-input" class="sid-jump-label">Jump to SID</label>
+            <input
+              id="sid-jump-input"
+              name="sid-jump"
+              type="search"
+              placeholder="sid:9fed53aadb5a"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <button type="submit" class="ghost-button" id="sid-jump-button">Go</button>
+          </form>
+          <button type="button" class="ghost-button" id="open-properties">
+            Properties
+            <span class="button-meta" id="open-properties-meta">0 active</span>
+          </button>
+          <button type="button" class="ghost-button" id="open-rules">
+            Rules
+            <span class="button-meta" id="open-rules-meta">0 matches</span>
+          </button>
+        </div>
+      </section>
+
+      <main class="workspace">
+        <section class="panel simulation-panel">
+          <div class="panel-header panel-header-main">
+            <div>
+              <h2>Simulation</h2>
+              <p class="panel-copy">Periodic boundary conditions on a finite torus.</p>
+            </div>
+            <div class="inline-actions">
+              <button type="button" class="ghost-button" id="prev-rule">Prev Rule</button>
+              <button type="button" class="ghost-button" id="next-rule">Next Rule</button>
+              <button type="button" class="ghost-button" id="copy-hex">Copy LUT Hex</button>
+            </div>
+          </div>
+
+          <div class="sim-grid-wrap">
+            <canvas id="ca-canvas" width="720" height="480" aria-label="Cellular automaton grid"></canvas>
+          </div>
+
+          <div class="rule-detail" id="rule-detail"></div>
+
+          <form class="controls" id="sim-controls">
+            <fieldset class="control-group">
+              <legend>Grid</legend>
+              <label>
+                <span>Width</span>
+                <input id="grid-width" type="number" min="1" max="256" step="1" value="64" />
+              </label>
+              <label>
+                <span>Height</span>
+                <input id="grid-height" type="number" min="1" max="256" step="1" value="40" />
+              </label>
+              <button type="button" id="resize-grid">Resize</button>
+            </fieldset>
+
+            <fieldset class="control-group">
+              <legend>Initialization</legend>
+              <label>
+                <span>Random P(1)</span>
+                <input
+                  id="random-probability"
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.01"
+                  value="0.35"
+                />
+              </label>
+              <output id="random-probability-value" for="random-probability">0.35</output>
+              <button type="button" id="fill-random">Fill Random</button>
+              <button type="button" id="clear-grid">Clear Grid</button>
+            </fieldset>
+
+            <fieldset class="control-group">
+              <legend>Playback</legend>
+              <label>
+                <span>Speed</span>
+                <input id="speed" type="range" min="1" max="30" step="1" value="8" />
+              </label>
+              <output id="speed-value" for="speed">8 steps/s</output>
+              <button type="button" id="step-once">Step</button>
+              <button type="button" id="toggle-run">Run</button>
+            </fieldset>
+          </form>
+
+          <div class="sim-status" id="sim-status" aria-live="polite"></div>
+          <div class="jump-status" id="jump-status" aria-live="polite"></div>
+          <p class="sim-hint">
+            Click or drag on the grid to paint cells. Open the Properties or Rules panel only when
+            you need to refine the selection.
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <div class="panel-backdrop" id="panel-backdrop" hidden></div>
+
+    <aside class="overlay-panel overlay-panel-left" id="properties-panel" aria-hidden="true">
+      <div class="overlay-header">
+        <div>
+          <h2>Property Filters</h2>
+          <p class="panel-copy">Rules must satisfy every selected property.</p>
+        </div>
+        <div class="inline-actions">
+          <button type="button" class="ghost-button" id="clear-properties">Clear</button>
+          <button type="button" class="ghost-button" id="close-properties">Close</button>
+        </div>
+      </div>
+      <div class="overlay-body">
+        <div class="property-list" id="property-list" aria-live="polite"></div>
+      </div>
+    </aside>
+
+    <aside class="overlay-panel overlay-panel-right" id="rules-panel" aria-hidden="true">
+      <div class="overlay-header">
+        <div>
+          <h2>Rule Browser</h2>
+          <p class="panel-copy">Select a rule, then return to the simulation.</p>
+        </div>
+        <div class="inline-actions">
+          <button type="button" class="ghost-button" id="close-rules">Close</button>
+        </div>
+      </div>
+
+      <form class="toolbar" id="rule-toolbar">
+        <label>
+          <span>Search</span>
+          <input
+            id="rule-search"
+            name="rule-search"
+            type="search"
+            placeholder="stable id, index, mask, property"
+            autocomplete="off"
+          />
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="sort-key" name="sort-key">
+            <option value="propertyCount-desc">Most matched properties</option>
+            <option value="propertyCount-asc">Fewest matched properties</option>
+            <option value="mask-asc">Mask value</option>
+            <option value="ones-desc">Most LUT ones</option>
+            <option value="id-asc">Stable index</option>
+          </select>
+        </label>
+        <label>
+          <span>Page Size</span>
+          <select id="page-size" name="page-size">
+            <option value="25">25</option>
+            <option value="50" selected>50</option>
+            <option value="100">100</option>
+            <option value="250">250</option>
+          </select>
+        </label>
+      </form>
+
+      <div class="browser-summary" id="browser-summary"></div>
+      <div class="overlay-body">
+        <div class="rule-list" id="rule-list" role="listbox" aria-label="Matching rules"></div>
+      </div>
+
+      <div class="pager" id="pager">
+        <button type="button" id="page-first">First</button>
+        <button type="button" id="page-prev">Prev</button>
+        <span id="page-status"></span>
+        <button type="button" id="page-next">Next</button>
+        <button type="button" id="page-last">Last</button>
+      </div>
+    </aside>
+
+    <script type="module" src="./src/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+identity=1 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0
+x_0 = 0
+
+identity=2 vars=() assignment=()
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1
+x_511 = 1
+
+identity=3 vars=() assignment=()
+f(1, 0, 0, 0, 0, 0, 0, 0, 0) = 0
+x_256 = 0
+
+identity=4 vars=() assignment=()
+f(0, 1, 0, 0, 0, 0, 0, 0, 0) = 0
+x_128 = 0
+
+identity=5 vars=() assignment=()
+f(0, 0, 1, 0, 0, 0, 0, 0, 0) = 0
+x_64 = 0
+
+identity=6 vars=() assignment=()
+f(0, 0, 0, 1, 0, 0, 0, 0, 0) = 0
+x_32 = 0
+
+identity=7 vars=() assignment=()
+f(0, 0, 0, 0, 1, 0, 0, 0, 0) = 1
+x_16 = 1
+
+identity=8 vars=() assignment=()
+f(0, 0, 0, 0, 0, 1, 0, 0, 0) = 0
+x_8 = 0
+
+identity=9 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 1, 0, 0) = 0
+x_4 = 0
+
+identity=10 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 0, 1, 0) = 0
+x_2 = 0
+
+identity=11 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 0, 0, 1) = 0
+x_1 = 0
+

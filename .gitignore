@@ -1,0 +1,45 @@
+# Python virtual environments and caches
+.venv/
+.venv314/
+.uv-cache/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Large derived solver outputs (regenerable from src/solve_omp_opt)
+witek/
+solutions_zstd/
+
+# Compiled C++ binaries (rebuild via build.sh)
+src/solve_omp
+src/solve_omp_opt
+src/solve_omp_opt_zstd
+
+# LaTeX auxiliary outputs (latexmk -c cleans these from the working tree;
+# the PDF in docs/ is committed)
+*.aux
+*.log
+*.out
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.xdv
+*.synctex.gz
+*.synctex.gz(busy)
+*.dvi
+
+# OS / IDE noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Claude Code session state (per-machine)
+.claude/
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
+.coverage
