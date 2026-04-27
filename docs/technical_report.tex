@@ -1569,6 +1569,116 @@ noise floor.  Our adversarial battery, when restricted to densities
 \(\geq 1/2 + 0.005\) (about \(L/100\) tipping cells at \(L=256\)), gives
 \(100\%\) correct consensus on all tested grids.
 
+\subsection{Density-Margin Scaling Law}
+\label{subsec:rho-min}
+
+The previous paragraph identifies a \emph{near-tied} regime where the
+classifier degrades, but does not pin down where the degradation actually
+sets in.  To answer this quantitatively, we swept
+\(L\in\{64,128,192,256,384,512\}\) against
+\(\delta = |\rho - 1/2| \in \{0.05,\,0.02,\,0.01,\,0.005,\,0.002,\,0.001\}\)
+with the L-scaled schedule.  For each pair we built initial states with
+\emph{exact} target density (a shuffled fixed-density binary vector for
+random, a per-pattern density-adjusted template for adversarial) so that
+the global majority label is unambiguous, and ran 64 random trials per
+side (32 for \(L\geq 384\)) plus the 10-case adversarial battery
+(Section~\ref{subsec:adversarial}).
+The full result file is
+\texttt{results/density\_classification/2026-04-27/density\_margin\_sweep.json};
+analysis is by \texttt{classifier/density\_margin\_analyze.py}.
+
+Define \(\rho_{\min}(L)\) as the smallest \(\delta\) at which the schedule
+gives 100\% correct consensus on both random and adversarial batteries.
+Tables~\ref{tab:rho-min-random} and~\ref{tab:rho-min-adv} show the
+correct-consensus rates; Table~\ref{tab:rho-min-summary} summarises
+\(\rho_{\min}(L)\).
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r cccccc}
+\toprule
+$L$ & $\delta=0.05$ & $0.02$ & $0.01$ & $0.005$ & $0.002$ & $0.001$ \\
+\midrule
+64  & 1.000 & 1.000 & 0.992 & 0.828 & 0.523 & 0.336 \\
+128 & 1.000 & 1.000 & 1.000 & 0.922 & 0.609 & 0.484 \\
+192 & 1.000 & 1.000 & 1.000 & 0.984 & 0.789 & 0.508 \\
+256 & 1.000 & 1.000 & 1.000 & 1.000 & 0.828 & 0.500 \\
+384 & 1.000 & 1.000 & 1.000 & 1.000 & 0.906 & 0.500 \\
+512 & 1.000 & 1.000 & 1.000 & 1.000 & 0.953 & 0.563 \\
+\bottomrule
+\end{tabular}
+\caption{Random-input correct-consensus rate as a function of grid size
+\(L\) and density margin \(\delta = |\rho-1/2|\).
+At \(\delta=0.001\) (one tipping cell per \({\sim}10^3\) sites), the
+classifier degrades toward chance (0.5) at all tested \(L\).}
+\label{tab:rho-min-random}
+\end{table}
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r cccccc}
+\toprule
+$L$ & $\delta=0.05$ & $0.02$ & $0.01$ & $0.005$ & $0.002$ & $0.001$ \\
+\midrule
+64  & 1.000 & 0.900 & 0.600 & 0.700 & 0.500 & 0.200 \\
+128 & 1.000 & 1.000 & 0.900 & 0.500 & 0.600 & 0.500 \\
+192 & 1.000 & 1.000 & 1.000 & 0.800 & 0.400 & 0.500 \\
+256 & 1.000 & 1.000 & 1.000 & 0.700 & 0.400 & 0.600 \\
+384 & 1.000 & 1.000 & 1.000 & 0.600 & 0.500 & 0.300 \\
+512 & 1.000 & 1.000 & 1.000 & 0.900 & 0.400 & 0.200 \\
+\bottomrule
+\end{tabular}
+\caption{Adversarial correct-consensus rate.  The structured-input
+floor sits at \(\delta\approx 0.01\) for \(L\geq 192\), about a factor of
+\(2\) above the random-input floor.  Failures concentrate on the patterns
+fixed by Proposition~\ref{prop:stripe} (stripes, checkerboards).}
+\label{tab:rho-min-adv}
+\end{table}
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r ccc}
+\toprule
+$L$ & \(\rho_{\min}^{\text{rand}}(L)\) & \(\rho_{\min}^{\text{adv}}(L)\) & \(\rho_{\min}^{\text{joint}}(L)\) \\
+\midrule
+64  & 0.02  & 0.05  & 0.05 \\
+128 & 0.01  & 0.02  & 0.02 \\
+192 & 0.01  & 0.01  & 0.01 \\
+256 & 0.005 & 0.01  & 0.01 \\
+384 & 0.005 & 0.01  & 0.01 \\
+512 & 0.005 & 0.01  & 0.01 \\
+\bottomrule
+\end{tabular}
+\caption{\(\rho_{\min}(L)\) for each dataset and the joint minimum.
+At \(L\geq 192\) the joint floor is \(\delta=0.01\) and is dominated by
+the adversarial channel.}
+\label{tab:rho-min-summary}
+\end{table}
+
+A least-squares fit on \(\log(\rho_{\min})\) versus \(\log L\) gives:
+\begin{align*}
+\rho_{\min}^{\text{random}}(L) &\approx 0.34 \cdot L^{-0.70}, \\
+\rho_{\min}^{\text{adversarial}}(L) &\approx 0.93 \cdot L^{-0.78}.
+\end{align*}
+Both exponents are close to \(-3/4\), considerably weaker than the
+information-theoretic per-cell bound \(\rho_{\min}\geq 1/L^2\) (exponent
+\(-2\)).  The classifier therefore sits roughly three decades above the
+per-cell floor at \(L=512\): a quantitative gap, not a structural
+impossibility.
+
+The bottleneck failure modes at the failure edge (\(\delta=0.001\)) are
+exactly the patterns proven invariant under shift-invariant rules in
+Proposition~\ref{prop:stripe}: \texttt{stripes\_h}, \texttt{stripes\_v},
+and \texttt{checker} dominate the failure list at every \(L\); the
+\texttt{block\_checker} family appears at large \(L\); and
+\texttt{half\_half} fails only at \(L\leq 128\).  The structural
+invariants of shift-invariant Moore rules are therefore the rate-limiting
+step in the current schedule, with the random-swap noise the only force
+counteracting them.
+
+In particular this implies that a different preprocessor \(F\) within the
+133{,}713-rule catalogue --- one for which \(F\)-time scrambles
+stripe-like configurations more effectively than \sid{58ed6b657afb} ---
+could in principle move the adversarial \(\rho_{\min}\) below \(0.01\).
+This is the most concrete payoff awaited from the catalogue scan.
+
 \subsection{Accelerating with the Apple MLX Backend}
 \label{subsec:mlx}
 

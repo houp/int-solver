@@ -383,17 +383,128 @@ diagnostic, not hot.
 | Total steps/trial | ~16000 at L=100 | ~6L + 16L swaps (e.g., ~3.6k at L=256) |
 | Rule basis | Hand-designed F_X, G_X + per-row R_184, R_232 | `sid:58ed6b657afb` (outer-monotone NCCA) + Moore-81 majority + random swaps |
 
-## 16. Open questions / next steps (in order of priority)
+## 16. Density-margin scaling sweep (S1, 2026-04-27)
+
+**Scripts:** [`classifier/density_margin_sweep.py`](../classifier/density_margin_sweep.py),
+[`classifier/density_margin_analyze.py`](../classifier/density_margin_analyze.py).
+Result: [`results/density_classification/2026-04-27/density_margin_sweep.json`](../results/density_classification/2026-04-27/density_margin_sweep.json).
+
+### Question
+
+At fixed grid `L`, what is `ρ_min(L)` — the smallest `δ = |ρ - 1/2|` for
+which the schedule still gives 100% correct consensus on both random
+inputs and the structured adversarial battery?
+
+### Setup
+
+Configurations were built with **exact** target density:
+
+- **Random:** shuffle a fixed-density binary vector so that the realized
+  number of ones is exactly `round(ρ · L²)`.
+- **Adversarial:** for each pattern (stripes_h, stripes_v, checker,
+  block_checker, half_half) and each label, build the canonical pattern
+  and then add or remove cells uniformly at random until the density is
+  exactly `ρ`.
+
+Sweep: `L ∈ {64, 128, 192, 256, 384, 512}` × `δ ∈ {0.05, 0.02, 0.01,
+0.005, 0.002, 0.001}`. Random: 64 trials per side (32 for `L ≥ 384`).
+Adversarial: 10 cases per `δ` (5 patterns × 2 labels).
+
+### Random correct-consensus rate
+
+| L | δ=0.05 | 0.02 | 0.01 | 0.005 | 0.002 | 0.001 |
+|---|------:|------:|------:|------:|------:|------:|
+| 64  | 1.000 | 1.000 | 0.992 | 0.828 | 0.523 | 0.336 |
+| 128 | 1.000 | 1.000 | 1.000 | 0.922 | 0.609 | 0.484 |
+| 192 | 1.000 | 1.000 | 1.000 | 0.984 | 0.789 | 0.508 |
+| 256 | 1.000 | 1.000 | 1.000 | 1.000 | 0.828 | 0.500 |
+| 384 | 1.000 | 1.000 | 1.000 | 1.000 | 0.906 | 0.500 |
+| 512 | 1.000 | 1.000 | 1.000 | 1.000 | 0.953 | 0.563 |
+
+### Adversarial correct-consensus rate
+
+| L | δ=0.05 | 0.02 | 0.01 | 0.005 | 0.002 | 0.001 |
+|---|------:|------:|------:|------:|------:|------:|
+| 64  | 1.000 | 0.900 | 0.600 | 0.700 | 0.500 | 0.200 |
+| 128 | 1.000 | 1.000 | 0.900 | 0.500 | 0.600 | 0.500 |
+| 192 | 1.000 | 1.000 | 1.000 | 0.800 | 0.400 | 0.500 |
+| 256 | 1.000 | 1.000 | 1.000 | 0.700 | 0.400 | 0.600 |
+| 384 | 1.000 | 1.000 | 1.000 | 0.600 | 0.500 | 0.300 |
+| 512 | 1.000 | 1.000 | 1.000 | 0.900 | 0.400 | 0.200 |
+
+### `ρ_min(L)` table
+
+| L | random | adversarial | joint |
+|---|------:|------:|------:|
+| 64  | 0.02  | 0.05  | 0.05 |
+| 128 | 0.01  | 0.02  | 0.02 |
+| 192 | 0.01  | 0.01  | 0.01 |
+| 256 | 0.005 | 0.01  | 0.01 |
+| 384 | 0.005 | 0.01  | 0.01 |
+| 512 | 0.005 | 0.01  | 0.01 |
+
+### Scaling fits (least-squares on log–log)
+
+- **Random:** `ρ_min(L) ≈ 0.34 · L^{-0.70}`.
+- **Adversarial:** `ρ_min(L) ≈ 0.93 · L^{-0.78}`.
+
+Both exponents are close to `-3/4`. The information-theoretic lower bound
+is `1/L²`, i.e., scaling exponent `-2`. The classifier therefore sits
+about **three decades above the per-cell floor** at `L=512`. There is a
+quantitative gap, not a structural impossibility.
+
+### Bottleneck adversarial cases at the failure edge
+
+At `δ = 0.001` (failure regime), failures concentrate on the patterns
+proven to be fixed points of shift-invariant rules:
+
+- `stripes_h` and `stripes_v` — top failure across all `L`;
+- `checker` — close second;
+- `block_checker` — also fails at large `L`;
+- `half_half` — fails at small `L` (≤128) but mostly succeeds at larger `L`.
+
+This matches the structural theorem: stripe and checkerboard patterns
+need a proportionally larger density bias to escape the random-walk drift
+caused by swap noise.
+
+### Take-aways
+
+1. The empirical operational regime of the current schedule is
+   `δ ≥ 0.01` for `L ≥ 192`, where it is genuinely universal across
+   random and structured-adversarial inputs.
+2. Random-input performance survives down to `δ = 0.005` at `L ≥ 256`
+   without adversarial inputs; the adversarial floor is `δ ≈ 0.01` for
+   `L ≥ 192` and is roughly grid-size-independent.
+3. The scaling exponent `~ -3/4` is much weaker than the per-cell `-2`
+   floor: a different schedule (or a different `F`) could in principle
+   work at lower bias.
+4. The adversarial failure modes are the structural-theorem invariants
+   (stripes, checkers); the random-swap noise is not strong enough to
+   reliably break them at sub-1% bias.
+
+### Implications for the rest of the program
+
+- The catalog-scale preprocessor scan (S2) becomes more interesting:
+  the question is whether a different `F` reduces the adversarial floor
+  below `δ ≈ 0.01` or improves the scaling exponent.
+- Schedule auto-tuning (M1) should target the **joint `ρ_min(L)`** as
+  one of its objectives, not just the wall-clock cost.
+- A theoretical analysis (T1) should now aim to derive the `~ L^{-3/4}`
+  scaling from the random-walk model and identify what algorithmic
+  change would be needed to reach the `L^{-2}` floor.
+
+---
+
+## 17. Open questions / next steps (in order of priority)
 
 1. **Catalog-scale screen for better preprocessors.** Scan the full 133k
    NCCA catalog with the L-scaled schedule at L=128, replacing
    `sid:58ed6` with each candidate. GPU-estimated compute: hours. Expected
    outcome: rules that work at L<128 and/or tighter density margins.
 
-2. **Tighten density margin.** The classifier works at ≥1%. What's the
-   limit? Test at 0.501, 0.5005, 0.5001. Theoretical prediction: breaks
-   at density = 1/2 + Θ(1/L²) because the amplifier cannot reliably
-   detect a single-cell bias.
+2. ~~**Tighten density margin.**~~ — completed in §16. The classifier
+   works at `δ ≥ 0.01` for `L ≥ 192`; scaling fit gives
+   `ρ_min(L) ~ 0.93 · L^{-0.78}` for adversarial.
 
 3. **Scale-up to L=1024, 2048.** Check if L-scaled schedule continues.
    Computational budget: hour-scale per grid at L=1024 on MLX.

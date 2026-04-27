@@ -1,0 +1,4791 @@
+{
+  "schedule_params": {
+    "c_pre": 0.5,
+    "c_amp": 1.0,
+    "c_shake": 0.25,
+    "c_final": 4.0,
+    "k_swap": 8.0,
+    "num_shakes": 2,
+    "sid": "sid:58ed6b657afb"
+  },
+  "deltas": [
+    0.05,
+    0.02,
+    0.01,
+    0.005,
+    0.002,
+    0.001
+  ],
+  "grids": [
+    64,
+    128,
+    192,
+    256,
+    384,
+    512
+  ],
+  "runs": [
+    {
+      "grid": 64,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 1.0569679737091064,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9646220207214355,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 0.9921875,
+      "random_fails": 1,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9549338817596436,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.828125,
+      "random_fails": 22,
+      "random_trials": 128,
+      "adversarial_cc": 0.7,
+      "adversarial_fails": 3,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9642763137817383,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.5234375,
+      "random_fails": 61,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9900217056274414,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.3359375,
+      "random_fails": 85,
+      "random_trials": 128,
+      "adversarial_cc": 0.2,
+      "adversarial_fails": 8,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.956322193145752,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.695959091186523,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.510719060897827,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.6083009243011475,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.921875,
+      "random_fails": 10,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.7536609172821045,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.609375,
+      "random_fails": 50,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.690838813781738,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.484375,
+      "random_fails": 66,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.658349990844727,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.150880098342896,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 17.558939933776855,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.061278343200684,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.984375,
+      "random_fails": 2,
+      "random_trials": 128,
+      "adversarial_cc": 0.8,
+      "adversarial_fails": 2,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.204904079437256,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.7890625,
+      "random_fails": 27,
+      "random_trials": 128,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.23572087287903,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.5078125,
+      "random_fails": 63,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 19.540037870407104,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 49.89616799354553,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.38243317604065,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 47.94549512863159,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.7,
+      "adversarial_fails": 3,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.956621170043945,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.828125,
+      "random_fails": 22,
+      "random_trials": 128,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.158170223236084,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.5,
+      "random_fails": 64,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 47.63483119010925,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 81.95479798316956,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 83.41379404067993,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 84.219801902771,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 84.3597252368927,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 32,
+      "random_cc": 0.90625,
+      "random_fails": 6,
+      "random_trials": 64,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 80.28322982788086,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 32,
+      "random_cc": 0.5,
+      "random_fails": 32,
+      "random_trials": 64,
+      "adversarial_cc": 0.3,
+      "adversarial_fails": 7,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 80.18094420433044,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 197.7029402256012,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 205.49855208396912,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 201.8278887271881,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 200.3272819519043,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 32,
+      "random_cc": 0.953125,
+      "random_fails": 3,
+      "random_trials": 64,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 205.5331211090088,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 32,
+      "random_cc": 0.5625,
+      "random_fails": 28,
+      "random_trials": 64,
+      "adversarial_cc": 0.2,
+      "adversarial_fails": 8,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 201.98672914505005,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "summary_table": [
+    {
+      "grid": 64,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 1.0569679737091064,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9646220207214355,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 0.9921875,
+      "random_fails": 1,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9549338817596436,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.828125,
+      "random_fails": 22,
+      "random_trials": 128,
+      "adversarial_cc": 0.7,
+      "adversarial_fails": 3,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9642763137817383,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.5234375,
+      "random_fails": 61,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.9900217056274414,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 64,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.3359375,
+      "random_fails": 85,
+      "random_trials": 128,
+      "adversarial_cc": 0.2,
+      "adversarial_fails": 8,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 0.956322193145752,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.695959091186523,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.510719060897827,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.6083009243011475,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.921875,
+      "random_fails": 10,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.7536609172821045,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.609375,
+      "random_fails": 50,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.690838813781738,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.484375,
+      "random_fails": 66,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 4.658349990844727,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.150880098342896,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 17.558939933776855,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.061278343200684,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 0.984375,
+      "random_fails": 2,
+      "random_trials": 128,
+      "adversarial_cc": 0.8,
+      "adversarial_fails": 2,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.204904079437256,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.7890625,
+      "random_fails": 27,
+      "random_trials": 128,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 18.23572087287903,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 192,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.5078125,
+      "random_fails": 63,
+      "random_trials": 128,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 19.540037870407104,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 49.89616799354553,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.38243317604065,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 47.94549512863159,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 64,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 128,
+      "adversarial_cc": 0.7,
+      "adversarial_fails": 3,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.956621170043945,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 64,
+      "random_cc": 0.828125,
+      "random_fails": 22,
+      "random_trials": 128,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 48.158170223236084,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 64,
+      "random_cc": 0.5,
+      "random_fails": 64,
+      "random_trials": 128,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 47.63483119010925,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 81.95479798316956,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 83.41379404067993,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 84.219801902771,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 0.6,
+      "adversarial_fails": 4,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 84.3597252368927,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 32,
+      "random_cc": 0.90625,
+      "random_fails": 6,
+      "random_trials": 64,
+      "adversarial_cc": 0.5,
+      "adversarial_fails": 5,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 80.28322982788086,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 32,
+      "random_cc": 0.5,
+      "random_fails": 32,
+      "random_trials": 64,
+      "adversarial_cc": 0.3,
+      "adversarial_fails": 7,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 80.18094420433044,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "density_below": 0.45,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 197.7029402256012,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.02,
+      "density_above": 0.52,
+      "density_below": 0.48,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 205.49855208396912,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5200",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4800",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4800",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "density_below": 0.49,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 1.0,
+      "adversarial_fails": 0,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 201.8278887271881,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.005,
+      "density_above": 0.505,
+      "density_below": 0.495,
+      "n_random_per_side": 32,
+      "random_cc": 1.0,
+      "random_fails": 0,
+      "random_trials": 64,
+      "adversarial_cc": 0.9,
+      "adversarial_fails": 1,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 200.3272819519043,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5050",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4950",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4950",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4950",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.002,
+      "density_above": 0.502,
+      "density_below": 0.498,
+      "n_random_per_side": 32,
+      "random_cc": 0.953125,
+      "random_fails": 3,
+      "random_trials": 64,
+      "adversarial_cc": 0.4,
+      "adversarial_fails": 6,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 205.5331211090088,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5020",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5020",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4980",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4980",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4980",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 512,
+      "delta": 0.001,
+      "density_above": 0.501,
+      "density_below": 0.499,
+      "n_random_per_side": 32,
+      "random_cc": 0.5625,
+      "random_fails": 28,
+      "random_trials": 64,
+      "adversarial_cc": 0.2,
+      "adversarial_fails": 8,
+      "adversarial_trials": 10,
+      "elapsed_seconds": 201.98672914505005,
+      "adversarial_cases": [
+        {
+          "name": "stripes_h_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5010",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.5010",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4990",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "half_half_d0.4990",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    }
+  ],
+  "rho_min_per_grid": {
+    "64": 0.05,
+    "128": 0.02,
+    "192": 0.01,
+    "256": 0.01,
+    "384": 0.01,
+    "512": 0.01
+  }
+}
