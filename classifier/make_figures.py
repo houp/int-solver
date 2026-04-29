@@ -189,7 +189,14 @@ def fig_snapshots_ours(*, L: int, density: float, c_pre: float, c_amp: float,
                          num_shakes: int, F_bits: np.ndarray, backend,
                          seed: int, sched_label: str, init_kind: str,
                          out: Path, init_lattice: np.ndarray | None = None) -> None:
-    """4-panel snapshot of our schedule on either a random or stripe input."""
+    """Per-phase snapshot of our schedule.  We capture the lattice AFTER
+    each individual phase so the dynamics are fully visible:
+
+        initial -> F^{T_pre} -> [M^{T_amp} -> F^{T_shake} -> swap^K] x num_shakes
+                -> M^{T_amp_final}
+
+    Total panels: 1 + 1 + 3 * num_shakes + 1 = 8 for num_shakes = 2.
+    """
     if init_lattice is None:
         rng_init = np.random.default_rng(seed)
         if init_kind == "random":
@@ -210,28 +217,54 @@ def fig_snapshots_ours(*, L: int, density: float, c_pre: float, c_amp: float,
     states = backend.asarray(init_state, dtype="uint8")
     tiled_F = backend.asarray(np.tile(F_bits, (1, 1)), dtype="uint8")
 
-    snap0 = init_state[0].copy()
+    panels: list[tuple[np.ndarray, str]] = []
+    panels.append((init_state[0].copy(), f"initial\n$\\rho={init_state[0].mean():.4f}$"))
+
     for _ in range(T_pre):
         states = apply_lut_mlx(states, tiled_F)
-    snap1 = backend.to_numpy(states)[0].copy()
-    for _ in range(num_shakes):
+    snap = backend.to_numpy(states)[0].copy()
+    panels.append((snap, f"after $F^{{{T_pre}}}$\n$\\rho={snap.mean():.4f}$"))
+
+    for shake_idx in range(num_shakes):
         for _ in range(T_amp):
             states = apply_radius_step_mlx(states, "moore81")
+        snap_amp = backend.to_numpy(states)[0].copy()
+        panels.append((snap_amp,
+                       f"shake {shake_idx + 1}: after $M^{{{T_amp}}}$\n$\\rho={snap_amp.mean():.4f}$"))
+
         for _ in range(T_shake):
             states = apply_lut_mlx(states, tiled_F)
+        snap_shake = backend.to_numpy(states)[0].copy()
+        panels.append((snap_shake,
+                       f"shake {shake_idx + 1}: after $F^{{{T_shake}}}$\n$\\rho={snap_shake.mean():.4f}$"))
+
         s_np = backend.to_numpy(states)
         s_np = apply_swaps(s_np, K, rng)
         states = backend.asarray(s_np, dtype="uint8")
-    snap2 = backend.to_numpy(states)[0].copy()
+        snap_swap = backend.to_numpy(states)[0].copy()
+        panels.append((snap_swap,
+                       f"shake {shake_idx + 1}: after swap$^{{{K}}}$\n$\\rho={snap_swap.mean():.4f}$"))
+
     for _ in range(T_amp_final):
         states = apply_radius_step_mlx(states, "moore81")
-    snap3 = backend.to_numpy(states)[0].copy()
+    snap_final = backend.to_numpy(states)[0].copy()
+    panels.append((snap_final,
+                   f"after $M^{{{T_amp_final}}}$\n$\\rho={snap_final.mean():.4f}$"))
 
-    fig, axes = plt.subplots(1, 4, figsize=(8.0, 2.2))
-    _imshow_panel(axes[0], snap0, f"initial ({init_kind})\n$\\rho={snap0.mean():.4f}$")
-    _imshow_panel(axes[1], snap1, f"after $F^{{{T_pre}}}$\n$\\rho={snap1.mean():.4f}$")
-    _imshow_panel(axes[2], snap2, f"after shake cycles\n$\\rho={snap2.mean():.4f}$")
-    _imshow_panel(axes[3], snap3, f"after $M^{{{T_amp_final}}}$\n$\\rho={snap3.mean():.4f}$")
+    n = len(panels)
+    cols = min(n, 4)
+    rows = math.ceil(n / cols)
+    fig, axes = plt.subplots(rows, cols, figsize=(2.0 * cols, 2.2 * rows))
+    if rows == 1:
+        axes = np.array([axes])
+    if cols == 1:
+        axes = axes.reshape(-1, 1)
+    for i, (lattice, title) in enumerate(panels):
+        ax = axes[i // cols, i % cols]
+        _imshow_panel(ax, lattice, title)
+    # hide any leftover empty axes
+    for j in range(n, rows * cols):
+        axes[j // cols, j % cols].axis("off")
     fig.suptitle(sched_label, fontsize=10)
     fig.tight_layout()
     _save(fig, out)

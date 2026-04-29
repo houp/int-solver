@@ -69,22 +69,37 @@ def apply_lut_mlx(states, tiled_bits):
 
 
 def apply_swaps(states_np: np.ndarray, K: int, rng: np.random.Generator) -> np.ndarray:
-    """Apply K random swaps per trial. Density-conserving exactly."""
+    """Apply K random pair-swaps per trial.  Strictly density-conserving:
+    we draw 2K *disjoint* lattice indices using rng.choice(..., replace=False)
+    and pair them up, so each swap is an involution on a distinct
+    (a, b) pair and the lattice particle count is preserved exactly.
+
+    The previous implementation drew idx_a and idx_b independently with
+    replacement, which made fancy-index parallel assignment lose or duplicate
+    particles whenever the same index appeared twice in idx_a or both arrays
+    referenced the same cell.  That caused small but persistent density drift
+    of order K/L^2 per swap call.
+    """
     if K <= 0:
         return states_np
     batch, H, W = states_np.shape
     L2 = H * W
+    if 2 * K > L2:
+        raise ValueError(
+            f"apply_swaps: 2*K={2*K} exceeds lattice size L^2={L2}; cannot draw "
+            "disjoint pair indices"
+        )
     out = states_np.copy()
     for bidx in range(batch):
-        # Pick K pairs (2K indices). Use numpy for CPU-side scatter.
-        idx_a = rng.integers(0, L2, size=K)
-        idx_b = rng.integers(0, L2, size=K)
-        # Skip self-swaps; also skip same-value swaps (no effect)
         flat = out[bidx].ravel()
-        va = flat[idx_a].copy()
-        vb = flat[idx_b].copy()
-        flat[idx_a] = vb
-        flat[idx_b] = va
+        # 2K disjoint indices, paired as (idx_a[k], idx_b[k]).
+        perm = rng.choice(L2, size=2 * K, replace=False)
+        idx_a = perm[:K]
+        idx_b = perm[K:]
+        # Disjoint by construction, so fancy-index swap is well-defined.
+        tmp = flat[idx_a].copy()
+        flat[idx_a] = flat[idx_b]
+        flat[idx_b] = tmp
         out[bidx] = flat.reshape(H, W)
     return out
 
