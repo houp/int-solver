@@ -1,0 +1,792 @@
+{
+  "schedule_params": {
+    "ours": {
+      "sid": "sid:58ed6b657afb",
+      "c_pre": 0.5,
+      "c_amp": 1.0,
+      "c_shake": 0.25,
+      "c_final": 4.0,
+      "k_swap": 8.0,
+      "num_shakes": 2
+    },
+    "fr": {
+      "T_mult": 3.0
+    }
+  },
+  "runs": [
+    {
+      "L": 50,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 1.0,
+      "ours_random_fails": 0,
+      "ours_adv_cc": 1.0,
+      "ours_adv_fails": 0,
+      "ours_steps_per_trial": 349,
+      "ours_swaps_total": 800,
+      "ours_random_seconds": 0.8799018859863281,
+      "ours_adv_seconds": 0.7512309551239014,
+      "fr_T1": 7500,
+      "fr_T2": 7500,
+      "fr_steps_per_trial": 15000,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 14.083704710006714,
+      "fr_adv_seconds": 5.895303010940552,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "L": 50,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 0.90625,
+      "ours_random_fails": 3,
+      "ours_adv_cc": 0.7,
+      "ours_adv_fails": 3,
+      "ours_steps_per_trial": 349,
+      "ours_swaps_total": 800,
+      "ours_random_seconds": 0.7662310600280762,
+      "ours_adv_seconds": 0.7183780670166016,
+      "fr_T1": 7500,
+      "fr_T2": 7500,
+      "fr_steps_per_trial": 15000,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 13.90673303604126,
+      "fr_adv_seconds": 5.154891014099121,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "L": 64,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 1.0,
+      "ours_random_fails": 0,
+      "ours_adv_cc": 1.0,
+      "ours_adv_fails": 0,
+      "ours_steps_per_trial": 448,
+      "ours_swaps_total": 1024,
+      "ours_random_seconds": 1.514620065689087,
+      "ours_adv_seconds": 1.3972651958465576,
+      "fr_T1": 12288,
+      "fr_T2": 12288,
+      "fr_steps_per_trial": 24576,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 42.98602604866028,
+      "fr_adv_seconds": 11.824136972427368,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "L": 64,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 1.0,
+      "ours_random_fails": 0,
+      "ours_adv_cc": 0.7,
+      "ours_adv_fails": 3,
+      "ours_steps_per_trial": 448,
+      "ours_swaps_total": 1024,
+      "ours_random_seconds": 1.2812137603759766,
+      "ours_adv_seconds": 1.2375988960266113,
+      "fr_T1": 12288,
+      "fr_T2": 12288,
+      "fr_steps_per_trial": 24576,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 29.767568111419678,
+      "fr_adv_seconds": 15.369000911712646,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "L": 100,
+      "delta": 0.05,
+      "density_above": 0.55,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 1.0,
+      "ours_random_fails": 0,
+      "ours_adv_cc": 1.0,
+      "ours_adv_fails": 0,
+      "ours_steps_per_trial": 700,
+      "ours_swaps_total": 1600,
+      "ours_random_seconds": 2.0626628398895264,
+      "ours_adv_seconds": 1.5175879001617432,
+      "fr_T1": 30000,
+      "fr_T2": 30000,
+      "fr_steps_per_trial": 60000,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 200.3920977115631,
+      "fr_adv_seconds": 69.9552161693573,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5500",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4500",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4500",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "L": 100,
+      "delta": 0.01,
+      "density_above": 0.51,
+      "n_random_per_side": 16,
+      "n_random_total": 32,
+      "n_adv": 10,
+      "ours_random_cc": 1.0,
+      "ours_random_fails": 0,
+      "ours_adv_cc": 0.6,
+      "ours_adv_fails": 4,
+      "ours_steps_per_trial": 700,
+      "ours_swaps_total": 1600,
+      "ours_random_seconds": 1.743690013885498,
+      "ours_adv_seconds": 1.4142251014709473,
+      "fr_T1": 30000,
+      "fr_T2": 30000,
+      "fr_steps_per_trial": 60000,
+      "fr_random_cc": 1.0,
+      "fr_random_fails": 0,
+      "fr_adv_cc": 1.0,
+      "fr_adv_fails": 0,
+      "fr_random_seconds": 211.70688915252686,
+      "fr_adv_seconds": 68.50889992713928,
+      "fr_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ],
+      "ours_adv_per_case": [
+        {
+          "name": "stripes_h_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_v_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "checker_d0.5100",
+          "label": 1,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.5100",
+          "label": 1,
+          "correct": true
+        },
+        {
+          "name": "stripes_h_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "stripes_v_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "checker_d0.4900",
+          "label": 0,
+          "correct": false
+        },
+        {
+          "name": "block_checker_d0.4900",
+          "label": 0,
+          "correct": true
+        },
+        {
+          "name": "half_half_d0.4900",
+          "label": 0,
+          "correct": true
+        }
+      ]
+    }
+  ]
+}

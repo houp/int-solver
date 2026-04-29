@@ -16,12 +16,20 @@ import numpy as np
 
 def main() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("path", type=Path,
-                        nargs="?",
-                        default=Path("results/density_classification/2026-04-27/density_margin_sweep.json"))
+    parser.add_argument("paths", type=Path, nargs="*",
+                        default=[Path("results/density_classification/2026-04-27/density_margin_sweep.json")],
+                        help="One or more sweep JSON files; runs are concatenated")
     args = parser.parse_args()
-    data = json.loads(args.path.read_text())
-    runs = data["runs"]
+
+    runs = []
+    for p in args.paths:
+        data = json.loads(p.read_text())
+        runs.extend(data["runs"])
+    # Dedup by (grid, delta) — last write wins (later files override)
+    deduped = {}
+    for r in runs:
+        deduped[(r["grid"], r["delta"])] = r
+    runs = list(deduped.values())
 
     grids = sorted({r["grid"] for r in runs})
     deltas = sorted({r["delta"] for r in runs}, reverse=True)
