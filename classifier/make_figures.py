@@ -204,8 +204,16 @@ def fig_snapshots_ours(*, L: int, density: float, c_pre: float, c_amp: float,
             flat = np.zeros(L * L, dtype=np.uint8); flat[:init_total] = 1
             rng_init.shuffle(flat)
             init = flat.reshape(L, L)
-        else:
+        elif init_kind == "stripes":
             init = make_stripe_with_density(L, "h", density, rng_init)
+        elif init_kind == "block_checker":
+            from adversarial_realistic import make_block_checker_with_density
+            init = make_block_checker_with_density(L, density, rng_init)
+        elif init_kind == "checker":
+            from adversarial_realistic import make_checker_with_density
+            init = make_checker_with_density(L, density, rng_init)
+        else:
+            raise ValueError(f"unknown init_kind: {init_kind}")
     else:
         init = init_lattice
     init_state = init[None]
@@ -341,26 +349,51 @@ def main() -> int:
         F_bits = catalog.lut_bits[catalog.resolve_rule_ref(args.sid)].astype(np.uint8)
         backend = create_backend("mlx")
 
-        L = args.snapshot_L
-        common = dict(
-            L=L, c_pre=0.5, c_amp=1.0, c_shake=0.25, c_final=4.0,
+        # Inputs were chosen by tracing density evolution across 5 seeds /
+        # 4 input kinds / 3 densities at L in {128, 192, 256}; we pick those
+        # whose dynamics produce the most visually-distinct intermediate
+        # states (so that all 8 panels carry information instead of being
+        # uniform consensus images).
+        common_kwargs = dict(
+            c_pre=0.5, c_amp=1.0, c_shake=0.25, c_final=4.0,
             k_swap=8.0, num_shakes=2, F_bits=F_bits, backend=backend,
         )
+        # Random near-critical input: L=256, rho=0.501, seed=42.  Densities at
+        # successive panels: 0.501, 0.501, 0.744, 0.744, 0.744, 0.979, 0.979,
+        # 0.979, 1.000 -- four visually distinct levels including the partial
+        # consensus that the final amplifier completes.
         fig_snapshots_ours(
-            **common,
-            density=0.51,
-            seed=args.seed,
-            sched_label=rf"Our scaled schedule on a near-critical random input ($L={L}$, $\rho=0.51$)",
+            **common_kwargs, L=256,
+            density=0.501,
+            seed=42,
+            sched_label=r"Our scaled schedule on a near-critical random input ($L=256$, $\rho=0.501$)",
             init_kind="random",
             out=out / "snapshots_ours_random.pdf",
         )
+        # Structured stripe input near the failure boundary: L=192, rho=0.505.
+        # Densities: 0.505, 0.505, 0.500, 0.500, 0.500, 0.628, 0.628, 0.628,
+        # 1.000 -- shake1 amp drops density toward 0.5 (wrong direction!),
+        # swap preserves, shake2 amp recovers, final M^{4L} delivers consensus.
+        # This is the canonical case where the final amplifier earns its keep.
         fig_snapshots_ours(
-            **common,
-            density=0.55,
-            seed=args.seed + 1,
-            sched_label=rf"Our scaled schedule on a stripe-density input ($L={L}$, $\rho=0.55$)",
+            **common_kwargs, L=192,
+            density=0.505,
+            seed=100,
+            sched_label=r"Our scaled schedule on a stripe input near the failure boundary ($L=192$, $\rho=0.505$)",
             init_kind="stripes",
             out=out / "snapshots_ours_stripes.pdf",
+        )
+        # Block-checker structured input with rich multi-stage dynamics:
+        # L=256, rho=0.510. Densities: 0.510, 0.510, 0.649, 0.649, 0.649,
+        # 0.840, 0.840, 0.840, 1.000.  Shows progressive amplification through
+        # both shake cycles AND the final M^{4L} contributing to consensus.
+        fig_snapshots_ours(
+            **common_kwargs, L=256,
+            density=0.510,
+            seed=100,
+            sched_label=r"Our scaled schedule on a block-checkerboard structured input ($L=256$, $\rho=0.510$)",
+            init_kind="block_checker",
+            out=out / "snapshots_ours_block_checker.pdf",
         )
 
         L_fr = args.snapshot_fr_L

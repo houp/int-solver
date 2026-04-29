@@ -1518,33 +1518,95 @@ but visibly affected the dynamics at \(L=64\); the universality of the
 schedule at \(L\geq 192\) is unchanged after the fix.
 
 \paragraph{Per-phase visualisation.}
-Figure~\ref{fig:snap-ours-rand} shows all eight canonical lattice
-states visited by the schedule on a near-critical random input:
-initial configuration, after the deterministic preprocessing phase
-\(F_0^{L/2}\), after each of the three sub-phases of each shake cycle
-(amplifier, then \(F_0^{L/4}\) re-mix, then random pair-swap), and
-after the final amplification phase~\(M_{\mathrm{Moore81}}^{4L}\).
-On easy near-critical random inputs the lattice is already at
-consensus by the end of the first shake's amplifier; the rest of the
-schedule simply preserves that consensus.
+Figures~\ref{fig:snap-ours-rand}, \ref{fig:snap-ours-stripes} and
+\ref{fig:snap-ours-bc} show all nine canonical lattice states visited
+by the schedule on three increasingly stressful inputs.  Each panel
+captures the lattice immediately after one identifiable phase
+(initial; \(F_0^{L/2}\); for each shake cycle: \(M^{T_{\mathrm{amp}}}\)
+amplifier, then \(F_0^{T_{\mathrm{shake}}}\) re-mix, then random
+pair-swap; finally \(M^{T_{\mathrm{amp\_final}}}\)).  Each panel is
+labelled with the post-phase density \(\rho\), so readers can verify
+visually that consensus has been reached when \(\rho\in\{0,1\}\) and
+\emph{not yet} reached otherwise.  We chose the inputs by tracing
+density evolution across many candidates; we deliberately picked the
+ones whose dynamics produce the most visually-distinct intermediate
+states (so that the panels actually carry information rather than
+showing uniform consensus images of the kind that easy inputs collapse
+into immediately).
+
+The three figures together illustrate three regimes the schedule can
+encounter:
+
+\begin{enumerate}
+\item \textbf{Near-critical random input}
+(Fig.~\ref{fig:snap-ours-rand}, \(L=256\), \(\rho=0.501\)):
+shake~1's amplifier already lifts density from \(0.501\) to
+\(0.744\); shake~2's amplifier continues to \(0.979\); the final
+\(M^{4L}\) sweep delivers consensus at \(\rho=1.000\).  All four
+``computational'' panels (after each amplifier phase) show
+visibly different lattices.
+\item \textbf{Structured stripe input near the failure boundary}
+(Fig.~\ref{fig:snap-ours-stripes}, \(L=192\), \(\rho=0.505\)):
+\(F_0^{L/2}\) preserves the stripe alignment because shift-invariant
+Moore rules fix horizontal stripes (Proposition~\ref{prop:stripe});
+shake~1's amplifier momentarily drives density toward \(0.500\),
+\emph{against} the global majority; the random pair-swap noise
+breaks the residual axial alignment; shake~2's amplifier recovers
+toward \(0.628\); only the final \(M^{4L}\) sweep delivers
+consensus.  This is the canonical case where every phase of the
+schedule, including the final amplifier, contributes.
+\item \textbf{Block-checkerboard structured input}
+(Fig.~\ref{fig:snap-ours-bc}, \(L=256\), \(\rho=0.510\)):
+the schedule progresses through three intermediate amplification
+levels \(\rho\in\{0.649,0.840,1.000\}\), one per amplifier phase.
+\end{enumerate}
+
+In all three cases density is \emph{exactly} preserved across the
+deterministic-NCCA preprocessor \(F_0\), the shake's \(F_0^{T_{\mathrm{shake}}}\)
+re-mix, and the random pair-swap (which is now
+density-conserving per realisation, after the bug fix above).
+Density only changes at the amplifier phases, which are not
+density-preserving.
 
 \begin{figure}[h]\centering
 \includegraphics[width=\linewidth]{figures/snapshots_ours_random.pdf}
-\caption{Snapshots of the L-scaled schedule on a random
-\(L=128\), \(\rho=0.51\) input.  Density is conserved
-through all but the final amplification phase (where the lattice
-collapses to all-1).  Black = 1, white = 0.}
+\caption{Per-phase snapshots on a near-critical \emph{random}
+input: \(L=256\), \(\rho=0.501\) (\(\delta=0.001\), only \(131\)
+tipping cells out of \(65{,}536\)).  Density at successive panels:
+\(0.501,\,0.501,\,0.744,\,0.744,\,0.744,\,0.979,\,0.979,\,0.979,\,1.000\).
+The amplifier phases are the only steps that change global density;
+the deterministic preprocessor \(F_0\) and random pair-swap are both
+density-preserving by construction.  Black = 1, white = 0.}
 \label{fig:snap-ours-rand}
 \end{figure}
 
 \begin{figure}[h]\centering
 \includegraphics[width=\linewidth]{figures/snapshots_ours_stripes.pdf}
-\caption{Snapshots of the L-scaled schedule on a structured
-\(L=128\), \(\rho=0.55\) horizontal-stripes input.  The
-preprocessor immediately destroys the stripe alignment; subsequent
-shake cycles ensure no axial structure regrows; the amplifier
-finalises to majority-color consensus.}
+\caption{Per-phase snapshots on a horizontally-striped input near the
+failure boundary: \(L=192\), \(\rho=0.505\) (only \(184\) tipping
+cells favour the global majority).  Density at successive panels:
+\(0.505,\,0.505,\,0.500,\,0.500,\,0.500,\,0.628,\,0.628,\,0.628,\,1.000\).
+\(F_0^{L/2}\) preserves the stripe alignment because
+shift-invariant Moore rules fix horizontal stripes
+(Proposition~\ref{prop:stripe}); shake~1's amplifier briefly drives
+density toward \(0.5\), \emph{against} the global majority; pair-swap
+noise then breaks the residual stripe symmetry; shake~2's amplifier
+recovers; only the final \(M^{4L}\) sweep finishes the job.  This is
+the canonical example where every phase of the schedule
+contributes.}
 \label{fig:snap-ours-stripes}
+\end{figure}
+
+\begin{figure}[h]\centering
+\includegraphics[width=\linewidth]{figures/snapshots_ours_block_checker.pdf}
+\caption{Per-phase snapshots on a 2\(\times\)2 block-checkerboard
+input: \(L=256\), \(\rho=0.510\).  Density at successive panels:
+\(0.510,\,0.510,\,0.649,\,0.649,\,0.649,\,0.840,\,0.840,\,0.840,\,1.000\).
+Each amplifier phase delivers a clearly visible density step; the
+\(F_0^{L/2}\) preprocessor leaves the dominant 2\(\times\)2 cell
+texture intact (any shift-invariant Moore rule fixes such block
+patterns), so the amplifier is doing all the work of breaking it.}
+\label{fig:snap-ours-bc}
 \end{figure}
 
 Table~\ref{tab:scaled-universal} reports the performance of this schedule on
