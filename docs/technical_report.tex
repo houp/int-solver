@@ -2095,6 +2095,93 @@ robustness --- whether by adding more rules from the
 breaking local rules with low probability --- is the natural
 follow-up to this section.
 
+\subsection{Searching the \(147{,}309{,}433\)-Rule Catalogue for a
+            Symmetry-Breaking Component (work in progress)}
+\label{subsec:r-break-search}
+
+The natural follow-up to the strict-CA gap is a search for an
+additional Moore-9 NCCA \(R_{\mathrm{break}}\) to add as a 7th
+component to the mixture
+\((F_0,\,4{\times}\text{diag traffic},\,M_{\mathrm{Moore9}})\), with
+the goal of disrupting the structural fixed points (stripes,
+checkerboards, block-checkerboards) that survive shift-invariance.
+The full witek/ corpus contains all \(147{,}309{,}433\) Moore-9 NCCAs
+in 64-byte packed-LUT form; the \(133{,}713\)-rule property catalog
+used everywhere else in this report is a structural subset of it
+(rules with at least one nontrivial property tag).  We built the
+infrastructure to search the larger pool and validated each piece
+end-to-end on a small sample, but the production-scale run was
+interrupted before stages~2/3 completed and is left as future work.
+
+\paragraph{Witek sampler.}
+\texttt{classifier/witek\_sampler.py} provides random-without-
+replacement sampling over the corpus.  A cumulative-offset directory
+of the 12 \texttt{worker\_*.bin} files enables \(O(\log F)\) lookup
+of the \((file, byte\_offset)\) for any global record index, and a
+multi-thread reader overlaps \texttt{pread} calls across worker files.
+\(10{,}000\) random LUTs are sampled and decoded in under \(400\)~ms
+on a cold cache; verification confirms that all sampled rules have LUT
+bit-sum exactly \(256\) (NCCA invariant).
+
+\paragraph{Stochastic-mixture stripe-disruption probe.}
+\texttt{classifier/r\_break\_probe.py} provides a cheap GPU-batched
+fitness signal.  For each candidate \(R_k\), the probe runs a
+per-cell-per-step mixture
+\((R_k\text{ with prob }1{-}p_M,\,M_{\mathrm{Moore9}}\text{ with prob }p_M)\)
+on stripe / vertical-stripe / 2{$\times$}2-block-checker inputs at
+\(L = 64\) for \(T_{\mathrm{probe}} = 64\) steps and measures the
+post-probe horizontal- and vertical-disagreement rates of the
+resulting lattice.  The combined score
+\(\max_{\text{input}}\max(|h_d - 0.5|,\,|v_d - 0.5|)\) is low when the
+candidate disrupts every structural input toward a random-like state.
+A \emph{deterministic-only} variant of this probe was uninformative:
+all sampled rules scored identically because shift-invariant NCCAs
+preserve stripes (Proposition~\ref{prop:stripe}); the stochastic
+variant differentiates rules into a continuous score distribution
+spreading from \(0.10\) to \(0.50\).  Throughput: \(\sim 1{,}000\)
+rules/s for the deterministic variant and \(\sim 180\) rules/s for
+the stochastic-mixture variant.
+
+\paragraph{Four-stage pipeline.}
+\texttt{classifier/r\_break\_search.py} composes the sampler and the
+probe into a search:
+\begin{enumerate}
+\item Sample \(K\) rules from the witek corpus and run the
+  stochastic-mixture stripe-disruption probe; keep the top
+  \(N_1\) by combined score.
+\item Insert each surviving candidate as the 7th component
+  (weight \(0.05\), reducing \(F\)'s weight to \(0.65\)) and run the
+  full strict-CA classifier on a single seed at \(L=64,\,\delta=0.02\)
+  with the random + adversarial battery of
+  Section~\ref{subsec:adversarial}.  Sort by adversarial
+  correct-consensus rate.
+\item Multi-seed validate the top \(N_2 \ll N_1\) at
+  \(L\in\{64, 96, 128\}\) and \(\delta\in\{0.02, 0.05\}\) across
+  three seeds.
+\item Persist the winning rule(s) and full evaluation.
+\end{enumerate}
+
+Each stage filters by \({\sim}10\times\), so a target of \(50{,}000\)
+samples \(\to\) \(100\) stage-2 candidates \(\to\) \(8\) stage-3
+candidates is a reasonable scale.
+
+\paragraph{Status.}
+A 200-rule smoke test ran end-to-end in \({\sim}3.5\) minutes
+and produced top candidates with adversarial cc \(>0.90\) at
+\(L=64\), \(\delta=0.05\) --- already on par with the published
+mixture from Section~\ref{subsec:strict-ca}.  This validates the
+methodology on a small scale.  The production run at
+\(K = 50{,}000\), \(N_1 = 100\), \(N_2 = 8\) was launched
+(\texttt{results/density\_classification/2026-04-29/r\_break\_search\_50k.json})
+but interrupted before stages~2/3 finished.  Resuming the search ---
+either at the same scale with stdout flushing for visible
+incremental progress, or at a smaller scale to fit within a typical
+\(30\)~min budget --- is the natural next step.  We retain the cheap
+top-200 probe results
+(\texttt{results/density\_classification/2026-04-29/r\_break\_probe\_5k.json}
+and \texttt{r\_break\_probe\_10k.json}) as a starting point for the
+follow-up search.
+
 \subsection{Accelerating with the Apple MLX Backend}
 \label{subsec:mlx}
 
