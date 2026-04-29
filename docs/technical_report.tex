@@ -1995,6 +1995,106 @@ stripe-like configurations more effectively than \sid{58ed6b657afb} ---
 could in principle move the adversarial \(\rho_{\min}\) below \(0.01\).
 This is the most concrete payoff awaited from the catalogue scan.
 
+\subsection{Strict-CA Classifier with Local-Only Operations}
+\label{subsec:strict-ca}
+
+The L-scaled classifier of Section~\ref{subsec:scaled} uses a random
+pair-swap operator that is non-local: it picks two random lattice cells
+anywhere on the torus and exchanges their values.  This is one of the
+ingredients that makes it faster than the Fat\`{e}s--Regnault construction
+(Section~\ref{par:h2h}), but it also exits the strict-locality regime
+that defines a cellular automaton: in a CA, information propagates one
+nearest-neighbour step at a time, never instantaneously across the
+lattice.  We therefore designed and tested a strictly local variant in
+which every step is the synchronous application of a Moore-9 rule chosen
+\emph{independently per cell, per step} from a small mixture catalogue.
+Concretely, at step \(t\) and cell \((i, j)\), the local rule index
+\(r(t, i, j)\) is drawn from a categorical distribution \((p_1, \ldots,
+p_K)\) and cell \((i, j)\) is updated as
+\[
+s'(i, j) = R_{r(t, i, j)}\bigl(\text{Moore-9 neighborhood of }(i, j)\bigr).
+\]
+Each \(R_k\) is a deterministic Moore-9 lookup table.  The randomness is
+strictly local --- one categorical draw per cell per step --- and the
+rule application is local, so information propagates at most by
+nearest-neighbour distance per time step.  No global state crosses the
+lattice.  Implementation in \texttt{classifier/strict\_ca\_classifier.py}.
+
+\paragraph{Rule library.}  We expose the following rules: the
+preprocessor \sid{58ed6b657afb} (the same outer-monotone NCCA used in
+the non-local baseline); the four embedded von-Neumann traffic rules
+(\(\mathrm{traffic}_{\{N,S,E,W\}}\)); the four embedded diagonal traffic
+rules (\(\mathrm{traffic}_{\{NE,NW,SE,SW\}}\)); rigid shifts in eight
+directions; the Moore-9 majority \(M\); and the von-Neumann majority.
+Each is a 512-entry LUT for the Moore neighborhood.
+
+\paragraph{Best mixture found.}  After sweeping single- and
+multi-rule mixtures at \(L \in \{64, 96, 128\}\) with budgets up to
+\(1024\,L\) steps per trial, the strongest mixture we identified is
+\[
+\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr)
+\quad\text{with weights}\quad
+(0.70,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10).
+\]
+The diagonal-traffic component spreads density information across both
+axes simultaneously, accelerating long-range communication beyond what
+\(F_0\) alone provides.
+
+\paragraph{Validation.}  Table~\ref{tab:strict-ca-validation} reports the
+joint random + adversarial benchmark for the best mixture across
+\(L \in \{96, 128, 192\}\) at \(\delta \in \{0.02, 0.05\}\).  Result file:
+\texttt{results/density\_classification/2026-04-29/strict\_ca\_validation.json}.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r r r r r r}
+\toprule
+$L$ & $\delta$
+    & \multicolumn{2}{c}{random}
+    & \multicolumn{2}{c}{adversarial} \\
+\cmidrule(lr){3-4}\cmidrule(lr){5-6}
+    &       & cc & median steps
+    &       cc & median steps \\
+\midrule
+96  & 0.02  & 0.922 & 242 & 0.800 & 182 \\
+96  & 0.05  & \textbf{1.000} & 134 & 0.900 & 121 \\
+128 & 0.02  & 0.938 & 334 & 0.800 & 202 \\
+128 & 0.05  & \textbf{1.000} & 138 & 0.900 & 140 \\
+192 & 0.02  & 0.984 & 455 & 0.800 & 242 \\
+192 & 0.05  & \textbf{1.000} & 170 & 0.800 & 136 \\
+\bottomrule
+\end{tabular}
+\caption{Strict-CA classifier with mixture \((F_0, 4{\times}\text{diag
+traffic}, M_{\mathrm{Moore9}})\) at weights \((0.70, 4{\times}0.05,
+0.10)\).  At \(\delta = 0.05\) the classifier is universal on random
+inputs (\(64\) trials per \(L\)) and \(80{-}90\%\) correct on the
+adversarial battery (10 cases).  At \(\delta = 0.02\) random performance
+is \(92{-}99\%\) and adversarial drops to \(80\%\).}
+\label{tab:strict-ca-validation}
+\end{table}
+
+\paragraph{Comparison with the non-local baseline.}
+At \(\delta = 0.05\) random inputs, the strict-CA classifier matches
+the non-local baseline's \(100\%\) correctness while using
+\emph{fewer} median steps to consensus: \(170\) at \(L=192\) versus the
+baseline's deterministic \(7L = 1344\) CA steps (a \({\sim}8\times\)
+reduction in pure-CA work, although the baseline additionally performs
+\(16L\) non-local swap operations that the strict-CA does not need).
+On adversarial inputs the strict-CA loses \(1{-}2\) cases out of 10,
+which the baseline does not.  At \(\delta = 0.02\) the strict-CA loses
+\(0{-}8\) percentage points of random correctness as well.
+
+The cost of strict locality is therefore measurable but not
+catastrophic: in the typical-input regime
+(\(\delta \geq 0.05\), random) the strict-CA matches the baseline; in
+the adversarial regime, the random pair-swap noise of the non-local
+baseline does work that no per-cell-local stochastic mixture has yet
+been able to replace.  Improving the strict-CA's adversarial
+robustness --- whether by adding more rules from the
+\(133{,}713\)-rule catalogue, or by introducing additional symmetry-
+breaking local rules with low probability --- is the natural
+follow-up to this section.
+
 \subsection{Accelerating with the Apple MLX Backend}
 \label{subsec:mlx}
 
