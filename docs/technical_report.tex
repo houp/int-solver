@@ -2336,6 +2336,152 @@ work.  Combining this finding with the \(R_{\mathrm{break}}\)
 component from Section~\ref{subsec:r-break-search} is the most
 promising direction for a follow-up classifier upgrade.
 
+\subsection{High-Power Head-to-Head Benchmark}
+\label{subsec:h2h-benchmark}
+
+The validations in
+Sections~\ref{subsec:r-break-search}--\ref{subsec:schedule-autotune}
+each used \(\leq 16\) seeds and at most \(48\) adversarial cases, so
+the headline gaps reported there carry binomial uncertainty
+\({\sim}\!\pm 7{-}15\)~pp.  This subsection tightens those numbers
+with a paired head-to-head benchmark: all candidate mixtures are
+evaluated on the \emph{same} initial configurations across many seeds,
+and pairwise differences are tested with McNemar's exact test.
+
+\paragraph{Setup.}
+We compare four candidate mixtures at the operating point
+\(L = 128,\,\delta = 0.02\):
+\begin{itemize}
+\item \texttt{baseline\_published}: the published 6-rule strict-CA mixture
+  with weights \((0.70,\,4{\times}0.05,\,0.10)\)
+  (Section~\ref{subsec:strict-ca}).
+\item \texttt{r\_break\_augmented}: the 7-rule mixture with
+  \(R_{\mathrm{break}}\) (witek index \(21{,}535{,}079\)) inserted at
+  weight \(0.05\), \(F_0\) reduced to \(0.65\)
+  (Section~\ref{subsec:r-break-search}).
+\item \texttt{autotune\_rebalanced}: the 6-rule mixture with weights
+  \((0.04,\,0.05,\,0.13,\,0.02,\,0.58,\,0.19)\) (the top single-seed
+  autotune find from Section~\ref{subsec:schedule-autotune}).
+\item \texttt{combined\_r\_break\_plus\_rebalanced}: the 7-rule
+  mixture with both \(R_{\mathrm{break}}\) and the rebalanced
+  weights, weights
+  \((0.04,\,0.05,\,0.12,\,0.02,\,0.55,\,0.17,\,0.05)\).
+\end{itemize}
+
+Each candidate is evaluated on \(8\) seeds; per seed, the same
+\(64\) random near-critical configurations and \(48\) adversarial
+configurations (the extended 8-family battery: 5 original families +
+concentric rings + Voronoi tessellations + low-frequency Fourier
+modes, at \(\delta \in \{0.01,\,0.02,\,0.05\}\)) are used for all
+candidates.  The classifier dynamics are still stochastic per
+candidate; what is fixed is the input distribution.  Total trials per
+candidate: \(64 \times 8 = 512\) random, \(48 \times 8 = 384\)
+adversarial.  Implementation:
+\texttt{classifier/head\_to\_head\_benchmark.py}.  Runtime: \(34\) min
+on M2 Max.
+
+\paragraph{Results: per-candidate cc with 95\% Wilson CIs.}
+Result file:
+\texttt{results/density\_classification/2026-04-30/h2h\_tier1.json}.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{l c c c c}
+\toprule
+candidate & random cc & 95\% CI & adv cc & 95\% CI \\
+\midrule
+baseline\_published       & 0.895 & [0.865,\,0.918] & 1.000 & [0.990,\,1.000] \\
+r\_break\_augmented       & 0.963 & [0.943,\,0.976] & 1.000 & [0.990,\,1.000] \\
+autotune\_rebalanced      & \textbf{0.980} & [0.964,\,0.989] & 1.000 & [0.990,\,1.000] \\
+combined                  & 0.975 & [0.957,\,0.985] & 1.000 & [0.990,\,1.000] \\
+\bottomrule
+\end{tabular}
+\caption{Tier-1 head-to-head: \(L=128,\,\delta=0.02\),
+\(8\) seeds, \(64\) random per side per seed, extended adversarial
+battery of \(48\) cases per seed.  All three modifications outperform
+the published baseline on random inputs.  Every candidate scores
+\(384/384\) on the adversarial battery, indicating the battery is too
+easy at this operating point (the original \(\delta = 0.005\)
+adversarial cases are missing here because the extended battery uses
+the same density grid as the random sweep).}
+\label{tab:h2h-tier1}
+\end{table}
+
+\paragraph{Paired McNemar tests.}
+For each pair of candidates we count trials where one is correct and
+the other is not; with \(n\)~discordances, McNemar's exact test
+returns a two-sided binomial p-value under the null
+``both classifiers have equal error rate''.
+
+\begin{table}[h]\centering\small
+\begin{tabular}{l l r r r}
+\toprule
+A & B & A-only correct & B-only correct & p-value \\
+\midrule
+baseline\_published & r\_break\_augmented           & 14 & 49 & \textbf{\(< 10^{-4}\)} \\
+baseline\_published & autotune\_rebalanced          &  8 & 52 & \textbf{\(< 10^{-4}\)} \\
+baseline\_published & combined                      & 12 & 53 & \textbf{\(< 10^{-4}\)} \\
+r\_break\_augmented & autotune\_rebalanced          &  9 & 18 & 0.122 \\
+r\_break\_augmented & combined                      & 12 & 18 & 0.362 \\
+autotune\_rebalanced & combined                     & 12 &  9 & 0.664 \\
+\bottomrule
+\end{tabular}
+\caption{Paired McNemar tests on random-input correctness
+(\(L=128,\,\delta=0.02,\,512\) shared trials per candidate).  All
+three modifications significantly outperform the published baseline
+(\(p < 10^{-4}\) each); the three modifications are
+indistinguishable from one another (\(p > 0.1\) on every pair).
+On the \(384\)-trial adversarial battery every pair has zero
+discordances (every candidate gets every trial correct).}
+\label{tab:h2h-mcnemar}
+\end{table}
+
+\paragraph{Median steps to consensus (speed cost).}
+The four candidates differ substantially in how much CA work they
+require to reach consensus on the random batch:
+
+\begin{itemize}
+\item \texttt{baseline\_published}: median \(318\) steps;
+\item \texttt{autotune\_rebalanced}: median \(375\) steps (+\(15\%\));
+\item \texttt{r\_break\_augmented}: median \(528\) steps (+\(66\%\));
+\item \texttt{combined}: median \(660\) steps (+\(110\%\)).
+\end{itemize}
+The \(R_{\mathrm{break}}\) component contributes a non-trivial
+runtime cost (an extra LUT lookup per cell per step) without a
+matching correctness gain over the rebalanced-weights mixture alone.
+
+\paragraph{Conclusion.}
+The autotune-rebalanced mixture is the recommended operating point
+for the strict-CA classifier.  It improves random correctness by
+\({\sim}\!9\) percentage points over the published baseline
+(\(0.895 \to 0.980\), \(p < 10^{-4}\)), preserves the
+\(100\%\) correctness on the structured-adversarial battery, and
+costs only \(15\%\) more median steps to consensus.  The
+\(R_{\mathrm{break}}\) extension, while a real improvement over the
+published baseline in isolation, does not survive paired comparison
+with the rebalanced-weights mixture and adds substantial runtime
+cost; we therefore retract the
+Section~\ref{subsec:r-break-search}--\ref{subsec:r-break-search}
+recommendation in favour of the rebalanced-weights mixture.
+The recommended strict-CA mixture is now
+\[
+\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr)
+\]
+with weights \((0.041,\,0.049,\,0.126,\,0.017,\,0.579,\,0.188)\).
+
+\paragraph{Limitations and follow-up.}
+Two things this benchmark did not test:
+\emph{(i)} adversarial inputs at \(\delta = 0.005\) or below, where
+the strict-CA gap to the non-local baseline is largest
+(Section~\ref{subsec:rho-min}); the extended adversarial battery
+should be re-run at the tighter density;
+\emph{(ii)} the same head-to-head at \(L \in \{64, 96, 192, 256\}\),
+to verify that the rebalanced-weights advantage is universal across
+grid sizes rather than a feature of \(L=128\).  Both are natural
+follow-ups; the harness
+(\texttt{classifier/head\_to\_head\_benchmark.py}) is parametric and
+ready to run them.
+
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
 
