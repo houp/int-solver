@@ -29,6 +29,17 @@
 }
 \newcommand{\F}[1]{f\!\left(#1\right)}
 \newcommand{\sid}[1]{\texttt{sid:}\allowbreak\texttt{#1}}
+% File paths: use \fpath instead of \texttt to allow breaks at / and _.
+% \nolinkurl{} is provided by hyperref; arguments are literal characters
+% (NO backslash-underscore escaping; just the raw path).
+\newcommand{\fpath}[1]{\nolinkurl{#1}}
+% Allow more flexible breaks inside paths and URLs.
+\Urlmuskip=0mu plus 1mu\relax
+% Allow URL/path line-breaks at hyphen and dot too (hyperref defaults
+% break at / and _ but not - or .).
+\makeatletter
+\g@addto@macro\UrlBreaks{\do\-\do\.}
+\makeatother
 \newcommand{\torusparticles}[2]{%
   \begin{tikzpicture}[x=0.28cm,y=0.28cm,baseline=-0.6ex]
     \draw[step=1,black!60] (0,0) grid (4,4);
@@ -1660,8 +1671,8 @@ majority-of-3 applied per row (\(R_{232}\)), with the schedule
 \((F_X\,R_{184})^{T_1}(G_X\,R_{232})^{T_2}\) and \(T_1=T_2=3L^2\) as
 in the paper.  Number-conservation of \((F_X,R_{184})\) was verified
 algebraically and empirically; see
-\texttt{classifier/fates\_regnault\_2016.py} for the implementation
-and \texttt{classifier/head\_to\_head\_fr.py} for the comparison
+\fpath{classifier/fates_regnault_2016.py} for the implementation
+and \fpath{classifier/head_to_head_fr.py} for the comparison
 harness.  Both classifiers were run on the \emph{same} initial
 configurations.
 
@@ -1752,7 +1763,7 @@ The eight-panel snapshots in Figs.~\ref{fig:snap-ours-rand} and
 \ref{fig:snap-ours-stripes} suggest visually that consensus is
 already reached well before the final amplification phase begins.  We
 quantified this with an \emph{early-stop study}
-(\texttt{classifier/early\_stop\_study.py}): for every trial we record
+(\fpath{classifier/early_stop_study.py}): for every trial we record
 the earliest phase boundary at which consensus was reached, and ask
 whether the final \(M^{4L}\) is the phase that first produced it.
 Table~\ref{tab:early-stop} reports, for each \((L, \delta)\) pair, the
@@ -1812,7 +1823,7 @@ The total cost is now \(L/2 + 2(L + L/4) = 3L\) elementary CA steps
 schedule --- a \(\sim\!2.3\times\) speedup.  We re-validated the
 minimal schedule against the full random + 30-case adversarial test
 suite at \(\delta\in\{0.01, 0.02, 0.05\}\); the result file is
-\texttt{results/density\_classification/2026-04-29/minimal\_schedule.json}.
+\fpath{results/density_classification/2026-04-29/minimal_schedule.json}.
 
 \begin{table}[h]\centering\small
 \begin{tabular}{r cc cc}
@@ -1884,8 +1895,8 @@ the global majority label is unambiguous, and ran 64 random trials per
 side (32 for \(L\geq 384\)) plus the 10-case adversarial battery
 (Section~\ref{subsec:adversarial}).
 The full result file is
-\texttt{results/density\_classification/2026-04-27/density\_margin\_sweep.json};
-analysis is by \texttt{classifier/density\_margin\_analyze.py}.
+\fpath{results/density_classification/2026-04-27/density_margin_sweep.json};
+analysis is by \fpath{classifier/density_margin_analyze.py}.
 
 Define \(\rho_{\min}(L)\) as the smallest \(\delta\) at which the schedule
 gives 100\% correct consensus on both random and adversarial batteries.
@@ -2024,7 +2035,7 @@ Each \(R_k\) is a deterministic Moore-9 lookup table.  The randomness is
 strictly local --- one categorical draw per cell per step --- and the
 rule application is local, so information propagates at most by
 nearest-neighbour distance per time step.  No global state crosses the
-lattice.  Implementation in \texttt{classifier/strict\_ca\_classifier.py}.
+lattice.  Implementation in \fpath{classifier/strict_ca_classifier.py}.
 
 \paragraph{Rule library.}  We expose the following rules: the
 preprocessor \sid{58ed6b657afb} (the same outer-monotone NCCA used in
@@ -2038,10 +2049,11 @@ Each is a 512-entry LUT for the Moore neighborhood.
 multi-rule mixtures at \(L \in \{64, 96, 128\}\) with budgets up to
 \(1024\,L\) steps per trial, the strongest mixture we identified is
 \[
-\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
-       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr)
-\quad\text{with weights}\quad
-(0.70,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10).
+\begin{aligned}
+&\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr) \\
+&\quad\text{with weights }(0.70,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10).
+\end{aligned}
 \]
 The diagonal-traffic component spreads density information across both
 axes simultaneously, accelerating long-range communication beyond what
@@ -2050,7 +2062,7 @@ axes simultaneously, accelerating long-range communication beyond what
 \paragraph{Validation.}  Table~\ref{tab:strict-ca-validation} reports the
 joint random + adversarial benchmark for the best mixture across
 \(L \in \{96, 128, 192\}\) at \(\delta \in \{0.02, 0.05\}\).  Result file:
-\texttt{results/density\_classification/2026-04-29/strict\_ca\_validation.json}.
+\fpath{results/density_classification/2026-04-29/strict_ca_validation.json}.
 
 \begin{table}[h]\centering\small
 \begin{tabular}{r r r r r r}
@@ -2120,7 +2132,7 @@ end-to-end on a small sample, but the production-scale run was
 interrupted before stages~2/3 completed and is left as future work.
 
 \paragraph{Witek sampler.}
-\texttt{classifier/witek\_sampler.py} provides random-without-
+\fpath{classifier/witek_sampler.py} provides random-without-
 replacement sampling over the corpus.  A cumulative-offset directory
 of the 12 \texttt{worker\_*.bin} files enables \(O(\log F)\) lookup
 of the \((file, byte\_offset)\) for any global record index, and a
@@ -2130,7 +2142,7 @@ on a cold cache; verification confirms that all sampled rules have LUT
 bit-sum exactly \(256\) (NCCA invariant).
 
 \paragraph{Stochastic-mixture stripe-disruption probe.}
-\texttt{classifier/r\_break\_probe.py} provides a cheap GPU-batched
+\fpath{classifier/r_break_probe.py} provides a cheap GPU-batched
 fitness signal.  For each candidate \(R_k\), the probe runs a
 per-cell-per-step mixture
 \((R_k\text{ with prob }1{-}p_M,\,M_{\mathrm{Moore9}}\text{ with prob }p_M)\)
@@ -2149,7 +2161,7 @@ rules/s for the deterministic variant and \(\sim 180\) rules/s for
 the stochastic-mixture variant.
 
 \paragraph{Four-stage pipeline.}
-\texttt{classifier/r\_break\_search.py} composes the sampler and the
+\fpath{classifier/r_break_search.py} composes the sampler and the
 probe into a search:
 \begin{enumerate}
 \item Sample \(K\) rules from the witek corpus and run the
@@ -2174,9 +2186,10 @@ candidates is a reasonable scale.
 \paragraph{Production results: top R\_break candidates at \(K = 20{,}000\).}
 After the originally-launched \(K = 50{,}000\) run was killed before
 stages~2/3 completed, we re-launched with smaller budget and stdout
-flushing
-(\texttt{classifier/r\_break\_resume.py},
-\texttt{results/density\_classification/2026-04-30/r\_break\_resume\_20k.json}).
+flushing.\footnote{Implementation:
+\fpath{classifier/r_break_resume.py};
+result file:
+\fpath{results/density_classification/2026-04-30/r_break_resume_20k.json}.}
 The leaner pipeline samples \(K = 20{,}000\) rules (\({\sim}\!17{,}000\)
 stripe-disrupters at score \(<0.5\)), evaluates the top \(60\) by
 stage-1 score in stage~2, and produces the result in \(12\)~min
@@ -2191,8 +2204,8 @@ Single-seed adversarial scores can be optimistic; we re-evaluated
 all four candidates across \(L \in \{64, 96, 128\}\), \(\delta \in
 \{0.02, 0.05\}\), three seeds (\(2026, 2027, 2028\)),
 \(64\) random trials per side, and \(192L\) max steps
-(\texttt{classifier/r\_break\_multi\_seed\_validate.py},
-\texttt{results/density\_classification/2026-04-30/r\_break\_multi\_seed\_validate.json}).
+(\fpath{classifier/r_break_multi_seed_validate.py},
+\fpath{results/density_classification/2026-04-30/r_break_multi_seed_validate.json}).
 Total wall time: \(86\)~min on M2 Max.  Per-(L, \(\delta\)) means
 across the three seeds:
 
@@ -2249,10 +2262,11 @@ adversarial performance.  The augmented strict-CA mixture is
        \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}},\,
        R_{\mathrm{break}}\bigr)
 \]
-with weights \((0.65,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10,\,0.05)\)
+with weights
+\((0.65,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10,\,0.05)\)
 and \(R_{\mathrm{break}} = \) witek index \(21{,}535{,}079\) (the LUT
 hex string is recorded in
-\texttt{results/density\_classification/2026-04-30/r\_break\_resume\_20k.json}).
+\fpath{results/density_classification/2026-04-30/r_break_resume_20k.json}).
 This is the recommended strict-CA classifier whenever the input
 distribution may include structured patterns at density bias
 \(\delta \approx 0.02\).
@@ -2266,7 +2280,7 @@ The published strict-CA mixture
 operating point that worked well across an early sweep
 (Section~\ref{subsec:strict-ca}).  We wrote a Dirichlet-simplex random
 search over the 6-component weight vector
-(\texttt{classifier/schedule\_autotune.py}) to test whether the
+(\fpath{classifier/schedule_autotune.py}) to test whether the
 published weights are near-optimal, fixing the rule set and varying
 only the probabilities.
 
@@ -2285,7 +2299,7 @@ rewards faster convergence as a tie-breaker.
 
 A pilot 60-trial sweep at \(L=64,\,\delta=0.02\) with \(8\) random
 trials per side and a \(64\,L = 4{,}096\)-step cap
-(\texttt{results/density\_classification/2026-04-30/schedule\_autotune\_60.json},
+(\fpath{results/density_classification/2026-04-30/schedule_autotune_60.json},
 \(\sim 8.7\)~min on M2 Max) gives:
 
 \begin{table}[h]\centering\small
@@ -2357,9 +2371,10 @@ and pairwise differences are tested with McNemar's exact test.
 \paragraph{Setup.}
 We compare four candidate mixtures at the operating point
 \(L = 128,\,\delta = 0.02\):
+{\sloppy
 \begin{itemize}
-\item \texttt{baseline\_published}: the published 6-rule strict-CA mixture
-  with weights \((0.70,\,4{\times}0.05,\,0.10)\)
+\item \texttt{baseline\_published}: the published 6-rule strict-CA
+  mixture with weights \((0.70,\,4{\times}0.05,\,0.10)\)
   (Section~\ref{subsec:strict-ca}).
 \item \texttt{r\_break\_augmented}: the 7-rule mixture with
   \(R_{\mathrm{break}}\) (witek index \(21{,}535{,}079\)) inserted at
@@ -2370,9 +2385,9 @@ We compare four candidate mixtures at the operating point
   autotune find from Section~\ref{subsec:schedule-autotune}).
 \item \texttt{combined\_r\_break\_plus\_rebalanced}: the 7-rule
   mixture with both \(R_{\mathrm{break}}\) and the rebalanced
-  weights, weights
-  \((0.04,\,0.05,\,0.12,\,0.02,\,0.55,\,0.17,\,0.05)\).
+  weights, weights \((0.04,\,0.05,\,0.12,\,0.02,\,0.55,\,0.17,\,0.05)\).
 \end{itemize}
+\par}
 
 Each candidate is evaluated on \(8\) seeds; per seed, the same
 \(64\) random near-critical configurations and \(48\) adversarial
@@ -2383,12 +2398,12 @@ candidates.  The classifier dynamics are still stochastic per
 candidate; what is fixed is the input distribution.  Total trials per
 candidate: \(64 \times 8 = 512\) random, \(48 \times 8 = 384\)
 adversarial.  Implementation:
-\texttt{classifier/head\_to\_head\_benchmark.py}.  Runtime: \(34\) min
+\fpath{classifier/head_to_head_benchmark.py}.  Runtime: \(34\) min
 on M2 Max.
 
 \paragraph{Results: per-candidate cc with 95\% Wilson CIs.}
-Result file:
-\texttt{results/density\_classification/2026-04-30/h2h\_tier1.json}.
+Result file:\\
+\fpath{results/density_classification/2026-04-30/h2h_tier1.json}.
 
 \begin{table}[h]\centering\small
 \begin{tabular}{l c c c c}
@@ -2485,7 +2500,7 @@ should be re-run at the tighter density;
 to verify that the rebalanced-weights advantage is universal across
 grid sizes rather than a feature of \(L=128\).  Both are natural
 follow-ups; the harness
-(\texttt{classifier/head\_to\_head\_benchmark.py}) is parametric and
+(\fpath{classifier/head_to_head_benchmark.py}) is parametric and
 ready to run them.
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
@@ -2515,7 +2530,10 @@ This defines a discrete-time, time-homogeneous Markov chain
 \begin{proposition}[absorbing states]
 \label{prop:absorb}
 For every \(R_k\) in our rule set
-\((F_0, \mathrm{traffic}_{NE}, \mathrm{traffic}_{NW}, \mathrm{traffic}_{SE}, \mathrm{traffic}_{SW}, M_{\mathrm{Moore9}})\),
+\[
+\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr),
+\]
 the all-\(0\) and all-\(1\) configurations are fixed points.
 Consequently, the chain \(S_t\) has at least these two absorbing states.
 \end{proposition}
