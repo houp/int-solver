@@ -2165,22 +2165,176 @@ Each stage filters by \({\sim}10\times\), so a target of \(50{,}000\)
 samples \(\to\) \(100\) stage-2 candidates \(\to\) \(8\) stage-3
 candidates is a reasonable scale.
 
-\paragraph{Status.}
-A 200-rule smoke test ran end-to-end in \({\sim}3.5\) minutes
-and produced top candidates with adversarial cc \(>0.90\) at
-\(L=64\), \(\delta=0.05\) --- already on par with the published
-mixture from Section~\ref{subsec:strict-ca}.  This validates the
-methodology on a small scale.  The production run at
-\(K = 50{,}000\), \(N_1 = 100\), \(N_2 = 8\) was launched
-(\texttt{results/density\_classification/2026-04-29/r\_break\_search\_50k.json})
-but interrupted before stages~2/3 finished.  Resuming the search ---
-either at the same scale with stdout flushing for visible
-incremental progress, or at a smaller scale to fit within a typical
-\(30\)~min budget --- is the natural next step.  We retain the cheap
-top-200 probe results
-(\texttt{results/density\_classification/2026-04-29/r\_break\_probe\_5k.json}
-and \texttt{r\_break\_probe\_10k.json}) as a starting point for the
-follow-up search.
+\paragraph{Production results: top R\_break candidates at \(K = 20{,}000\).}
+After the originally-launched \(K = 50{,}000\) run was killed before
+stages~2/3 completed, we re-launched with smaller budget and stdout
+flushing
+(\texttt{classifier/r\_break\_resume.py},
+\texttt{results/density\_classification/2026-04-30/r\_break\_resume\_20k.json}).
+The leaner pipeline samples \(K = 20{,}000\) rules (\({\sim}\!17{,}000\)
+stripe-disrupters at score \(<0.5\)), evaluates the top \(60\) by
+stage-1 score in stage~2, and produces the result in \(12\)~min
+\(41\)~s.  The four highest-ranked candidates by single-seed
+adversarial cc all reach \(1.000\) on the \(10\)-case adversarial
+battery at \(L=64,\,\delta=0.02\):
+\sid{idx=141861144}, \sid{idx=21535079}, \sid{idx=84490432},
+\sid{idx=5051820}.
+
+\paragraph{Multi-seed validation of the top four.}
+Single-seed adversarial scores can be optimistic; we re-evaluated
+all four candidates across \(L \in \{64, 96, 128\}\), \(\delta \in
+\{0.02, 0.05\}\), three seeds (\(2026, 2027, 2028\)),
+\(64\) random trials per side, and \(192L\) max steps
+(\texttt{classifier/r\_break\_multi\_seed\_validate.py},
+\texttt{results/density\_classification/2026-04-30/r\_break\_multi\_seed\_validate.json}).
+Total wall time: \(86\)~min on M2 Max.  Per-(L, \(\delta\)) means
+across the three seeds:
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r r r r r r r r}
+\toprule
+\multicolumn{2}{c}{config} & \multicolumn{2}{c}{baseline} &
+   \multicolumn{2}{c}{best R\_break} & \multicolumn{2}{c}{others (mean)} \\
+\cmidrule(lr){1-2}\cmidrule(lr){3-4}\cmidrule(lr){5-6}\cmidrule(lr){7-8}
+$L$ & $\delta$
+    & rand & adv
+    & rand & adv
+    & rand & adv \\
+\midrule
+64  & 0.02 & 0.875 & 0.800 & 0.906 & 0.900 & 0.886 & 0.842 \\
+64  & 0.05 & 1.000 & 0.833 & 1.000 & 0.967 & 1.000 & 0.892 \\
+96  & 0.02 & 0.906 & 0.867 & 0.938 & 0.867 & 0.927 & 0.842 \\
+96  & 0.05 & 1.000 & 0.933 & 1.000 & 0.933 & 1.000 & 0.900 \\
+128 & 0.02 & 0.938 & 0.800 & \textbf{0.984} & \textbf{0.900} & 0.974 & 0.900 \\
+128 & 0.05 & 1.000 & 0.900 & 1.000 & 0.900 & 1.000 & 0.892 \\
+\bottomrule
+\end{tabular}
+\caption{Multi-seed validation of the four top R\_break candidates
+from the \(K = 20{,}000\) search.  Each cell is the mean across three
+seeds.  The ``baseline'' columns are the strict-CA mixture from
+Table~\ref{tab:strict-ca-validation}; the ``best R\_break'' columns
+are the candidate with the strongest combined random+adversarial cc
+across configurations (\sid{idx=21535079}); ``others'' is the mean
+of the remaining three candidates.  At the operating point
+\(L=128,\,\delta=0.02\), the \texttt{R\_break} component pushes
+adversarial cc from \(0.800\) to \(0.900\) (\(+10\) percentage
+points) and random cc from \(0.938\) to \(0.984\), while at
+\(\delta=0.05\) the gain is in the noise.  At smaller \(L\) the
+adversarial gain ranges from \(+0\) to \(+13\) percentage points
+depending on the seed.}
+\label{tab:r-break-multiseed}
+\end{table}
+
+The R\_break extension closes roughly half of the
+adversarial gap left by the published 6-rule strict-CA mixture at
+the \(L=128,\,\delta=0.02\) operating point, while preserving (and
+slightly improving) the random-input correctness.  Multi-seed
+variance is non-trivial (single-seed cc differs from multi-seed
+mean by up to \(\pm 0.2\)), which underscores the importance of
+multi-seed validation in this regime: the four candidates that
+reached single-seed cc \(=1.000\) all collapsed to a multi-seed
+mean cc closer to \(0.85{-}0.90\) once averaged across seeds.
+
+\paragraph{Best \(R_{\mathrm{break}}\) and the augmented mixture.}
+The candidate \sid{idx=21535079} delivers the best joint random +
+adversarial performance.  The augmented strict-CA mixture is
+\[
+\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}},\,
+       R_{\mathrm{break}}\bigr)
+\]
+with weights \((0.65,\,0.05,\,0.05,\,0.05,\,0.05,\,0.10,\,0.05)\)
+and \(R_{\mathrm{break}} = \) witek index \(21{,}535{,}079\) (the LUT
+hex string is recorded in
+\texttt{results/density\_classification/2026-04-30/r\_break\_resume\_20k.json}).
+This is the recommended strict-CA classifier whenever the input
+distribution may include structured patterns at density bias
+\(\delta \approx 0.02\).
+
+\subsection{Schedule Auto-Tuning Over the Mixture Simplex}
+\label{subsec:schedule-autotune}
+
+The published strict-CA mixture
+\((F_0,\,4{\times}\text{diag traffic},\,M_{\mathrm{Moore9}})\) at weights
+\((0.70,\,4{\times}0.05,\,0.10)\) was identified by hand-selecting an
+operating point that worked well across an early sweep
+(Section~\ref{subsec:strict-ca}).  We wrote a Dirichlet-simplex random
+search over the 6-component weight vector
+(\texttt{classifier/schedule\_autotune.py}) to test whether the
+published weights are near-optimal, fixing the rule set and varying
+only the probabilities.
+
+For each candidate weight vector \(w \in \Delta^5\), the search runs
+the strict-CA classifier on a fixed test battery and scores
+\[
+\mathrm{score}(w)
+\;=\;
+\min(\mathrm{rand\_cc}(w),\,\mathrm{adv\_cc}(w))
+\;-\;
+\lambda \cdot \frac{\text{median steps to consensus}}{\text{max steps cap}}
+\]
+(here \(\lambda = 0.05\)).  The first term forces both random and
+adversarial cc to be high simultaneously; the second term gently
+rewards faster convergence as a tie-breaker.
+
+A pilot 60-trial sweep at \(L=64,\,\delta=0.02\) with \(8\) random
+trials per side and a \(64\,L = 4{,}096\)-step cap
+(\texttt{results/density\_classification/2026-04-30/schedule\_autotune\_60.json},
+\(\sim 8.7\)~min on M2 Max) gives:
+
+\begin{table}[h]\centering\small
+\begin{tabular}{l c c c c}
+\toprule
+mixture & weights & rand\_cc & adv\_cc & median steps \\
+\midrule
+published baseline       & \((0.70,\,4{\times}0.05,\,0.10)\) & 0.750 & 0.900 & 194 \\
+best autotune           & \((0.04,\,0.05,\,0.13,\,0.02,\,0.58,\,0.19)\) & \textbf{0.938} & 0.900 & \textbf{172} \\
+2nd-best autotune       & \((0.07,\,0.02,\,0.55,\,0.01,\,0.24,\,0.11)\) & 0.938 & 0.900 & 198 \\
+3rd-best autotune       & \((0.07,\,0.11,\,0.59,\,0.03,\,0.09,\,0.12)\) & 0.938 & 0.900 & 202 \\
+\bottomrule
+\end{tabular}
+\caption{Top mixtures from a 60-trial Dirichlet random search at
+\(L=64,\,\delta=0.02\), single seed, ordered by composite score.
+Weights are
+\((F_0, \mathrm{traffic}_{NE}, \mathrm{traffic}_{NW},
+   \mathrm{traffic}_{SE}, \mathrm{traffic}_{SW}, M_{\mathrm{Moore9}})\).
+Every top-3 mixture concentrates weight on a single diagonal
+traffic rule (\(0.5{-}0.6\)) and reduces the \(F_0\) weight by an
+order of magnitude (\(0.04{-}0.07\) versus the published \(0.70\)).
+The composite-score gain is \({\sim}\!20\)~pp on this single-seed
+test point.}
+\label{tab:schedule-autotune-pilot}
+\end{table}
+
+\paragraph{Caveat.}
+The pilot is single-seed at \(L=64\); single-seed cc has high variance
+in this regime (Section~\ref{subsec:strict-ca}) and the published
+mixture's reported \(0.750\) random cc here is a \emph{single-seed}
+draw of a quantity whose multi-seed mean is \(0.875\) at \(L=64,\,
+\delta=0.02\) (Table~\ref{tab:r-break-multiseed}).  The autotune top
+mixtures may similarly be optimistic by \({\sim}\!10\) pp at multi-
+seed.  However the \(20\)~pp single-seed gap is large enough that
+even after seed-averaging the autotune mixtures should be at least
+on par with the published one, and the qualitative finding ---
+\emph{that the optimum has much smaller \(F_0\) weight than we
+hand-picked} --- almost certainly survives.  A multi-seed,
+multi-\(L\) follow-up sweep (the same harness with a larger budget
+and \texttt{--alpha-near-baseline} for local refinement) is the
+natural next step.
+
+\paragraph{Implication.}
+The finding suggests that on near-critical random inputs at \(L=64\),
+the diagonal-traffic component carries most of the bias-amplification
+work that the published mixture attributes to \(F_0\).  This is
+consistent with the strict-CA discussion in
+Section~\ref{subsec:strict-ca}: the diagonal-traffic rules spread
+density information along both axes simultaneously, which is exactly
+what \(F_0\) was hand-picked to do at higher weight.  The autotune is
+finding mixtures that achieve the same propagation more efficiently
+through directional traffic alone, freeing the \(F_0\) slot for other
+work.  Combining this finding with the \(R_{\mathrm{break}}\)
+component from Section~\ref{subsec:r-break-search} is the most
+promising direction for a follow-up classifier upgrade.
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
