@@ -2182,6 +2182,125 @@ top-200 probe results
 and \texttt{r\_break\_probe\_10k.json}) as a starting point for the
 follow-up search.
 
+\subsection{Convergence Sketch for the Strict-CA Classifier}
+\label{subsec:strict-ca-theory}
+
+A full theorem of the form ``the strict-CA classifier converges to the
+correct consensus with probability \(1\) on every density-biased
+input'' is well beyond the scope of this report.  This subsection
+records what \emph{can} be established rigorously about the chain and
+sketches the heuristic argument for the rest, so future theoretical
+work has a clean starting point.
+
+\paragraph{Markov chain setup.}
+Let \(\Omega = \{0,1\}^{L^2}\) and let \(R_1,\ldots,R_K\) be the
+deterministic Moore-9 rules in the strict-CA mixture
+(Section~\ref{subsec:strict-ca}), assigned probabilities
+\(p_1,\ldots,p_K\) summing to \(1\).  At each step \(t\), each cell
+\((i,j)\) independently draws an index \(r(t,i,j) \in \{1,\ldots,K\}\)
+from this distribution, and updates synchronously by
+\[
+s_{t+1}(i,j) = R_{r(t,i,j)}\bigl(\text{Moore-9 neighborhood of }(i,j)\text{ in }s_t\bigr).
+\]
+This defines a discrete-time, time-homogeneous Markov chain
+\(\bigl(S_t\bigr)_{t \geq 0}\) on \(\Omega\) with transition kernel
+\(P\bigl(s, s'\bigr) = \prod_{(i,j)} \mathrm{Pr}(s'_{(i,j)} \mid s)\).
+
+\begin{proposition}[absorbing states]
+\label{prop:absorb}
+For every \(R_k\) in our rule set
+\((F_0, \mathrm{traffic}_{NE}, \mathrm{traffic}_{NW}, \mathrm{traffic}_{SE}, \mathrm{traffic}_{SW}, M_{\mathrm{Moore9}})\),
+the all-\(0\) and all-\(1\) configurations are fixed points.
+Consequently, the chain \(S_t\) has at least these two absorbing states.
+\end{proposition}
+
+\begin{proof}[Proof sketch]
+Each \(R_k\) is a Moore-9 rule whose lookup table on the all-zeros
+neighborhood evaluates to \(0\) (number conservation forces
+\(R_k(0,\ldots,0) = 0\); the embedded traffic rules and \(F_0\) are
+NCCAs by construction; \(M_{\mathrm{Moore9}}\) maps the all-zeros
+window to \(0\) because no neighbour is \(1\)).  By complement
+symmetry, the all-ones configuration is similarly fixed by every
+\(R_k\) we use.  Therefore both uniform states are fixed points of
+the kernel and absorbing.
+\end{proof}
+
+\begin{proposition}[finite-time absorption from any positive-bias initial state]
+\label{prop:absorb-finite}
+Suppose \(p_M > 0\) (the Moore-majority component has positive weight)
+and the rule set is otherwise as above.  Then for every initial
+configuration \(s_0\) that is not already at the all-\(0\) or all-\(1\)
+absorbing state, the absorption time \(\tau(s_0) := \inf\{t : S_t \in
+\{0^{L^2}, 1^{L^2}\}\}\) satisfies \(\Pr(\tau(s_0) < \infty) = 1\).
+\end{proposition}
+
+\begin{proof}[Proof sketch]
+The chain has finite state space, so by standard Markov-chain theory
+it suffices to show that from every non-absorbing state \(s\) there
+is positive probability of reaching an absorbing state in some finite
+number of steps.  Pick any cell \((i,j)\) with \(s(i,j) = 0\); with
+positive probability all cells in a \(3\times 3\) ball around
+\((i,j)\) draw the rule \(R_k = M_{\mathrm{Moore9}}\) at the same
+step, and after \(O(L)\) iterations of \(M_{\mathrm{Moore9}}\)
+applied uniformly, the lattice converges to a uniform fixed point of
+\(M_{\mathrm{Moore9}}\) (because Moore-9 majority on an even-finite
+torus has only the uniform and a few periodic-stripe fixed points,
+and the random index draws break stripe symmetry on a positive-
+probability subset of trajectories).  The fully-uniform absorbing
+state is reached on any such trajectory.  This event has probability
+at least \(p_M^{O(L^2)} > 0\), so absorption almost surely happens
+in finite time.
+\end{proof}
+
+\paragraph{Which absorbing state? --- the open question.}
+The hard part is showing that the chain absorbs at the
+\emph{correct} consensus (matching the global majority of \(s_0\))
+with probability close to \(1\).  Our experiments
+(Table~\ref{tab:strict-ca-validation} and the density-margin sweeps
+of Section~\ref{subsec:rho-min}) confirm this empirically across the
+operating regime, but a full proof requires identifying a Lyapunov-
+like function that biases the absorption probability toward the
+correct side.  The natural candidate is
+\[
+V_m(s) := \#\{(i,j) : s(i,j) \neq m\}
+\quad\text{for the global majority }m \in \{0,1\}.
+\]
+Our empirical traces show that \(\mathbb{E}[V_m(S_{t+1}) - V_m(S_t)
+\mid S_t]\) is negative on most non-absorbing states, with the
+negative bias driven primarily by the \(p_M\) component.  However,
+on adversarial structured inputs (stripes, checkerboards) at small
+density bias the per-step expected change can flip sign, which is
+exactly the failure mode we observe in
+Table~\ref{tab:strict-ca-validation}'s adversarial column.  A full
+proof would need to bound
+\[
+\mathbb{E}[V_m(S_{t+1}) - V_m(S_t) \mid S_t = s]
+\;\leq\;-\,\eta(s)\,V_m(s) + \mathrm{noise terms}
+\]
+with \(\eta(s) > 0\) for all \(s\) in some structurally-rich basin of
+the correct absorbing state.  We do not yet have such a bound, and
+we conjecture the honest theorem will involve density-bias-dependent
+basin sizes that match the observed \(\rho_{\min}(L) \sim L^{-3/4}\)
+scaling.
+
+\paragraph{Convergence rate.}
+Empirically the median time-to-consensus on random near-critical
+inputs scales roughly linearly with \(L\) (\(\sim L\) for both the
+non-local baseline and the strict-CA mixture; see
+Tables~\ref{tab:scaled-universal} and~\ref{tab:strict-ca-validation}).
+Heuristically the chain is mean-field-driven by the Moore-majority
+component, which has a curvature-flow continuum limit that erodes
+minority islands of size \(\geq r\) in time \(\Theta(r^2)\).  Starting
+from a random configuration with global density bias \(\delta\), the
+typical minority-island size is \(\Theta(L)\), giving an expected
+absorption time of order \(\Theta(L^2)\) for a pure-majority chain
+--- which is essentially the Fat\`{e}s--Regnault scaling.  Our strict-
+CA mixture and non-local baseline empirically do better than that on
+random inputs (linear in \(L\)), which we attribute to the \(F_0\)
+preprocessor's amplification of the global density bias before the
+majority phase begins to coarsen.  A rigorous comparison to the
+mean-curvature-flow continuum limit is left for future work.
+
 \subsection{Accelerating with the Apple MLX Backend}
 \label{subsec:mlx}
 
