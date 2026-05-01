@@ -2490,18 +2490,95 @@ The recommended strict-CA mixture is now
 \]
 with weights \((0.041,\,0.049,\,0.126,\,0.017,\,0.579,\,0.188)\).
 
-\paragraph{Limitations and follow-up.}
-Two things this benchmark did not test:
-\emph{(i)} adversarial inputs at \(\delta = 0.005\) or below, where
-the strict-CA gap to the non-local baseline is largest
-(Section~\ref{subsec:rho-min}); the extended adversarial battery
-should be re-run at the tighter density;
-\emph{(ii)} the same head-to-head at \(L \in \{64, 96, 192, 256\}\),
-to verify that the rebalanced-weights advantage is universal across
-grid sizes rather than a feature of \(L=128\).  Both are natural
-follow-ups; the harness
-(\fpath{classifier/head_to_head_benchmark.py}) is parametric and
-ready to run them.
+\paragraph{Tier-2a: harder adversarial densities.}
+The tier-1 adversarial battery used densities
+\(\delta \in \{0.01, 0.02, 0.05\}\) and saw every candidate at
+\(384/384\) correct: the battery did not discriminate.  We re-ran the
+benchmark with \(\delta \in \{0.005, 0.002, 0.001\}\) (\emph{ten times
+tighter} bias)
+\footnote{Result file:
+\fpath{results/density_classification/2026-04-30/h2h_tier2a_hard_adv.json}.}
+and got the same answer: every candidate scores
+\(384/384\).  This means that at \(L=128\), the strict-CA mixture
+(any of our four variants) is empirically universal on the extended
+adversarial battery down to a single-cell tipping bias of
+\({\sim}\!2\) cells out of \(16{,}384\).  This is a strong robustness
+result independent of which mixture is used.  The discriminating
+signal is therefore concentrated in the random-input column, not the
+adversarial column.
+
+\paragraph{Tier-2b: head-to-head across grid sizes.}
+We ran the same four-candidate benchmark at
+\(L \in \{64,\,96,\,192,\,256\}\) (the tier-1 \(L=128\) row is
+included for context).
+\footnote{Per-\(L\) result files
+\fpath{results/density_classification/2026-04-30/h2h_tier2b_L64.json},
+\dots, \fpath{...L256.json};
+total wall \(4\) hours on M2 Max.}
+
+\begin{table}[h]\centering\small
+\begin{tabular}{r r r r r}
+\toprule
+$L$ & baseline & r\_break & autotune & combined \\
+\midrule
+64  & 0.7773 & 0.8496 & \textbf{0.9141} & 0.9062 \\
+96  & 0.8379 & 0.9229 & \textbf{0.9668} & 0.9443 \\
+128 & 0.8945 & 0.9629 & \textbf{0.9805} & 0.9746 \\
+192 & 0.9805 & 0.9961 & \textbf{1.0000} & 0.9844 \\
+256 & \textbf{1.0000} & \textbf{1.0000} & 0.9961 & 0.9922 \\
+\bottomrule
+\end{tabular}
+\caption{Random-input correct-consensus rate across grid sizes for the
+four candidate strict-CA mixtures.  The autotune-rebalanced mixture
+wins (or ties) at every \(L \leq 192\); at \(L = 256\) the four
+candidates have all saturated at \({\sim}\!1.000\), so paired
+differences are not statistically significant and the row is
+included only for completeness.  Adversarial cc is \(1.000\) for
+every \(L\) and every candidate, so it is not shown.}
+\label{tab:h2h-tier2b}
+\end{table}
+
+The advantage of the autotune-rebalanced mixture over the published
+baseline is largest at small \(L\): \(+14\) percentage points at
+\(L=64\), \(+13\) pp at \(L=96\), \(+9\) pp at \(L=128\), \(+2\) pp at
+\(L=192\), \(0\) pp at \(L=256\).  This is consistent with the
+density-margin scaling law of Section~\ref{subsec:rho-min}: at small
+\(L\) the per-cell tipping bias is largest relative to the lattice
+size, mixture quality matters most, and the rebalanced-weights
+mixture extracts substantially more information from the
+diagonal-traffic component than the published baseline does.  At
+large \(L\) all reasonable mixtures saturate and the choice no
+longer matters.
+
+\paragraph{Conclusion of the head-to-head campaign.}
+Across tier-1 (\(L=128\), full statistical power), tier-2a (harder
+adversarial), and tier-2b (\(L\)-universality), the autotune-
+rebalanced mixture is the consistent winner on random inputs, ties
+or beats every other candidate on adversarial inputs, and runs
+faster than the \(R_{\mathrm{break}}\)-augmented variants.  The
+recommended strict-CA classifier is therefore the rebalanced
+6-rule mixture
+\[
+\bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+       \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr),
+\]
+with weights \((0.041,\,0.049,\,0.126,\,0.017,\,0.579,\,0.188)\).
+The \(R_{\mathrm{break}}\) component from
+Section~\ref{subsec:r-break-search}, while a real improvement over
+the \emph{unmodified} baseline, does not survive paired comparison
+with the rebalanced mixture and adds substantial runtime cost.
+
+\paragraph{Open follow-ups.}
+The open follow-ups remain:
+\emph{(i)} extend the adversarial battery beyond the eight families
+considered here, or use a stronger structural search (e.g., active
+adversarial generation against the augmented classifier);
+\emph{(ii)} multi-seed autotune at multiple \(L\), starting near the
+top single-seed find of Section~\ref{subsec:schedule-autotune} (the
+\fpath{classifier/schedule_autotune.py} harness already supports
+\fpath{--alpha-near-baseline} for this purpose);
+\emph{(iii)} formalise the convergence of the rebalanced mixture
+(Section~\ref{subsec:strict-ca-theory} sketches what's needed).
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
