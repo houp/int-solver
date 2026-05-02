@@ -107,17 +107,21 @@
 \contentsline {paragraph}{Tier-4b: rule-set ablation.}{41}{section*.65}%
 \contentsline {paragraph}{Tier-4c: decisive head-to-head.}{41}{section*.66}%
 \contentsline {paragraph}{Findings.}{41}{section*.67}%
-\contentsline {paragraph}{Strict-CA recommendation, finalized.}{42}{section*.68}%
-\contentsline {subsection}{\numberline {6.16}Revisiting $F_0$'s role at the final operating point}{42}{subsection.6.16}%
-\contentsline {paragraph}{Open follow-ups.}{42}{section*.69}%
-\contentsline {subsection}{\numberline {6.17}Convergence Sketch for the Strict-CA Classifier}{42}{subsection.6.17}%
-\contentsline {paragraph}{Markov chain setup.}{43}{section*.70}%
-\contentsline {paragraph}{Empirical agreement and gap.}{44}{section*.71}%
-\contentsline {paragraph}{Which absorbing state? --- the open question.}{44}{section*.72}%
-\contentsline {paragraph}{Convergence rate.}{45}{section*.73}%
-\contentsline {paragraph}{Empirical fit.}{45}{section*.74}%
-\contentsline {paragraph}{Two-phase interpretation, refined.}{45}{section*.75}%
-\contentsline {subsection}{\numberline {6.18}Accelerating with the Apple MLX Backend}{46}{subsection.6.18}%
-\contentsline {subsection}{\numberline {6.19}Discussion}{46}{subsection.6.19}%
-\contentsline {subsection}{\numberline {6.20}Implementation}{47}{subsection.6.20}%
-\contentsline {section}{\numberline {7}Conclusion}{47}{section.7}%
+\contentsline {paragraph}{Strict-CA recommendation (tier-4 provisional).}{42}{section*.68}%
+\contentsline {subsection}{\numberline {6.16}Tier-5: 10-rule autotune retires set\_B}{42}{subsection.6.16}%
+\contentsline {paragraph}{Tier-5 head-to-head.}{42}{section*.69}%
+\contentsline {paragraph}{Findings.}{43}{section*.70}%
+\contentsline {paragraph}{Strict-CA recommendation, finalized after tier-5.}{43}{section*.71}%
+\contentsline {subsection}{\numberline {6.17}Revisiting $F_0$'s role at the final operating point}{44}{subsection.6.17}%
+\contentsline {paragraph}{Open follow-ups, after tier-5.}{44}{section*.72}%
+\contentsline {subsection}{\numberline {6.18}Convergence Sketch for the Strict-CA Classifier}{44}{subsection.6.18}%
+\contentsline {paragraph}{Markov chain setup.}{44}{section*.73}%
+\contentsline {paragraph}{Empirical agreement and gap.}{46}{section*.74}%
+\contentsline {paragraph}{Which absorbing state? --- the open question.}{46}{section*.75}%
+\contentsline {paragraph}{Convergence rate.}{46}{section*.76}%
+\contentsline {paragraph}{Empirical fit.}{47}{section*.77}%
+\contentsline {paragraph}{Two-phase interpretation, refined.}{47}{section*.78}%
+\contentsline {subsection}{\numberline {6.19}Accelerating with the Apple MLX Backend}{47}{subsection.6.19}%
+\contentsline {subsection}{\numberline {6.20}Discussion}{48}{subsection.6.20}%
+\contentsline {subsection}{\numberline {6.21}Implementation}{48}{subsection.6.21}%
+\contentsline {section}{\numberline {7}Conclusion}{49}{section.7}%

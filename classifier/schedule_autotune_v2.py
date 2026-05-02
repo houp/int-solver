@@ -83,6 +83,10 @@ def main() -> int:
                             "moore_maj",
                         ])
     parser.add_argument("--N-trials", type=int, default=50)
+    parser.add_argument("--reference-weights", type=float, nargs="+", default=None,
+                        help="Reference weights for trial 0 and the alpha_near_rebalanced "
+                             "Dirichlet anchor. Defaults to the 6-rule rebalanced weights "
+                             "if K=6, else uniform(1/K).")
     parser.add_argument("--alpha-base", type=float, default=1.0)
     parser.add_argument("--alpha-near-rebalanced", type=float, default=0.0,
                         help="If > 0, blend Dirichlet samples toward the autotune-rebalanced"
@@ -133,10 +137,19 @@ def main() -> int:
           f"densities={args.adv_densities}")
     print()
 
-    # Reference rebalanced weights (the current recommendation)
-    rebalanced = np.array([0.041, 0.049, 0.126, 0.017, 0.579, 0.188])
-    if K != 6 or not np.isclose(rebalanced.sum(), 1.0):
-        rebalanced = np.full(K, 1.0 / K)
+    # Reference weights (the anchor of the local search)
+    if args.reference_weights is not None:
+        rebalanced = np.array(args.reference_weights, dtype=float)
+        if rebalanced.size != K:
+            raise SystemExit(f"--reference-weights has {rebalanced.size} entries but K={K}")
+        s = rebalanced.sum()
+        if not np.isclose(s, 1.0):
+            print(f"  (renormalising reference weights from sum {s:.6f})")
+            rebalanced = rebalanced / s
+    else:
+        rebalanced = np.array([0.041, 0.049, 0.126, 0.017, 0.579, 0.188])
+        if K != 6 or not np.isclose(rebalanced.sum(), 1.0):
+            rebalanced = np.full(K, 1.0 / K)
 
     rng_sample = np.random.default_rng(args.seed)
     max_steps = args.max_steps_mult * args.L

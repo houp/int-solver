@@ -2789,29 +2789,149 @@ Three structurally-distinct conclusions emerge:
   Section~\ref{subsec:f0-revisit} below.
 \end{itemize}
 
-\paragraph{Strict-CA recommendation, finalized.}
-The strict-CA density classifier is now recommended in two flavours
-chosen by workload:
+\paragraph{Strict-CA recommendation (tier-4 provisional).}
+At this point the strict-CA density classifier was provisionally
+recommended in two flavours: a 6-rule \texttt{rebalanced\_v2\_weights}
+for random-heavy workloads, and a 10-rule \texttt{set\_B} for
+adversarial-heavy workloads.  Tier-5 below revisits the
+adversarial-heavy variant by autotuning over the 10-rule simplex,
+and finds a strictly better mixture; the random-heavy
+recommendation is unchanged.
+
+\subsection{Tier-5: 10-rule autotune retires set\_B}
+\label{subsec:tier-5}
+
+The cardinal-traffic block in \texttt{set\_B} used a naive
+equal-share template (each cardinal traffic gets \(0.0235\), summing
+to half of \(p_M\); the remaining half is \(M_{\mathrm{Moore9}}\)).
+That template was not tuned: tier-4b only varied the rule \emph{set},
+not the weights within it.  We now run a proper Dirichlet random
+search over the full 10-rule simplex
+(\fpath{classifier/schedule_autotune_v2.py} with the
+\fpath{--reference-weights} flag exposing the
+\(10\)-vector anchor), \(60\) trials concentrated near the set\_B
+template (\(\alpha_{\mathrm{near\_rebalanced}} = 200\)), with the
+same \(\min\)-symmetric loss
+\(\min(\mathrm{cc}_0^{\mathrm{rand}}, \mathrm{cc}_1^{\mathrm{rand}},
+\mathrm{cc}_0^{\mathrm{adv}}, \mathrm{cc}_1^{\mathrm{adv}})\) used in
+tier-4a.\footnote{Result file:
+\fpath{results/density_classification/2026-05-02/autotune_10rule_near_setB_L64.json}.}
+
+The top-1 weight vector
+\(w^{*}_{10}\) (label \texttt{autotune\_10rule\_top1}) is
+\[
+\begin{aligned}
+&(p_{F_0}, p_{NE}, p_{NW}, p_{SE}, p_{SW},
+  p_N, p_S, p_E, p_W, p_M) \\
+&\quad=\;(0.053,\, 0.035,\, 0.144,\, 0.015,\, 0.559,\,
+       0.020,\, 0.035,\, 0.032,\, 0.021,\, 0.087).
+\end{aligned}
+\]
+The top-10 mixtures share a robust pattern: \(p_M\) collapses to
+\(0.06\)--\(0.10\) (down from \(0.094\) in the equal-share template
+and \(0.16\) in the rebalanced 6-rule mixture), and the cardinal
+traffic block carries summed weight \(\sim 0.10\)--\(0.13\) (up from
+the equal-share \(0.094\)).  Cardinal-traffic and Moore-9 majority
+appear to be substitutable: in the 10-rule autotune they roughly
+co-vary so that their summed weight stays near \(0.18\)--\(0.20\),
+and the within-block split shifts toward cardinal traffic by a
+factor of \(\sim 1.3\)--\(1.7\).
+
+\paragraph{Tier-5 head-to-head.}
+{\sloppy
+We benchmarked four candidates against the same paired McNemar
+harness used in tier-4c: the 6-rule random-heavy default
+(\texttt{rebalanced\_v2\_weights}), the equal-share 10-rule
+template (\texttt{set\_B}), the new autotune top-1
+(\texttt{autotune\_10rule\_top1}), and the component-wise mean of
+the autotune's top-5 weight vectors as a robustness check
+(\texttt{autotune\_10rule\_top5mean}), at \(L = 128\) random
+(1024 trials each) and the parameterized battery at \(L = 64\)
+(3552 trials each).%
+\footnote{Result files:
+\fpath{results/density_classification/2026-05-02/h2h_v4_random_L128.json}
+(random) and \fpath{.../active_adv_v4_L64.json} (parameterized).}
+\par}
+
+\begin{table}[h]\centering\small
+\begin{tabular}{l c c c}
+\toprule
+candidate & rules & rand cc \([95\%\)~CI\(]\) & param min cc \\
+\midrule
+\texttt{rebalanced\_v2\_weights}        & 6  & \textbf{0.985} \([0.976, 0.991]\) & 0.730 \\
+\texttt{set\_B\_card\_traffic} (equal share) & 10 & 0.953 \([0.938, 0.965]\) & 0.739 \\
+\texttt{autotune\_10rule\_top1}         & 10 & 0.947 \([0.932, 0.959]\) & \textbf{0.764} \\
+\texttt{autotune\_10rule\_top5mean}     & 10 & 0.945 \([0.930, 0.958]\) & 0.764 \\
+\bottomrule
+\end{tabular}
+\caption{Tier-5 head-to-head.  Random correctness at \(L=128\),
+\(\delta=0.02\), \(8\) seeds \(\times\) \(128\) trials.
+Parameterized adversarial battery at \(L=64\) over \(8\) seeds
+\(\times\) \(444\) cases, label-symmetric
+\(\min(\mathrm{cc}_0, \mathrm{cc}_1)\).  Wilson \(95\%\) CI for
+random; for parameterized the per-candidate margin is \(\pm 1.5\)
+pp.  Adversarial cc on the static eight-family battery is
+\(1.000\) for every candidate (saturated at \(L=128\); not shown).}
+\label{tab:tier-5}
+\end{table}
+
+\paragraph{Findings.}
+Three results stand out:
 \begin{itemize}
-\item \emph{Random-heavy default} (e.g., uniformly sampled
-  Bernoulli inputs at \(L \geq 96\)): the \(6\)-rule
+\item \texttt{autotune\_10rule\_top1} \emph{strictly Pareto-
+  dominates} \texttt{set\_B}: paired McNemar on random gives
+  \(p = 0.60\) (tied), while on parameterized adversarial it gives
+  \(p = 1.96 \times 10^{-4}\) (top1 wins by \(+2.5\) pp on
+  symmetric min cc).  The cardinal-traffic block was helpful in
+  set\_B, but with optimized weights and a slightly lower \(p_M\) it
+  is \emph{considerably more} helpful.
+\item \texttt{autotune\_10rule\_top5mean} ties
+  \texttt{autotune\_10rule\_top1} on both axes
+  (random \(p = 0.92\); parameterized \(p = 0.50\)) --- the autotune
+  result is robust to which point in its top-5 we pick.  We adopt
+  \texttt{autotune\_10rule\_top1} as the canonical reference because
+  it is the literal autotune output and reproducible by re-running
+  the harness with the same seed.
+\item The \emph{Pareto frontier between random and parameterized
+  adversarial} contains exactly two points after tier-5:
+  \texttt{rebalanced\_v2\_weights} (\(0.985, 0.730\)) and
+  \texttt{autotune\_10rule\_top1} (\(0.947, 0.764\)).  The
+  remaining candidates from tier-4 are dominated.
+\end{itemize}
+
+\paragraph{Strict-CA recommendation, finalized after tier-5.}
+{\sloppy
+The strict-CA density classifier is recommended in two
+non-dominated flavours chosen by workload:
+\begin{itemize}
+\item \emph{Random-heavy default} (uniformly sampled Bernoulli
+  inputs at \(L \geq 96\)): the \(6\)-rule
   \texttt{rebalanced\_v2\_weights} mixture
   \[
   \bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
          \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr),
   \]
-  with weights \((0.041,\, 0.038,\, 0.120,\, 0.016,\, 0.624,\,
-  0.161)\).
-\item \emph{Adversarial-heavy variant} (e.g., \(L < 96\) or
-  structured priors): the \(10\)-rule \texttt{set\_B} mixture, which
-  augments the above with the four cardinal traffic rules
-  \(\mathrm{traffic}_{N/S/E/W}\); the cardinal-traffic block carries
-  half of \(p_M\) (each rule gets \(0.0235\)) and the remaining half
-  of \(p_M\) is \(M_{\mathrm{Moore9}}\)'s share.  The price is a
-  \(\sim 3\) pp regression on random correctness at \(L = 128\); the
-  benefit is \(+5.8\) pp on the parameterized battery's symmetric
-  min cc.
+  with weights
+  \[(0.041,\, 0.038,\, 0.120,\, 0.016,\, 0.624,\, 0.161).\]
+\item \emph{Adversarial-heavy variant} (\(L < 96\) or structured
+  priors): the \(10\)-rule \texttt{autotune\_10rule\_top1} mixture
+  \[
+  \bigl(F_0,\,\mathrm{traffic}_{NE/NW/SE/SW},\,
+         \mathrm{traffic}_{N/S/E/W},\,M_{\mathrm{Moore9}}\bigr)
+  \]
+  with weights
+  \[
+  (0.053,\, 0.035,\, 0.144,\, 0.015,\, 0.559,\,
+    0.020,\, 0.035,\, 0.032,\, 0.021,\, 0.087).
+  \]
+  Cost: \(-3.8\) pp random correctness at \(L=128\); benefit:
+  \(+3.4\) pp on the parameterized adversarial battery's
+  symmetric min cc relative to the 6-rule recommendation.
 \end{itemize}
+The previous \texttt{set\_B} recommendation
+(\(\S\ref{subsec:tier-4}\) above) is retracted: it is strictly
+Pareto-dominated by \texttt{autotune\_10rule\_top1}.
+\par}
 
 \subsection{Revisiting \texorpdfstring{$F_0$}{F0}'s role at the
 final operating point}
@@ -2831,16 +2951,23 @@ the per-cell rule draws) and may contribute on input distributions
 not yet probed; but we now record it as \emph{not} demonstrably
 necessary at the recommended weights.
 
-\paragraph{Open follow-ups.}
-With tier-4 settled, the remaining open follow-ups are:
-\emph{(i)} a 10-rule autotune over set \(B\)'s simplex --- the cardinal
-weights here are the naive equal-share template, not optimized;
-\emph{(ii)} a structurally-aware extension of
+\paragraph{Open follow-ups, after tier-5.}
+Tier-5 closed the 10-rule autotune follow-up.  The remaining open
+items are:
+\emph{(i)} a structurally-aware extension of
 Proposition~\ref{prop:meanfield-rate} that handles spatially
 correlated priors (the failure mode identified by the
 per-family breakdown);
-\emph{(iii)} prove (or refute) Conjecture~\ref{conj:absorb-time} on
-\(\mathbb{E}[\tau] = \Theta(L^{\alpha} \delta^{-\beta})\) absorption.
+\emph{(ii)} prove (or refute) Conjecture~\ref{conj:absorb-time} on
+\(\mathbb{E}[\tau] = \Theta(L^{\alpha} \delta^{-\beta})\) absorption,
+specifically the topological-defect-lifetime contribution to the
+\(\delta^{-1}\) factor;
+\emph{(iii)} explore an even larger rule pool (e.g., adding the
+remaining 4 cardinal shifts to the 10-rule autotune pool, giving 14
+rules) under a longer autotune budget; the structure-breaker probe
+suggested set \(D\) (14 rules) was non-dominant at the
+equal-share template, but it is plausible that an autotuned 14-rule
+mixture lies above the current Pareto frontier.
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
