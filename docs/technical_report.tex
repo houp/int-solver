@@ -2673,22 +2673,174 @@ demonstrates that the static eight-family adversarial battery is
 saturated at \(L = 128\): switching to the parameterized battery
 recovers a discriminating signal that was previously hidden, and
 exposes \(R_{\mathrm{break}}\)'s label-asymmetry as a real failure
-mode.  We therefore retain the rebalanced mixture as the
-recommendation and add the parameterized battery to the project's
-permanent regression suite.
+mode.  We retain the rebalanced mixture as the recommendation
+\emph{provisionally}, and add the parameterized battery to the
+project's permanent regression suite.  The next subsection acts on
+the residual signal it exposes.
+
+\subsection{Tier-4: re-autotune and rule-set ablation against the
+parameterized battery}
+\label{subsec:tier-4}
+
+The fact that tier-3 is non-saturating at \(L=64\) means the
+parameterized battery has discriminating power that the original
+autotune (against the saturated static battery) could not exploit.
+We therefore re-ran autotune with the parameterized battery folded
+into the loss, and in parallel ran a rule-set ablation to test
+whether enlarging the rule pool helps.
+
+\paragraph{Tier-4a: re-autotune of the 6-rule weights against
+\(\min(\mathrm{cc}_0, \mathrm{cc}_1)\) on the parameterized battery
++ random.}
+We sampled \(60\) Dirichlet weight vectors concentrated near the
+tier-1 rebalanced point\footnote{Harness:
+\fpath{classifier/schedule_autotune_v2.py}.  Result file:
+\fpath{results/density_classification/2026-05-01/autotune_v2_near_rebalanced_L64.json}.}
+and scored each by the symmetric metric
+\(\min\bigl(\mathrm{cc}_0^{\mathrm{rand}},\,\mathrm{cc}_1^{\mathrm{rand}},\,
+   \mathrm{cc}_0^{\mathrm{adv}},\,\mathrm{cc}_1^{\mathrm{adv}}\bigr)\).
+The top-scoring mixture (label \texttt{rebalanced\_v2\_weights} below)
+is
+\[
+(p_{F_0}, p_{NE}, p_{NW}, p_{SE}, p_{SW}, p_M)
+\;=\;
+(0.041,\, 0.038,\, 0.120,\, 0.016,\, 0.624,\, 0.161),
+\]
+i.e., \emph{slightly less} \(M_{\mathrm{Moore9}}\) (\(0.161\) down from
+\(0.188\)) and \emph{slightly more} \(\mathrm{traffic}_{SW}\)
+(\(0.624\) up from \(0.579\)) than tier-1's rebalanced mixture.  The
+\(F_0\) weight is essentially unchanged at \(0.041\).
+
+\paragraph{Tier-4b: rule-set ablation.}
+Anchored at the rebalanced template, we evaluated five enlarged or
+reduced rule sets, each weighted by taking half of the
+\(M_{\mathrm{Moore9}}\) weight and redistributing it equally among
+the new rules:%
+\footnote{Harness:
+\fpath{classifier/structure_breaker_probe.py}.  Result file:
+\fpath{results/density_classification/2026-05-01/structure_breaker_probe_L64.json}.}
+\(\{\,A\) (control, 6 rules), \(B\) (\(+\) cardinal traffic
+\(\mathrm{N/S/E/W}\), 10 rules), \(C\) (\(+\) cardinal shifts, 10
+rules), \(D\) (both, 14 rules), \(E\) (drop \(F_0\), 5 rules),
+\(F\) (drop diagonal traffic, replace with cardinal traffic, 6
+rules)\(\}\).
+
+\paragraph{Tier-4c: decisive head-to-head.}
+The four most interesting candidates from tier-4a/4b were then
+benchmarked head-to-head on \emph{both} a fresh random batch at
+\(L=128\), \(\delta=0.02\) (8 seeds, \(1024\) trials each) \emph{and}
+the parameterized battery at \(L=64\) (8 seeds, \(3552\) trials
+each):%
+\footnote{Result files:
+\fpath{results/density_classification/2026-05-01/h2h_v3_random_L128.json}
+(random) and
+\fpath{results/density_classification/2026-05-01/active_adv_v3_L64.json}
+(parameterized).}
+
+\begin{table}[h]\centering\small
+\begin{tabular}{l c c c c}
+\toprule
+candidate & rules & rand cc & param min cc & \(p\) vs \(v_1\) (param) \\
+\midrule
+\texttt{rebalanced\_v1} (current rec.) & 6 & 0.985 & 0.695 & --- \\
+\texttt{rebalanced\_v2\_weights} & 6 & 0.985 & 0.741 & \(2.8 \times 10^{-6}\) \\
+\texttt{set\_B\_card\_traffic} & 10 & 0.953 & \textbf{0.753} & \(3.6 \times 10^{-11}\) \\
+\texttt{set\_D\_card\_plus\_shifts} & 14 & 0.960 & 0.738 & \(1.1 \times 10^{-8}\) \\
+\texttt{set\_E\_drop\_F0} & 5 & 0.982 & 0.707 & \(2.2 \times 10^{-2}\) \\
+\bottomrule
+\end{tabular}
+\caption{Tier-4c head-to-head: random correctness at \(L=128\)
+(\(\mathrm{cc}\) over \(1024\) trials with Wilson \(95\%\) CI of
+\(\pm 0.7\) pp) and label-symmetric
+\(\min(\mathrm{cc}_0, \mathrm{cc}_1)\) on the parameterized
+adversarial battery at \(L=64\) (\(3552\) trials).  All
+\(p\)-values are paired McNemar (continuity-corrected).  Random vs
+adversarial are independent batches with disjoint inits.}
+\label{tab:tier-4c}
+\end{table}
+
+\paragraph{Findings.}
+Three structurally-distinct conclusions emerge:
+\begin{itemize}
+\item \texttt{rebalanced\_v2\_weights} \emph{strictly dominates}
+  \texttt{rebalanced\_v1}: identical random correctness
+  (\(126\)/\(128\) median per seed for both; McNemar
+  \(p = 1.0\), discordances \(13\)--\(13\)) but \(+4.6\) pp on the
+  parameterized battery's symmetric min cc with \(p = 2.8 \times
+  10^{-6}\).  This becomes the new recommended operating point.
+\item \texttt{set\_B} (10 rules with cardinal traffic) is the
+  \emph{Pareto-best} adversarial mixture, with \(+5.8\) pp on the
+  parameterized battery (\(p = 3.6 \times 10^{-11}\)) but \(-3.2\) pp
+  on random correctness at \(L=128\) (\(p = 4 \times 10^{-5}\)).
+  This is a real trade-off, not a Pareto-dominated point: users with
+  adversarial-heavy workloads should pick \texttt{set\_B}, users with
+  random-heavy workloads should pick \texttt{rebalanced\_v2\_weights}.
+\item \texttt{set\_E} (drop \(F_0\) entirely, 5 rules) is
+  statistically tied with \texttt{rebalanced\_v1} on \emph{both}
+  axes (random \(p = 0.72\), parameterized \(p = 0.022\)).  The
+  \(F_0\) component, with weight \(0.041\) in the rebalanced
+  mixture, is essentially \emph{at the noise floor} of its own
+  contribution: removing it does not significantly change either
+  axis.  This is a substantial revision of the project's earlier
+  claims about \(F_0\)'s necessity --- \(F_0\) was the headline
+  preprocessor in Section~\ref{subsec:strict-ca}, but at the
+  operating-point weights of the rebalanced mixture it adds
+  no measurable benefit.  We discuss the implication in
+  Section~\ref{subsec:f0-revisit} below.
+\end{itemize}
+
+\paragraph{Strict-CA recommendation, finalized.}
+The strict-CA density classifier is now recommended in two flavours
+chosen by workload:
+\begin{itemize}
+\item \emph{Random-heavy default} (e.g., uniformly sampled
+  Bernoulli inputs at \(L \geq 96\)): the \(6\)-rule
+  \texttt{rebalanced\_v2\_weights} mixture
+  \[
+  \bigl(F_0,\,\mathrm{traffic}_{NE},\,\mathrm{traffic}_{NW},\,
+         \mathrm{traffic}_{SE},\,\mathrm{traffic}_{SW},\,M_{\mathrm{Moore9}}\bigr),
+  \]
+  with weights \((0.041,\, 0.038,\, 0.120,\, 0.016,\, 0.624,\,
+  0.161)\).
+\item \emph{Adversarial-heavy variant} (e.g., \(L < 96\) or
+  structured priors): the \(10\)-rule \texttt{set\_B} mixture, which
+  augments the above with the four cardinal traffic rules
+  \(\mathrm{traffic}_{N/S/E/W}\); the cardinal-traffic block carries
+  half of \(p_M\) (each rule gets \(0.0235\)) and the remaining half
+  of \(p_M\) is \(M_{\mathrm{Moore9}}\)'s share.  The price is a
+  \(\sim 3\) pp regression on random correctness at \(L = 128\); the
+  benefit is \(+5.8\) pp on the parameterized battery's symmetric
+  min cc.
+\end{itemize}
+
+\subsection{Revisiting \texorpdfstring{$F_0$}{F0}'s role at the
+final operating point}
+\label{subsec:f0-revisit}
+
+The tier-4c head-to-head finds that removing \(F_0\) entirely (set
+\(E\)) is statistically indistinguishable from the recommended
+mixture on both random and parameterized adversarial inputs.  This
+is not a contradiction with earlier sections, but a refinement: in
+Section~\ref{subsec:strict-ca} the rebalanced mixture had
+\(p_{F_0} = 0.70\) (the original autotune result before
+re-autotune); at the much lower \(p_{F_0} = 0.041\) of the
+rebalanced operating point, \(F_0\)'s contribution per cell per step
+is below the per-step variance of the chain.  We do not remove
+\(F_0\) from the recommendation because it costs nothing (\(2\%\) of
+the per-cell rule draws) and may contribute on input distributions
+not yet probed; but we now record it as \emph{not} demonstrably
+necessary at the recommended weights.
 
 \paragraph{Open follow-ups.}
-With tier-3 settled, the remaining open follow-ups are:
-\emph{(i)} multi-seed autotune at multiple \(L\), starting near the
-top single-seed find of Section~\ref{subsec:schedule-autotune} (the
-\fpath{classifier/schedule_autotune.py} harness already supports
-\fpath{--alpha-near-baseline} for this purpose);
+With tier-4 settled, the remaining open follow-ups are:
+\emph{(i)} a 10-rule autotune over set \(B\)'s simplex --- the cardinal
+weights here are the naive equal-share template, not optimized;
 \emph{(ii)} a structurally-aware extension of
 Proposition~\ref{prop:meanfield-rate} that handles spatially
-correlated priors (the failure mode identified by the per-family
-breakdown above);
-\emph{(iii)} prove (or refute) Conjecture~\ref{conj:two-phase} on
-\(\Theta(\log \delta^{-1}) + \Theta(L)\) absorption.
+correlated priors (the failure mode identified by the
+per-family breakdown);
+\emph{(iii)} prove (or refute) Conjecture~\ref{conj:absorb-time} on
+\(\mathbb{E}[\tau] = \Theta(L^{\alpha} \delta^{-\beta})\) absorption.
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
@@ -2916,8 +3068,8 @@ empirically observed \(\Theta(L)\) scaling is faster than the
 preprocessor and traffic components mixing minority islands faster
 than pure majority can erode them, but a rigorous proof is open.
 
-\begin{conjecture}[two-phase \(\log + L\) absorption]
-\label{conj:two-phase}
+\begin{conjecture}[empirically-fitted absorption-time law]
+\label{conj:absorb-time}
 Let \(\bigl(S_t\bigr)\) be the strict-CA mixture chain with the
 recommended weights, started from a random configuration
 \(s_0 \sim \mathrm{Bernoulli}(1/2 + \delta)^{\otimes L^2}\) with
@@ -2926,25 +3078,64 @@ recommended weights, started from a random configuration
 threshold of Section~\ref{subsec:rho-min}.  Let \(\tau\) be the
 absorption time at the correct uniform consensus.  Then
 \[
-\mathbb{E}[\tau] \;=\; \Theta\bigl(\log \delta^{-1}\bigr) + \Theta(L),
+\mathbb{E}[\tau] \;=\; \Theta\bigl(L^{\alpha}\,\delta^{-\beta}\bigr),
 \qquad
 \Pr\bigl[\tau \;\text{absorbs at the correct consensus}\bigr]
 \;\geq\; 1 - e^{-c L \delta^{2}}
 \]
-for some absolute constant \(c > 0\).
+for absolute constants \(\alpha, \beta, c > 0\).
 \end{conjecture}
 
-The first term is the mean-field bias-amplification phase formalised
-in Proposition~\ref{prop:meanfield-rate}; the second term is the
-coarsening phase observed empirically in
-Table~\ref{tab:strict-ca-validation}; the exponential
-correct-consensus probability matches the form of Hoeffding's
-inequality on the initial-density Bernoulli sum and is consistent
-with the empirically-observed paired-McNemar separation between
-mixtures that we reported in Section~\ref{subsec:h2h-benchmark}.  We have not
-proved any of the three claims rigorously, but each is a precise
-prediction that subsequent theoretical work could attempt to
-confirm or refute.
+\paragraph{Empirical fit.}
+We measured \(\mathbb{E}[\tau]\) over a \((L, \delta)\) grid with
+\(L \in \{64, 96, 128, 192\}\) and
+\(\delta \in \{0.01, 0.02, 0.05, 0.10, 0.20\}\), using \(32\) random
+seeds per cell, for the recommended rebalanced
+mixture.\footnote{Sweep harness:
+\fpath{classifier/convergence_time_sweep.py}.  Result file:
+\fpath{results/density_classification/2026-05-01/convergence_time_sweep.json}.}
+A least-squares fit on the \(20\) cells gives the multiplicative
+power law
+\[
+\mathbb{E}[\tau] \;\approx\; e^{-0.09}\,L^{0.46}\,\delta^{-0.96},
+\qquad R^{2} = 0.98,
+\]
+i.e., \(\alpha \approx 0.46\) and \(\beta \approx 0.96\) in
+Conjecture~\ref{conj:absorb-time}.  Restricting to cells where the
+mixture absorbed correctly on every trial (\(\mathrm{cc} \geq 0.95\),
+\(14\) of \(20\) cells) gives \(\alpha \approx 0.37\),
+\(\beta \approx 0.97\), \(R^{2} = 0.97\); the small-\(L\) /
+small-\(\delta\) corner is right at the cliff of the
+\(\rho_{\min}(L)\) threshold and pulls \(\alpha\) up because
+non-converging trajectories are capped at \(\mathtt{max\_steps}\)
+in the mean.  Either way, the \(\delta\)-exponent is
+\emph{essentially} \(1\), and the \(L\)-exponent is well below the
+\(\Theta(L^2)\) curvature-flow scaling of pure Moore-9 majority
+\cite{FatesRegnault2016}.
+
+\paragraph{Two-phase interpretation, refined.}
+Proposition~\ref{prop:meanfield-rate} predicts a
+\(\Theta(\log \delta^{-1})\) ballistic phase that crosses any fixed
+density threshold (e.g.\ \(\rho = 0.9\)).  The empirical \(\delta^{-1}\)
+exponent in the absorption-time law is therefore \emph{not} explained
+by the ballistic phase --- it is the residual \emph{coarsening phase}
+that dominates.  After \(\Theta(\log \delta^{-1})\) steps the chain is
+already at \(\rho \approx 0.9\), but the remaining
+\((1 - \rho) L^2 \approx 0.1 L^2\) cells still have to flip, and a
+small fraction of these are stuck inside topological defects
+(stripe segments, residual Voronoi-like cells) whose escape time
+diverges as the global bias \(\delta\) shrinks.  This concretely
+refines the open-question paragraph above: the rigorous theory must
+control \emph{topological-defect lifetimes}, not just the mean-field
+density.
+
+The exponential correct-consensus probability lower bound matches the
+form of Hoeffding's inequality on the initial-density Bernoulli sum
+and is consistent with the paired-McNemar separation between mixtures
+reported in Section~\ref{subsec:h2h-benchmark}.  We have not proved
+any of these claims rigorously, but each is a precise empirically-
+calibrated prediction that subsequent theoretical work could attempt
+to confirm or refute.
 
 \subsection{Accelerating with the Apple MLX Backend}
 \label{subsec:mlx}

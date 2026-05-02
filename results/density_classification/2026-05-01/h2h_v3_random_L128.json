@@ -1,0 +1,411 @@
+{
+  "args": {
+    "candidates_file": "classifier/h2h_candidates_v3.json",
+    "L": 128,
+    "delta": 0.02,
+    "n_seeds": 8,
+    "n_random_per_side": 64,
+    "adv_densities": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "max_steps_mult": 64,
+    "seed_base": 2026,
+    "output": "results/density_classification/2026-05-01/h2h_v3_random_L128.json"
+  },
+  "candidates": [
+    {
+      "name": "rebalanced_v1",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj"
+      ],
+      "weights": [
+        0.041,
+        0.049,
+        0.126,
+        0.017,
+        0.579,
+        0.188
+      ]
+    },
+    {
+      "name": "rebalanced_v2_weights",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj"
+      ],
+      "weights": [
+        0.04094834116264222,
+        0.037964809068865284,
+        0.11971909455899025,
+        0.016103503474545,
+        0.6244987253625784,
+        0.1607655263723788
+      ]
+    },
+    {
+      "name": "set_B_card_traffic_10rule",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "traffic_n",
+        "traffic_s",
+        "traffic_e",
+        "traffic_w",
+        "moore_maj"
+      ],
+      "weights": [
+        0.041,
+        0.049,
+        0.126,
+        0.017,
+        0.579,
+        0.0235,
+        0.0235,
+        0.0235,
+        0.0235,
+        0.094
+      ]
+    },
+    {
+      "name": "set_D_card_plus_shifts_14rule",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "traffic_n",
+        "traffic_s",
+        "traffic_e",
+        "traffic_w",
+        "shift_n",
+        "shift_s",
+        "shift_e",
+        "shift_w",
+        "moore_maj"
+      ],
+      "weights": [
+        0.041,
+        0.049,
+        0.126,
+        0.017,
+        0.579,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.01175,
+        0.094
+      ]
+    },
+    {
+      "name": "set_E_drop_F0_5rule",
+      "rules": [
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj"
+      ],
+      "weights": [
+        0.05925,
+        0.13625,
+        0.02725,
+        0.58925,
+        0.188
+      ]
+    }
+  ],
+  "summary": {
+    "rebalanced_v1": {
+      "random_correct": 1009,
+      "random_total": 1024,
+      "random_cc": 0.9853515625,
+      "random_ci_95": [
+        0.9759719732670052,
+        0.9911031091192303
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 381.0625,
+      "median_steps_adv_mean": 27.75
+    },
+    "rebalanced_v2_weights": {
+      "random_correct": 1009,
+      "random_total": 1024,
+      "random_cc": 0.9853515625,
+      "random_ci_95": [
+        0.9759719732670052,
+        0.9911031091192303
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 358.375,
+      "median_steps_adv_mean": 32.375
+    },
+    "set_B_card_traffic_10rule": {
+      "random_correct": 976,
+      "random_total": 1024,
+      "random_cc": 0.953125,
+      "random_ci_95": [
+        0.9383986585111423,
+        0.9644641950647395
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 694.1875,
+      "median_steps_adv_mean": 51.9375
+    },
+    "set_D_card_plus_shifts_14rule": {
+      "random_correct": 983,
+      "random_total": 1024,
+      "random_cc": 0.9599609375,
+      "random_ci_95": [
+        0.9461335008019472,
+        0.9703501285821913
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 685.75,
+      "median_steps_adv_mean": 52.625
+    },
+    "set_E_drop_F0_5rule": {
+      "random_correct": 1006,
+      "random_total": 1024,
+      "random_cc": 0.982421875,
+      "random_ci_95": [
+        0.9723850217017403,
+        0.9888525853380993
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 402.0,
+      "median_steps_adv_mean": 28.125
+    }
+  },
+  "paired_mcnemar": [
+    {
+      "a": "rebalanced_v1",
+      "b": "rebalanced_v2_weights",
+      "kind": "random",
+      "a_only_correct": 13,
+      "b_only_correct": 13,
+      "n_disagreements": 26,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "rebalanced_v2_weights",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_B_card_traffic_10rule",
+      "kind": "random",
+      "a_only_correct": 46,
+      "b_only_correct": 13,
+      "n_disagreements": 59,
+      "p_value_two_sided": 1.9167786796225883e-05
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_B_card_traffic_10rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "random",
+      "a_only_correct": 39,
+      "b_only_correct": 13,
+      "n_disagreements": 52,
+      "p_value_two_sided": 0.00040954145378258033
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "random",
+      "a_only_correct": 17,
+      "b_only_correct": 14,
+      "n_disagreements": 31,
+      "p_value_two_sided": 0.720100131817162
+    },
+    {
+      "a": "rebalanced_v1",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_B_card_traffic_10rule",
+      "kind": "random",
+      "a_only_correct": 47,
+      "b_only_correct": 14,
+      "n_disagreements": 61,
+      "p_value_two_sided": 2.719187682281854e-05
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_B_card_traffic_10rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "random",
+      "a_only_correct": 40,
+      "b_only_correct": 14,
+      "n_disagreements": 54,
+      "p_value_two_sided": 0.0005354355028570623
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "random",
+      "a_only_correct": 16,
+      "b_only_correct": 13,
+      "n_disagreements": 29,
+      "p_value_two_sided": 0.711071103811264
+    },
+    {
+      "a": "rebalanced_v2_weights",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "set_B_card_traffic_10rule",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "random",
+      "a_only_correct": 36,
+      "b_only_correct": 43,
+      "n_disagreements": 79,
+      "p_value_two_sided": 0.49989687686032663
+    },
+    {
+      "a": "set_B_card_traffic_10rule",
+      "b": "set_D_card_plus_shifts_14rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "set_B_card_traffic_10rule",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "random",
+      "a_only_correct": 18,
+      "b_only_correct": 48,
+      "n_disagreements": 66,
+      "p_value_two_sided": 0.00028711844966164033
+    },
+    {
+      "a": "set_B_card_traffic_10rule",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "set_D_card_plus_shifts_14rule",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "random",
+      "a_only_correct": 17,
+      "b_only_correct": 40,
+      "n_disagreements": 57,
+      "p_value_two_sided": 0.003201543767450382
+    },
+    {
+      "a": "set_D_card_plus_shifts_14rule",
+      "b": "set_E_drop_F0_5rule",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    }
+  ],
+  "elapsed_total_seconds": 20035.340801000595
+}

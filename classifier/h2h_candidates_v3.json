@@ -1,0 +1,49 @@
+[
+  {
+    "name": "rebalanced_v1",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.188]
+  },
+  {
+    "name": "rebalanced_v2_weights",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.04094834116264222, 0.037964809068865284, 0.11971909455899025, 0.016103503474545, 0.6244987253625784, 0.1607655263723788]
+  },
+  {
+    "name": "set_B_card_traffic_10rule",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "traffic_n", "traffic_s", "traffic_e", "traffic_w",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.0235, 0.0235, 0.0235, 0.0235, 0.094]
+  },
+  {
+    "name": "set_D_card_plus_shifts_14rule",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "traffic_n", "traffic_s", "traffic_e", "traffic_w",
+      "shift_n", "shift_s", "shift_e", "shift_w",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.01175, 0.01175, 0.01175, 0.01175, 0.01175, 0.01175, 0.01175, 0.01175, 0.094]
+  },
+  {
+    "name": "set_E_drop_F0_5rule",
+    "rules": [
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.05925, 0.13625, 0.02725, 0.58925, 0.188]
+  }
+]
