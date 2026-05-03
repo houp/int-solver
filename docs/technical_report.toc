@@ -113,15 +113,16 @@
 \contentsline {paragraph}{Findings.}{43}{section*.70}%
 \contentsline {paragraph}{Strict-CA recommendation, finalized after tier-5.}{43}{section*.71}%
 \contentsline {subsection}{\numberline {6.17}Revisiting $F_0$'s role at the final operating point}{44}{subsection.6.17}%
-\contentsline {paragraph}{Open follow-ups, after tier-5.}{44}{section*.72}%
+\contentsline {paragraph}{Tier-6: 14-rule autotune, attempted and dominated.}{44}{section*.72}%
+\contentsline {paragraph}{Open follow-ups, after tier-6.}{44}{section*.73}%
 \contentsline {subsection}{\numberline {6.18}Convergence Sketch for the Strict-CA Classifier}{44}{subsection.6.18}%
-\contentsline {paragraph}{Markov chain setup.}{44}{section*.73}%
-\contentsline {paragraph}{Empirical agreement and gap.}{46}{section*.74}%
-\contentsline {paragraph}{Which absorbing state? --- the open question.}{46}{section*.75}%
-\contentsline {paragraph}{Convergence rate.}{46}{section*.76}%
-\contentsline {paragraph}{Empirical fit.}{47}{section*.77}%
-\contentsline {paragraph}{Two-phase interpretation, refined.}{47}{section*.78}%
-\contentsline {subsection}{\numberline {6.19}Accelerating with the Apple MLX Backend}{47}{subsection.6.19}%
+\contentsline {paragraph}{Markov chain setup.}{45}{section*.74}%
+\contentsline {paragraph}{Empirical agreement and gap.}{46}{section*.75}%
+\contentsline {paragraph}{Which absorbing state? --- the open question.}{46}{section*.76}%
+\contentsline {paragraph}{Convergence rate.}{47}{section*.77}%
+\contentsline {paragraph}{Empirical fit.}{47}{section*.78}%
+\contentsline {paragraph}{Two-phase interpretation, refined.}{47}{section*.79}%
+\contentsline {subsection}{\numberline {6.19}Accelerating with the Apple MLX Backend}{48}{subsection.6.19}%
 \contentsline {subsection}{\numberline {6.20}Discussion}{48}{subsection.6.20}%
-\contentsline {subsection}{\numberline {6.21}Implementation}{48}{subsection.6.21}%
+\contentsline {subsection}{\numberline {6.21}Implementation}{49}{subsection.6.21}%
 \contentsline {section}{\numberline {7}Conclusion}{49}{section.7}%

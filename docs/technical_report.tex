@@ -2951,23 +2951,61 @@ the per-cell rule draws) and may contribute on input distributions
 not yet probed; but we now record it as \emph{not} demonstrably
 necessary at the recommended weights.
 
-\paragraph{Open follow-ups, after tier-5.}
-Tier-5 closed the 10-rule autotune follow-up.  The remaining open
-items are:
+\paragraph{Tier-6: 14-rule autotune, attempted and dominated.}
+Following the resumption recipe in commit \texttt{8e0bdee}, we ran
+a 14-rule autotune (\(F_0 + 4\) diagonal traffic \(+ 4\) cardinal
+traffic \(+ 4\) cardinal shifts \(+ M_{\mathrm{Moore9}}\)) anchored
+near the equal-share \texttt{set\_D} template.  The single-seed top-1
+score was \(0.7928\), suggesting a \(+2.2\) pp lead over
+\texttt{autotune\_10rule\_top1}'s single-seed
+\(0.7703\).  We then ran the same multi-seed paired McNemar
+validation as tier-5 against the existing Pareto frontier:
+\begin{table}[h]\centering\small
+\begin{tabular}{l c c c}
+\toprule
+candidate & rules & rand cc \([95\%\)~CI\(]\) & param min cc \\
+\midrule
+\texttt{rebalanced\_v2\_weights}     & 6 & \textbf{0.985} \([0.976, 0.991]\) & 0.728 \\
+\texttt{autotune\_10rule\_top1}      & 10 & 0.947 \([0.932, 0.959]\) & \textbf{0.759} \\
+\texttt{autotune\_14rule\_top1}      & 14 & 0.943 \([0.928, 0.956]\) & 0.754 \\
+\texttt{autotune\_14rule\_top5mean}  & 14 & 0.937 \([0.920, 0.950]\) & 0.760 \\
+\bottomrule
+\end{tabular}
+\caption{Tier-6 head-to-head.  \(8\) seeds each.  Random at
+\(L=128\), \(1024\) trials per candidate; parameterized adversarial
+at \(L=64\), \(3552\) trials per candidate, label-symmetric
+\(\min(\mathrm{cc}_0, \mathrm{cc}_1)\).  Result files
+\fpath{results/density_classification/2026-05-03/h2h_v5_random_L128.json}
+and \fpath{.../active_adv_v5_L64.json}.}
+\label{tab:tier-6}
+\end{table}
+
+Paired McNemar \texttt{autotune\_14rule\_top1} vs
+\texttt{autotune\_10rule\_top1}: random \(p = 0.77\) (a-only \(53\),
+b-only \(49\)), parameterized \(p = 0.95\) (a-only \(526\),
+b-only \(529\)).  Both axes are statistically tied --- the 14-rule
+mixture has more rules (\(40\%\) larger LUT-fetch cost) with no
+detectable benefit.  We therefore retain
+\texttt{autotune\_10rule\_top1} as the adversarial-heavy variant.
+
+This is also a methodological data point: the single-seed top-1
+score from a Dirichlet random search is biased upward by
+\(\approx 2\) pp relative to multi-seed mean (\(0.770 \to 0.748\)
+for the 10-rule case in tier-5; \(0.793 \to 0.754\) here).  Future
+mixture comparisons should always include multi-seed paired
+validation before declaring a win.
+
+\paragraph{Open follow-ups, after tier-6.}
+With the 14-rule autotune closed as a negative result, the only
+remaining open items are theoretical:
 \emph{(i)} a structurally-aware extension of
 Proposition~\ref{prop:meanfield-rate} that handles spatially
-correlated priors (the failure mode identified by the
-per-family breakdown);
+correlated priors (the failure mode identified by the per-family
+breakdown);
 \emph{(ii)} prove (or refute) Conjecture~\ref{conj:absorb-time} on
-\(\mathbb{E}[\tau] = \Theta(L^{\alpha} \delta^{-\beta})\) absorption,
-specifically the topological-defect-lifetime contribution to the
-\(\delta^{-1}\) factor;
-\emph{(iii)} explore an even larger rule pool (e.g., adding the
-remaining 4 cardinal shifts to the 10-rule autotune pool, giving 14
-rules) under a longer autotune budget; the structure-breaker probe
-suggested set \(D\) (14 rules) was non-dominant at the
-equal-share template, but it is plausible that an autotuned 14-rule
-mixture lies above the current Pareto frontier.
+\(\mathbb{E}[\tau] = \Theta(L^{\alpha} \delta^{-\beta})\)
+absorption, specifically the topological-defect-lifetime
+contribution to the \(\delta^{-1}\) factor.
 
 \subsection{Convergence Sketch for the Strict-CA Classifier}
 \label{subsec:strict-ca-theory}
