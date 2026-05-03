@@ -1,0 +1,40 @@
+[
+  {
+    "name": "baseline_published",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.70, 0.05, 0.05, 0.05, 0.05, 0.10]
+  },
+  {
+    "name": "r_break_augmented",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj",
+      "witek:21535079"
+    ],
+    "weights": [0.65, 0.05, 0.05, 0.05, 0.05, 0.10, 0.05]
+  },
+  {
+    "name": "autotune_rebalanced",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.188]
+  },
+  {
+    "name": "combined_r_break_plus_rebalanced",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj",
+      "witek:21535079"
+    ],
+    "weights": [0.04, 0.05, 0.12, 0.02, 0.55, 0.17, 0.05]
+  }
+]

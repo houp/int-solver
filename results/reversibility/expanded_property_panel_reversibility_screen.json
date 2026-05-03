@@ -1,0 +1,94 @@
+{
+  "binary_path": "expanded_property_panel_nonzero.bin",
+  "metadata_path": "expanded_property_panel_nonzero.json",
+  "total_rules": 133713,
+  "trivial_reversible_rules": 9,
+  "nontrivial_rules": 133704,
+  "stages": [
+    {
+      "stage": "particle-sector:2@4x4",
+      "tested_rules": 133704,
+      "rejected_rules": 119484,
+      "surviving_rules": 14220
+    },
+    {
+      "stage": "particle-sector:3@4x4",
+      "tested_rules": 14220,
+      "rejected_rules": 13456,
+      "surviving_rules": 764
+    },
+    {
+      "stage": "hole-sector:1@4x4",
+      "tested_rules": 764,
+      "rejected_rules": 0,
+      "surviving_rules": 764
+    },
+    {
+      "stage": "hole-sector:2@4x4",
+      "tested_rules": 764,
+      "rejected_rules": 616,
+      "surviving_rules": 148
+    },
+    {
+      "stage": "torus:3x3",
+      "tested_rules": 148,
+      "rejected_rules": 132,
+      "surviving_rules": 16
+    }
+  ],
+  "surviving_rule_count": 16,
+  "surviving_legacy_indices": [
+    1257,
+    2704,
+    3775,
+    9390,
+    16812,
+    17673,
+    37886,
+    39393,
+    69869,
+    74003,
+    92481,
+    108414,
+    118603,
+    119810,
+    124120,
+    126195
+  ],
+  "surviving_stable_indices": [
+    127142,
+    90306,
+    89942,
+    75970,
+    43055,
+    4010,
+    108616,
+    52582,
+    3722,
+    15468,
+    111151,
+    130629,
+    61602,
+    59931,
+    42561,
+    46721
+  ],
+  "surviving_stable_ids": [
+    "49b77993e37417b7204e3691920ada756330c1f2e11e8a65d0aecfe395758ed7",
+    "76b223c548e0f481cd0cadbb49def68f198fd7b6e2b252ddf3c4f0197e4fd59d",
+    "0ccdf669802dcf690bf62dd65a311c93e210c726f845c710b62cae59b663afce",
+    "2eb27be27db8ce46e86ab2b05a451f5271dab3fbf1ed4fea921dadd8b1b9f88e",
+    "c2da5951cce9d7535f6975a11d6df96cf8b0e1b09914a8cebc5b1de020ca76c2",
+    "031fcca44fffaa9f0033bc5556013381185bc8141146288a9611b9259dc8a637",
+    "3c27c4b7667eb5eb14582a880ab04ad33bd14050e7e9b76b57c6de83c81e3631",
+    "8f6652013a043b2a96acdaf5c63e416a191d656092598287d0c676703db8bf6b",
+    "e679173c8e4de228ee15ca0dd8e55d3641a8ba51b4f871b1f2f1b56aac0d62fd",
+    "d8c7e97578bac99ab2d6df95cca9f334e7bde6ff8ebfc73899179fe068b53f5a",
+    "c93b34359c476342045fb00a595d574c5379577b0e4a9f206b6f7add5073b783",
+    "bcb2ec769989ee9a1c09673f09a86dd184f6b9e4711210c04a5b055e1cfeae87",
+    "1fa2cf090b656245335d4164f78aa6681ed5d142f92d23eab2d31ef7eaaec773",
+    "0746ae08faf2c184dc0abb1cad3c74d9a9470cf6267bc396df9659d749caa735",
+    "ba15ab0e41835035b3f4c7c12535ed82b7bc5065cff58108acd6cf0ae06f8128",
+    "a2dd8ba227aba88ac1ea0d0267798f61a84f3f4647eda8be3ad09c291036ccd0"
+  ]
+}

@@ -1,0 +1,1292 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "backend": "numpy",
+  "grid": [
+    32,
+    32
+  ],
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "trials": 16,
+  "steps_per_rule": [
+    1,
+    2
+  ],
+  "block_repetitions": [
+    16,
+    32,
+    64
+  ],
+  "amplifier": "majority_vn",
+  "amplifier_steps": [
+    32,
+    64
+  ],
+  "majority_metric": "moore",
+  "top_k": 30,
+  "results": [
+    {
+      "schedule_name": "cand_b9b31aebc_2_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0142822265625,
+      "min_orthogonal_disagreement": 0.5186767578125,
+      "min_checkerboard_2x2_fraction": 0.03936767578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0174560546875,
+          "preprocess_orthogonal_disagreement": 0.5323486328125,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5389404296875,
+          "local_density_variance": 0.024323951452970505,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.325927734375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0142822265625,
+          "preprocess_orthogonal_disagreement": 0.5186767578125,
+          "preprocess_checkerboard_2x2_fraction": 0.03936767578125,
+          "local_majority_agreement": 0.52490234375,
+          "local_density_variance": 0.026346871629357338,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.63665771484375
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_2_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0142822265625,
+      "min_orthogonal_disagreement": 0.5186767578125,
+      "min_checkerboard_2x2_fraction": 0.03936767578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0174560546875,
+          "preprocess_orthogonal_disagreement": 0.5323486328125,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5389404296875,
+          "local_density_variance": 0.024323951452970505,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.325927734375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0142822265625,
+          "preprocess_orthogonal_disagreement": 0.5186767578125,
+          "preprocess_checkerboard_2x2_fraction": 0.03936767578125,
+          "local_majority_agreement": 0.52490234375,
+          "local_density_variance": 0.026346871629357338,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.63702392578125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_1_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.65142822265625
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_1_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.651123046875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.65142822265625
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.651123046875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_2_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.65142822265625
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_2_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0054931640625,
+      "min_orthogonal_disagreement": 0.50238037109375,
+      "min_checkerboard_2x2_fraction": 0.02081298828125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0054931640625,
+          "preprocess_orthogonal_disagreement": 0.50238037109375,
+          "preprocess_checkerboard_2x2_fraction": 0.02081298828125,
+          "local_majority_agreement": 0.55877685546875,
+          "local_density_variance": 0.012626300565898418,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.35418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0079345703125,
+          "preprocess_orthogonal_disagreement": 0.50390625,
+          "preprocess_checkerboard_2x2_fraction": 0.02410888671875,
+          "local_majority_agreement": 0.555419921875,
+          "local_density_variance": 0.01202244870364666,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.651123046875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_1_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.84375,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.5205078125,
+      "min_checkerboard_2x2_fraction": 0.0672607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.5242919921875,
+          "preprocess_checkerboard_2x2_fraction": 0.07110595703125,
+          "local_majority_agreement": 0.5347900390625,
+          "local_density_variance": 0.024913202971220016,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.34112548828125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.5205078125,
+          "preprocess_checkerboard_2x2_fraction": 0.0672607421875,
+          "local_majority_agreement": 0.5435791015625,
+          "local_density_variance": 0.024960394948720932,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.5860595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_1_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.84375,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.5205078125,
+      "min_checkerboard_2x2_fraction": 0.0672607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.5242919921875,
+          "preprocess_checkerboard_2x2_fraction": 0.07110595703125,
+          "local_majority_agreement": 0.5347900390625,
+          "local_density_variance": 0.024913202971220016,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.34124755859375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.5205078125,
+          "preprocess_checkerboard_2x2_fraction": 0.0672607421875,
+          "local_majority_agreement": 0.5435791015625,
+          "local_density_variance": 0.024960394948720932,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.5860595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.84375,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.5205078125,
+      "min_checkerboard_2x2_fraction": 0.0672607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.5242919921875,
+          "preprocess_checkerboard_2x2_fraction": 0.07110595703125,
+          "local_majority_agreement": 0.5347900390625,
+          "local_density_variance": 0.024913202971220016,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.34112548828125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.5205078125,
+          "preprocess_checkerboard_2x2_fraction": 0.0672607421875,
+          "local_majority_agreement": 0.5435791015625,
+          "local_density_variance": 0.024960394948720932,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.5860595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.84375,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.5205078125,
+      "min_checkerboard_2x2_fraction": 0.0672607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.5242919921875,
+          "preprocess_checkerboard_2x2_fraction": 0.07110595703125,
+          "local_majority_agreement": 0.5347900390625,
+          "local_density_variance": 0.024913202971220016,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.34124755859375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.5205078125,
+          "preprocess_checkerboard_2x2_fraction": 0.0672607421875,
+          "local_majority_agreement": 0.5435791015625,
+          "local_density_variance": 0.024960394948720932,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.5860595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_2_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0262451171875,
+      "min_orthogonal_disagreement": 0.51824951171875,
+      "min_checkerboard_2x2_fraction": 0.060791015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.52386474609375,
+          "preprocess_checkerboard_2x2_fraction": 0.06829833984375,
+          "local_majority_agreement": 0.5335693359375,
+          "local_density_variance": 0.02503828890621662,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.333251953125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0264892578125,
+          "preprocess_orthogonal_disagreement": 0.51824951171875,
+          "preprocess_checkerboard_2x2_fraction": 0.060791015625,
+          "local_majority_agreement": 0.5421142578125,
+          "local_density_variance": 0.025343183428049088,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.60137939453125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_3fd35ca10_2_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.8125,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0625,
+      "min_final_consensus_accuracy": 0.0625,
+      "min_checkerboard_alignment": 0.0262451171875,
+      "min_orthogonal_disagreement": 0.51824951171875,
+      "min_checkerboard_2x2_fraction": 0.060791015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0262451171875,
+          "preprocess_orthogonal_disagreement": 0.52386474609375,
+          "preprocess_checkerboard_2x2_fraction": 0.06829833984375,
+          "local_majority_agreement": 0.5335693359375,
+          "local_density_variance": 0.02503828890621662,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.125,
+          "final_consensus_accuracy": 0.125,
+          "mean_final_density": 0.333251953125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0264892578125,
+          "preprocess_orthogonal_disagreement": 0.51824951171875,
+          "preprocess_checkerboard_2x2_fraction": 0.060791015625,
+          "local_majority_agreement": 0.5421142578125,
+          "local_density_variance": 0.025343183428049088,
+          "final_majority_accuracy": 0.8125,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.60137939453125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_1_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0521240234375,
+      "min_orthogonal_disagreement": 0.68280029296875,
+      "min_checkerboard_2x2_fraction": 0.37353515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1007080078125,
+          "preprocess_orthogonal_disagreement": 0.68280029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.37548828125,
+          "local_majority_agreement": 0.5518798828125,
+          "local_density_variance": 0.014155946671962738,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.39410400390625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0521240234375,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37353515625,
+          "local_majority_agreement": 0.55340576171875,
+          "local_density_variance": 0.013137659057974815,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.610595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_1_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0521240234375,
+      "min_orthogonal_disagreement": 0.68280029296875,
+      "min_checkerboard_2x2_fraction": 0.37353515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1007080078125,
+          "preprocess_orthogonal_disagreement": 0.68280029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.37548828125,
+          "local_majority_agreement": 0.5518798828125,
+          "local_density_variance": 0.014155946671962738,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3924560546875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0521240234375,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37353515625,
+          "local_majority_agreement": 0.55340576171875,
+          "local_density_variance": 0.013137659057974815,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.61065673828125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0521240234375,
+      "min_orthogonal_disagreement": 0.68280029296875,
+      "min_checkerboard_2x2_fraction": 0.37353515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1007080078125,
+          "preprocess_orthogonal_disagreement": 0.68280029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.37548828125,
+          "local_majority_agreement": 0.5518798828125,
+          "local_density_variance": 0.014155946671962738,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.39410400390625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0521240234375,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37353515625,
+          "local_majority_agreement": 0.55340576171875,
+          "local_density_variance": 0.013137659057974815,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.610595703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0521240234375,
+      "min_orthogonal_disagreement": 0.68280029296875,
+      "min_checkerboard_2x2_fraction": 0.37353515625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1007080078125,
+          "preprocess_orthogonal_disagreement": 0.68280029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.37548828125,
+          "local_majority_agreement": 0.5518798828125,
+          "local_density_variance": 0.014155946671962738,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3924560546875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0521240234375,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37353515625,
+          "local_majority_agreement": 0.55340576171875,
+          "local_density_variance": 0.013137659057974815,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.61065673828125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_2_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0526123046875,
+      "min_orthogonal_disagreement": 0.6820068359375,
+      "min_checkerboard_2x2_fraction": 0.3734130859375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1041259765625,
+          "preprocess_orthogonal_disagreement": 0.6820068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.3740234375,
+          "local_majority_agreement": 0.55206298828125,
+          "local_density_variance": 0.014222255907952785,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38885498046875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0526123046875,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.3734130859375,
+          "local_majority_agreement": 0.55291748046875,
+          "local_density_variance": 0.013170814141631126,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.61492919921875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_029b09cea_2_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0526123046875,
+      "min_orthogonal_disagreement": 0.6820068359375,
+      "min_checkerboard_2x2_fraction": 0.3734130859375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1041259765625,
+          "preprocess_orthogonal_disagreement": 0.6820068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.3740234375,
+          "local_majority_agreement": 0.55206298828125,
+          "local_density_variance": 0.014222255907952785,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38720703125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0526123046875,
+          "preprocess_orthogonal_disagreement": 0.68365478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.3734130859375,
+          "local_majority_agreement": 0.55291748046875,
+          "local_density_variance": 0.013170814141631126,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.61590576171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_cand_029b09cea_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0162353515625,
+      "min_orthogonal_disagreement": 0.52935791015625,
+      "min_checkerboard_2x2_fraction": 0.09320068359375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0162353515625,
+          "preprocess_orthogonal_disagreement": 0.52935791015625,
+          "preprocess_checkerboard_2x2_fraction": 0.09320068359375,
+          "local_majority_agreement": 0.5450439453125,
+          "local_density_variance": 0.025748103857040405,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.45989990234375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0196533203125,
+          "preprocess_orthogonal_disagreement": 0.533447265625,
+          "preprocess_checkerboard_2x2_fraction": 0.0986328125,
+          "local_majority_agreement": 0.54156494140625,
+          "local_density_variance": 0.025242213159799576,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55340576171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_cand_029b09cea_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0162353515625,
+      "min_orthogonal_disagreement": 0.52935791015625,
+      "min_checkerboard_2x2_fraction": 0.09320068359375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0162353515625,
+          "preprocess_orthogonal_disagreement": 0.52935791015625,
+          "preprocess_checkerboard_2x2_fraction": 0.09320068359375,
+          "local_majority_agreement": 0.5450439453125,
+          "local_density_variance": 0.025748103857040405,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.45989990234375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0196533203125,
+          "preprocess_orthogonal_disagreement": 0.533447265625,
+          "preprocess_checkerboard_2x2_fraction": 0.0986328125,
+          "local_majority_agreement": 0.54156494140625,
+          "local_density_variance": 0.025242213159799576,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55340576171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "diag_traffic_ne_diag_traffic_nw_cand_6774f7e43_2_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0286865234375,
+      "min_orthogonal_disagreement": 0.49493408203125,
+      "min_checkerboard_2x2_fraction": 0.07696533203125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0460205078125,
+          "preprocess_orthogonal_disagreement": 0.50042724609375,
+          "preprocess_checkerboard_2x2_fraction": 0.07867431640625,
+          "local_majority_agreement": 0.5616455078125,
+          "local_density_variance": 0.013623961247503757,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.41973876953125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0286865234375,
+          "preprocess_orthogonal_disagreement": 0.49493408203125,
+          "preprocess_checkerboard_2x2_fraction": 0.07696533203125,
+          "local_majority_agreement": 0.55908203125,
+          "local_density_variance": 0.014872262254357338,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56719970703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "diag_traffic_ne_diag_traffic_nw_cand_6774f7e43_2_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0286865234375,
+      "min_orthogonal_disagreement": 0.49493408203125,
+      "min_checkerboard_2x2_fraction": 0.07696533203125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0460205078125,
+          "preprocess_orthogonal_disagreement": 0.50042724609375,
+          "preprocess_checkerboard_2x2_fraction": 0.07867431640625,
+          "local_majority_agreement": 0.5616455078125,
+          "local_density_variance": 0.013623961247503757,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.41973876953125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0286865234375,
+          "preprocess_orthogonal_disagreement": 0.49493408203125,
+          "preprocess_checkerboard_2x2_fraction": 0.07696533203125,
+          "local_majority_agreement": 0.55908203125,
+          "local_density_variance": 0.014872262254357338,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56719970703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_1_x64_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0169677734375,
+      "min_orthogonal_disagreement": 0.5223388671875,
+      "min_checkerboard_2x2_fraction": 0.047607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.53216552734375,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5399169921875,
+          "local_density_variance": 0.02434655651450157,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3466796875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0169677734375,
+          "preprocess_orthogonal_disagreement": 0.5223388671875,
+          "preprocess_checkerboard_2x2_fraction": 0.047607421875,
+          "local_majority_agreement": 0.5235595703125,
+          "local_density_variance": 0.025908324867486954,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.647705078125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_1_x64_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0169677734375,
+      "min_orthogonal_disagreement": 0.5223388671875,
+      "min_checkerboard_2x2_fraction": 0.047607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.53216552734375,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5399169921875,
+          "local_density_variance": 0.02434655651450157,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3466796875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0169677734375,
+          "preprocess_orthogonal_disagreement": 0.5223388671875,
+          "preprocess_checkerboard_2x2_fraction": 0.047607421875,
+          "local_majority_agreement": 0.5235595703125,
+          "local_density_variance": 0.025908324867486954,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.6492919921875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0169677734375,
+      "min_orthogonal_disagreement": 0.5223388671875,
+      "min_checkerboard_2x2_fraction": 0.047607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.53216552734375,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5399169921875,
+          "local_density_variance": 0.02434655651450157,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3466796875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0169677734375,
+          "preprocess_orthogonal_disagreement": 0.5223388671875,
+          "preprocess_checkerboard_2x2_fraction": 0.047607421875,
+          "local_majority_agreement": 0.5235595703125,
+          "local_density_variance": 0.025908324867486954,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.647705078125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0169677734375,
+      "min_orthogonal_disagreement": 0.5223388671875,
+      "min_checkerboard_2x2_fraction": 0.047607421875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.53216552734375,
+          "preprocess_checkerboard_2x2_fraction": 0.071044921875,
+          "local_majority_agreement": 0.5399169921875,
+          "local_density_variance": 0.02434655651450157,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3466796875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0169677734375,
+          "preprocess_orthogonal_disagreement": 0.5223388671875,
+          "preprocess_checkerboard_2x2_fraction": 0.047607421875,
+          "local_majority_agreement": 0.5235595703125,
+          "local_density_variance": 0.025908324867486954,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0625,
+          "final_consensus_accuracy": 0.0625,
+          "mean_final_density": 0.6492919921875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0050048828125,
+      "min_orthogonal_disagreement": 0.50634765625,
+      "min_checkerboard_2x2_fraction": 0.0323486328125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0050048828125,
+          "preprocess_orthogonal_disagreement": 0.5068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.0323486328125,
+          "local_majority_agreement": 0.56085205078125,
+          "local_density_variance": 0.01233091950416565,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.38751220703125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0093994140625,
+          "preprocess_orthogonal_disagreement": 0.50634765625,
+          "preprocess_checkerboard_2x2_fraction": 0.03289794921875,
+          "local_majority_agreement": 0.55511474609375,
+          "local_density_variance": 0.012168630957603455,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.62677001953125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_6774f7e43_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0050048828125,
+      "min_orthogonal_disagreement": 0.50634765625,
+      "min_checkerboard_2x2_fraction": 0.0323486328125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0050048828125,
+          "preprocess_orthogonal_disagreement": 0.5068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.0323486328125,
+          "local_majority_agreement": 0.56085205078125,
+          "local_density_variance": 0.01233091950416565,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3868408203125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0093994140625,
+          "preprocess_orthogonal_disagreement": 0.50634765625,
+          "preprocess_checkerboard_2x2_fraction": 0.03289794921875,
+          "local_majority_agreement": 0.55511474609375,
+          "local_density_variance": 0.012168630957603455,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.6273193359375
+        }
+      ]
+    }
+  ]
+}

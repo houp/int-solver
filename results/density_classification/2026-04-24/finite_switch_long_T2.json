@@ -1,0 +1,205 @@
+{
+  "T1_schedule": "L",
+  "T1_fixed": 128,
+  "T2": 1024,
+  "amplifier": "vn",
+  "trials_per_side": 16,
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "runs": [
+    {
+      "sid": "sid:11bb6b4211627713",
+      "grid": 64,
+      "T1": 64,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 0.277587890625
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 0.9375,
+          "after_F_interface_fraction": 0.28082275390625
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 0.9375,
+      "elapsed_seconds": 2.3325092792510986
+    },
+    {
+      "sid": "sid:11bb6b4211627713",
+      "grid": 128,
+      "T1": 128,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 0.224822998046875
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 0.22933197021484375
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 1.0,
+      "elapsed_seconds": 8.654917240142822
+    },
+    {
+      "sid": "sid:58ed6b657afb",
+      "grid": 64,
+      "T1": 64,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 1.01141357421875
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 0.9375,
+          "after_F_interface_fraction": 1.012359619140625
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 0.9375,
+      "elapsed_seconds": 2.2897372245788574
+    },
+    {
+      "sid": "sid:58ed6b657afb",
+      "grid": 128,
+      "T1": 128,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 1.0083160400390625
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 1.0083770751953125
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 1.0,
+      "elapsed_seconds": 8.67622709274292
+    },
+    {
+      "sid": "sid:fad39df962baaa73",
+      "grid": 64,
+      "T1": 64,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 0.1875,
+          "after_F_interface_fraction": 1.656036376953125
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 0.9375,
+          "after_F_interface_fraction": 1.666534423828125
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 0.1875,
+      "elapsed_seconds": 2.2871837615966797
+    },
+    {
+      "sid": "sid:fad39df962baaa73",
+      "grid": 128,
+      "T1": 128,
+      "T2": 1024,
+      "amplifier": "vn",
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 0.0625,
+          "after_F_interface_fraction": 1.7284011840820312
+        },
+        {
+          "probability": 0.51,
+          "trials": 16,
+          "tied_initial_states": 0,
+          "consensus_rate": 0.0,
+          "correct_consensus_rate": 0.0,
+          "consensus_accuracy": NaN,
+          "final_majority_accuracy": 1.0,
+          "after_F_interface_fraction": 1.7374191284179688
+        }
+      ],
+      "min_correct_consensus_rate": 0.0,
+      "min_final_majority_accuracy": 0.0625,
+      "elapsed_seconds": 8.614984035491943
+    }
+  ]
+}

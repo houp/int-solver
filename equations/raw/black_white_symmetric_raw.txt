@@ -1,0 +1,2056 @@
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_0 + x_511 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_1 + x_510 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_2 + x_509 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_3 + x_508 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_4 + x_507 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_5 + x_506 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_6 + x_505 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_7 + x_504 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_8 + x_503 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_9 + x_502 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_10 + x_501 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_11 + x_500 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_12 + x_499 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_13 + x_498 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_14 + x_497 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_15 + x_496 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_16 + x_495 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_17 + x_494 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_18 + x_493 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_19 + x_492 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_20 + x_491 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_21 + x_490 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_22 + x_489 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_23 + x_488 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_24 + x_487 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_25 + x_486 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_26 + x_485 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_27 + x_484 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_28 + x_483 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_29 + x_482 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_30 + x_481 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_31 + x_480 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_32 + x_479 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_33 + x_478 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_34 + x_477 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_35 + x_476 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_36 + x_475 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_37 + x_474 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_38 + x_473 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_39 + x_472 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_40 + x_471 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_41 + x_470 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_42 + x_469 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_43 + x_468 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_44 + x_467 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_45 + x_466 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_46 + x_465 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_47 + x_464 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_48 + x_463 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_49 + x_462 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_50 + x_461 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_51 + x_460 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_52 + x_459 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_53 + x_458 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_54 + x_457 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_55 + x_456 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_56 + x_455 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_57 + x_454 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_58 + x_453 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_59 + x_452 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_60 + x_451 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_61 + x_450 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_62 + x_449 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_63 + x_448 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_64 + x_447 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_65 + x_446 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_66 + x_445 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_67 + x_444 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_68 + x_443 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_69 + x_442 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_70 + x_441 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_71 + x_440 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_72 + x_439 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_73 + x_438 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_74 + x_437 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_75 + x_436 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_76 + x_435 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_77 + x_434 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_78 + x_433 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_79 + x_432 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_80 + x_431 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_81 + x_430 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_82 + x_429 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_83 + x_428 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_84 + x_427 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_85 + x_426 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_86 + x_425 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_87 + x_424 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_88 + x_423 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_89 + x_422 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_90 + x_421 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_91 + x_420 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_92 + x_419 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_93 + x_418 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_94 + x_417 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_95 + x_416 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_96 + x_415 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_97 + x_414 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_98 + x_413 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_99 + x_412 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_100 + x_411 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_101 + x_410 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_102 + x_409 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_103 + x_408 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_104 + x_407 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_105 + x_406 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_106 + x_405 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_107 + x_404 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_108 + x_403 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_109 + x_402 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_110 + x_401 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_111 + x_400 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_112 + x_399 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_113 + x_398 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_114 + x_397 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_115 + x_396 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_116 + x_395 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_117 + x_394 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_118 + x_393 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_119 + x_392 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_120 + x_391 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_121 + x_390 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_122 + x_389 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_123 + x_388 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_124 + x_387 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_125 + x_386 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_126 + x_385 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_127 + x_384 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_128 + x_383 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_129 + x_382 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_130 + x_381 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_131 + x_380 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_132 + x_379 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_133 + x_378 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_134 + x_377 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_135 + x_376 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_136 + x_375 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_137 + x_374 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_138 + x_373 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_139 + x_372 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_140 + x_371 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_141 + x_370 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_142 + x_369 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_143 + x_368 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_144 + x_367 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_145 + x_366 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_146 + x_365 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_147 + x_364 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_148 + x_363 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_149 + x_362 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_150 + x_361 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_151 + x_360 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_152 + x_359 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_153 + x_358 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_154 + x_357 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_155 + x_356 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_156 + x_355 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_157 + x_354 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_158 + x_353 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_159 + x_352 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_160 + x_351 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_161 + x_350 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_162 + x_349 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_163 + x_348 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_164 + x_347 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_165 + x_346 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_166 + x_345 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_167 + x_344 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_168 + x_343 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_169 + x_342 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_170 + x_341 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_171 + x_340 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_172 + x_339 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_173 + x_338 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_174 + x_337 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_175 + x_336 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_176 + x_335 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_177 + x_334 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_178 + x_333 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_179 + x_332 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_180 + x_331 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_181 + x_330 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_182 + x_329 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_183 + x_328 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_184 + x_327 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_185 + x_326 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_186 + x_325 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_187 + x_324 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_188 + x_323 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_189 + x_322 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_190 + x_321 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_191 + x_320 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_192 + x_319 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_193 + x_318 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_194 + x_317 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_195 + x_316 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_196 + x_315 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_197 + x_314 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_198 + x_313 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_199 + x_312 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_200 + x_311 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_201 + x_310 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_202 + x_309 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_203 + x_308 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_204 + x_307 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_205 + x_306 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_206 + x_305 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_207 + x_304 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_208 + x_303 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_209 + x_302 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_210 + x_301 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_211 + x_300 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_212 + x_299 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_213 + x_298 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_214 + x_297 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_215 + x_296 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_216 + x_295 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_217 + x_294 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_218 + x_293 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_219 + x_292 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_220 + x_291 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_221 + x_290 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_222 + x_289 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_223 + x_288 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_224 + x_287 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_225 + x_286 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_226 + x_285 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_227 + x_284 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_228 + x_283 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_229 + x_282 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_230 + x_281 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_231 + x_280 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_232 + x_279 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_233 + x_278 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_234 + x_277 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_235 + x_276 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_236 + x_275 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_237 + x_274 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_238 + x_273 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_239 + x_272 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_240 + x_271 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_241 + x_270 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_242 + x_269 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_243 + x_268 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_244 + x_267 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_245 + x_266 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_246 + x_265 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_247 + x_264 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_248 + x_263 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_249 + x_262 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_250 + x_261 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_251 + x_260 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_252 + x_259 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_253 + x_258 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_254 + x_257 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_255 + x_256 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_255 + x_256 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_254 + x_257 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_253 + x_258 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_252 + x_259 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_251 + x_260 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_250 + x_261 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_249 + x_262 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_248 + x_263 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_247 + x_264 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_246 + x_265 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_245 + x_266 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_244 + x_267 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_243 + x_268 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_242 + x_269 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_241 + x_270 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_240 + x_271 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_239 + x_272 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_238 + x_273 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_237 + x_274 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_236 + x_275 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_235 + x_276 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_234 + x_277 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_233 + x_278 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_232 + x_279 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_231 + x_280 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_230 + x_281 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_229 + x_282 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_228 + x_283 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_227 + x_284 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_226 + x_285 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_225 + x_286 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_224 + x_287 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_223 + x_288 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_222 + x_289 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_221 + x_290 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_220 + x_291 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_219 + x_292 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_218 + x_293 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_217 + x_294 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_216 + x_295 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_215 + x_296 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_214 + x_297 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_213 + x_298 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_212 + x_299 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_211 + x_300 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_210 + x_301 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_209 + x_302 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_208 + x_303 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_207 + x_304 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_206 + x_305 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_205 + x_306 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_204 + x_307 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_203 + x_308 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_202 + x_309 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_201 + x_310 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_200 + x_311 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_199 + x_312 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_198 + x_313 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_197 + x_314 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_196 + x_315 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_195 + x_316 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_194 + x_317 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_193 + x_318 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_192 + x_319 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_191 + x_320 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_190 + x_321 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_189 + x_322 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_188 + x_323 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_187 + x_324 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_186 + x_325 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_185 + x_326 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_184 + x_327 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_183 + x_328 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_182 + x_329 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_181 + x_330 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_180 + x_331 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_179 + x_332 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_178 + x_333 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_177 + x_334 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_176 + x_335 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_175 + x_336 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_174 + x_337 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_173 + x_338 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_172 + x_339 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_171 + x_340 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_170 + x_341 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_169 + x_342 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_168 + x_343 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_167 + x_344 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_166 + x_345 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_165 + x_346 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_164 + x_347 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_163 + x_348 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_162 + x_349 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_161 + x_350 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_160 + x_351 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_159 + x_352 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_158 + x_353 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_157 + x_354 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_156 + x_355 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_155 + x_356 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_154 + x_357 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_153 + x_358 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_152 + x_359 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_151 + x_360 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_150 + x_361 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_149 + x_362 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_148 + x_363 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_147 + x_364 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_146 + x_365 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_145 + x_366 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_144 + x_367 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_143 + x_368 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_142 + x_369 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_141 + x_370 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_140 + x_371 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_139 + x_372 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_138 + x_373 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_137 + x_374 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_136 + x_375 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_135 + x_376 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_134 + x_377 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_133 + x_378 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_132 + x_379 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_131 + x_380 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_130 + x_381 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_129 + x_382 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_128 + x_383 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_127 + x_384 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_126 + x_385 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_125 + x_386 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_124 + x_387 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_123 + x_388 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_122 + x_389 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_121 + x_390 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_120 + x_391 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_119 + x_392 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_118 + x_393 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_117 + x_394 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_116 + x_395 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_115 + x_396 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_114 + x_397 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_113 + x_398 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_112 + x_399 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_111 + x_400 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_110 + x_401 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_109 + x_402 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_108 + x_403 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_107 + x_404 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_106 + x_405 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_105 + x_406 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_104 + x_407 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_103 + x_408 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_102 + x_409 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_101 + x_410 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_100 + x_411 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_99 + x_412 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_98 + x_413 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_97 + x_414 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_96 + x_415 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_95 + x_416 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_94 + x_417 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_93 + x_418 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_92 + x_419 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_91 + x_420 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_90 + x_421 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_89 + x_422 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_88 + x_423 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_87 + x_424 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_86 + x_425 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_85 + x_426 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_84 + x_427 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_83 + x_428 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_82 + x_429 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_81 + x_430 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_80 + x_431 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_79 + x_432 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_78 + x_433 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_77 + x_434 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_76 + x_435 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_75 + x_436 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_74 + x_437 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_73 + x_438 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_72 + x_439 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_71 + x_440 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_70 + x_441 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_69 + x_442 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_68 + x_443 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_67 + x_444 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_66 + x_445 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_65 + x_446 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_64 + x_447 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_63 + x_448 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_62 + x_449 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_61 + x_450 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_60 + x_451 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_59 + x_452 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_58 + x_453 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_57 + x_454 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_56 + x_455 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_55 + x_456 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_54 + x_457 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_53 + x_458 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_52 + x_459 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_51 + x_460 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_50 + x_461 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_49 + x_462 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_48 + x_463 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_47 + x_464 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_46 + x_465 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_45 + x_466 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_44 + x_467 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_43 + x_468 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_42 + x_469 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_41 + x_470 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_40 + x_471 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_39 + x_472 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_38 + x_473 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_37 + x_474 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_36 + x_475 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_35 + x_476 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_34 + x_477 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_33 + x_478 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_32 + x_479 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_31 + x_480 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_30 + x_481 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_29 + x_482 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_28 + x_483 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_27 + x_484 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_26 + x_485 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_25 + x_486 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_24 + x_487 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_23 + x_488 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_22 + x_489 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_21 + x_490 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_20 + x_491 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_19 + x_492 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_18 + x_493 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_17 + x_494 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_16 + x_495 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_15 + x_496 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_14 + x_497 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_13 + x_498 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_12 + x_499 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_11 + x_500 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_10 + x_501 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_9 + x_502 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=0, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_8 + x_503 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=0, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_7 + x_504 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=0, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_6 + x_505 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=0, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_5 + x_506 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=0, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_4 + x_507 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=1, b=0, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_3 + x_508 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=1, b=0, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_2 + x_509 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=1, b=1, c=0)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_1 + x_510 = 1
+
+identity=1 vars=(x, y, z, t, u, w, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, w=1, a=1, b=1, c=1)
+f(x, y, z, t, u, w, a, b, c) = 1 - f(1 - x, 1 - y, 1 - z, 1 - t, 1 - u, 1 - w, 1 - a, 1 - b, 1 - c)
+x_0 + x_511 = 1
+
+identity=2 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0
+x_0 = 0
+
+identity=3 vars=() assignment=()
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1
+x_511 = 1
+

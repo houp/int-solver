@@ -1,0 +1,29 @@
+[
+  {
+    "name": "rebalanced_v1",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.188]
+  },
+  {
+    "name": "rebalanced_v2_top1",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.04094834116264222, 0.037964809068865284, 0.11971909455899025, 0.016103503474545, 0.6244987253625784, 0.1607655263723788]
+  },
+  {
+    "name": "rebalanced_v2_top10mean",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.0403959604039596, 0.04129587041295871, 0.12288771122887711, 0.023997600239976002, 0.6083391660833917, 0.1630836916308369]
+  }
+]

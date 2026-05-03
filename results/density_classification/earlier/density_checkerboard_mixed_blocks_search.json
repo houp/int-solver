@@ -1,0 +1,1684 @@
+{
+  "results": [
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0140380859375,
+      "min_orthogonal_disagreement": 0.52606201171875,
+      "min_checkerboard_2x2_fraction": 0.08428955078125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0140380859375,
+          "preprocess_orthogonal_disagreement": 0.52606201171875,
+          "preprocess_checkerboard_2x2_fraction": 0.08428955078125,
+          "local_majority_agreement": 0.5491943359375,
+          "local_density_variance": 0.02095722034573555,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4588623046875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0242919921875,
+          "preprocess_orthogonal_disagreement": 0.52825927734375,
+          "preprocess_checkerboard_2x2_fraction": 0.08978271484375,
+          "local_majority_agreement": 0.541259765625,
+          "local_density_variance": 0.021372132003307343,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.546875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0140380859375,
+      "min_orthogonal_disagreement": 0.52606201171875,
+      "min_checkerboard_2x2_fraction": 0.08428955078125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0140380859375,
+          "preprocess_orthogonal_disagreement": 0.52606201171875,
+          "preprocess_checkerboard_2x2_fraction": 0.08428955078125,
+          "local_majority_agreement": 0.5491943359375,
+          "local_density_variance": 0.02095722034573555,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4588623046875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0242919921875,
+          "preprocess_orthogonal_disagreement": 0.52825927734375,
+          "preprocess_checkerboard_2x2_fraction": 0.08978271484375,
+          "local_majority_agreement": 0.541259765625,
+          "local_density_variance": 0.021372132003307343,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.546875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0201416015625,
+      "min_orthogonal_disagreement": 0.55389404296875,
+      "min_checkerboard_2x2_fraction": 0.13629150390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0247802734375,
+          "preprocess_orthogonal_disagreement": 0.56195068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.15045166015625,
+          "local_majority_agreement": 0.55224609375,
+          "local_density_variance": 0.017899436876177788,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4332275390625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0201416015625,
+          "preprocess_orthogonal_disagreement": 0.55389404296875,
+          "preprocess_checkerboard_2x2_fraction": 0.13629150390625,
+          "local_majority_agreement": 0.544189453125,
+          "local_density_variance": 0.018921680748462677,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5528564453125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0201416015625,
+      "min_orthogonal_disagreement": 0.55389404296875,
+      "min_checkerboard_2x2_fraction": 0.13629150390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0247802734375,
+          "preprocess_orthogonal_disagreement": 0.56195068359375,
+          "preprocess_checkerboard_2x2_fraction": 0.15045166015625,
+          "local_majority_agreement": 0.55224609375,
+          "local_density_variance": 0.017899436876177788,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4332275390625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0201416015625,
+          "preprocess_orthogonal_disagreement": 0.55389404296875,
+          "preprocess_checkerboard_2x2_fraction": 0.13629150390625,
+          "local_majority_agreement": 0.544189453125,
+          "local_density_variance": 0.018921680748462677,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5528564453125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_029b09cea_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0186767578125,
+      "min_orthogonal_disagreement": 0.5364990234375,
+      "min_checkerboard_2x2_fraction": 0.10260009765625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0186767578125,
+          "preprocess_orthogonal_disagreement": 0.53875732421875,
+          "preprocess_checkerboard_2x2_fraction": 0.1094970703125,
+          "local_majority_agreement": 0.53936767578125,
+          "local_density_variance": 0.025033768266439438,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4498291015625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0281982421875,
+          "preprocess_orthogonal_disagreement": 0.5364990234375,
+          "preprocess_checkerboard_2x2_fraction": 0.10260009765625,
+          "local_majority_agreement": 0.536865234375,
+          "local_density_variance": 0.0253627747297287,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56121826171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_029b09cea_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0186767578125,
+      "min_orthogonal_disagreement": 0.5364990234375,
+      "min_checkerboard_2x2_fraction": 0.10260009765625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0186767578125,
+          "preprocess_orthogonal_disagreement": 0.53875732421875,
+          "preprocess_checkerboard_2x2_fraction": 0.1094970703125,
+          "local_majority_agreement": 0.53936767578125,
+          "local_density_variance": 0.025033768266439438,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4498291015625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0281982421875,
+          "preprocess_orthogonal_disagreement": 0.5364990234375,
+          "preprocess_checkerboard_2x2_fraction": 0.10260009765625,
+          "local_majority_agreement": 0.536865234375,
+          "local_density_variance": 0.0253627747297287,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56121826171875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_b9b31aebc_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0264892578125,
+      "min_orthogonal_disagreement": 0.5390625,
+      "min_checkerboard_2x2_fraction": 0.101318359375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0323486328125,
+          "preprocess_orthogonal_disagreement": 0.5408935546875,
+          "preprocess_checkerboard_2x2_fraction": 0.10858154296875,
+          "local_majority_agreement": 0.55059814453125,
+          "local_density_variance": 0.02419886738061905,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.46295166015625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0264892578125,
+          "preprocess_orthogonal_disagreement": 0.5390625,
+          "preprocess_checkerboard_2x2_fraction": 0.101318359375,
+          "local_majority_agreement": 0.5413818359375,
+          "local_density_variance": 0.023689959198236465,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55792236328125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_b9b31aebc_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0264892578125,
+      "min_orthogonal_disagreement": 0.5390625,
+      "min_checkerboard_2x2_fraction": 0.101318359375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0323486328125,
+          "preprocess_orthogonal_disagreement": 0.5408935546875,
+          "preprocess_checkerboard_2x2_fraction": 0.10858154296875,
+          "local_majority_agreement": 0.55059814453125,
+          "local_density_variance": 0.02419886738061905,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.46295166015625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0264892578125,
+          "preprocess_orthogonal_disagreement": 0.5390625,
+          "preprocess_checkerboard_2x2_fraction": 0.101318359375,
+          "local_majority_agreement": 0.5413818359375,
+          "local_density_variance": 0.023689959198236465,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55792236328125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_2_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0189208984375,
+      "min_orthogonal_disagreement": 0.52203369140625,
+      "min_checkerboard_2x2_fraction": 0.07879638671875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0189208984375,
+          "preprocess_orthogonal_disagreement": 0.52655029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.088623046875,
+          "local_majority_agreement": 0.5509033203125,
+          "local_density_variance": 0.021138068288564682,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44464111328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0250244140625,
+          "preprocess_orthogonal_disagreement": 0.52203369140625,
+          "preprocess_checkerboard_2x2_fraction": 0.07879638671875,
+          "local_majority_agreement": 0.5479736328125,
+          "local_density_variance": 0.021637368947267532,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55548095703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_2_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0189208984375,
+      "min_orthogonal_disagreement": 0.52203369140625,
+      "min_checkerboard_2x2_fraction": 0.07879638671875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0189208984375,
+          "preprocess_orthogonal_disagreement": 0.52655029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.088623046875,
+          "local_majority_agreement": 0.5509033203125,
+          "local_density_variance": 0.021138068288564682,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44464111328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0250244140625,
+          "preprocess_orthogonal_disagreement": 0.52203369140625,
+          "preprocess_checkerboard_2x2_fraction": 0.07879638671875,
+          "local_majority_agreement": 0.5479736328125,
+          "local_density_variance": 0.021637368947267532,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55548095703125
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_cand_6774f7e43_2_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0118408203125,
+      "min_orthogonal_disagreement": 0.51519775390625,
+      "min_checkerboard_2x2_fraction": 0.07769775390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0118408203125,
+          "preprocess_orthogonal_disagreement": 0.51519775390625,
+          "preprocess_checkerboard_2x2_fraction": 0.07769775390625,
+          "local_majority_agreement": 0.548583984375,
+          "local_density_variance": 0.01885339431464672,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4752197265625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0159912109375,
+          "preprocess_orthogonal_disagreement": 0.51708984375,
+          "preprocess_checkerboard_2x2_fraction": 0.080322265625,
+          "local_majority_agreement": 0.5533447265625,
+          "local_density_variance": 0.018567528575658798,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56610107421875
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_cand_6774f7e43_2_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0118408203125,
+      "min_orthogonal_disagreement": 0.51519775390625,
+      "min_checkerboard_2x2_fraction": 0.07769775390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0118408203125,
+          "preprocess_orthogonal_disagreement": 0.51519775390625,
+          "preprocess_checkerboard_2x2_fraction": 0.07769775390625,
+          "local_majority_agreement": 0.548583984375,
+          "local_density_variance": 0.01885339431464672,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4752197265625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0159912109375,
+          "preprocess_orthogonal_disagreement": 0.51708984375,
+          "preprocess_checkerboard_2x2_fraction": 0.080322265625,
+          "local_majority_agreement": 0.5533447265625,
+          "local_density_variance": 0.018567528575658798,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56610107421875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_812b7dae7_2_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0267333984375,
+      "min_orthogonal_disagreement": 0.5269775390625,
+      "min_checkerboard_2x2_fraction": 0.07275390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0345458984375,
+          "preprocess_orthogonal_disagreement": 0.5269775390625,
+          "preprocess_checkerboard_2x2_fraction": 0.078125,
+          "local_majority_agreement": 0.537109375,
+          "local_density_variance": 0.03387406840920448,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.47918701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0267333984375,
+          "preprocess_orthogonal_disagreement": 0.527587890625,
+          "preprocess_checkerboard_2x2_fraction": 0.07275390625,
+          "local_majority_agreement": 0.54217529296875,
+          "local_density_variance": 0.031752631068229675,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.52972412109375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_812b7dae7_2_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0267333984375,
+      "min_orthogonal_disagreement": 0.5269775390625,
+      "min_checkerboard_2x2_fraction": 0.07275390625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0345458984375,
+          "preprocess_orthogonal_disagreement": 0.5269775390625,
+          "preprocess_checkerboard_2x2_fraction": 0.078125,
+          "local_majority_agreement": 0.537109375,
+          "local_density_variance": 0.03387406840920448,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.47918701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0267333984375,
+          "preprocess_orthogonal_disagreement": 0.527587890625,
+          "preprocess_checkerboard_2x2_fraction": 0.07275390625,
+          "local_majority_agreement": 0.54217529296875,
+          "local_density_variance": 0.031752631068229675,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.52972412109375
+        }
+      ]
+    },
+    {
+      "schedule_name": "diag_traffic_ne_diag_traffic_nw_diag_traffic_sw_diag_traffic_se_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.49969482421875,
+      "min_checkerboard_2x2_fraction": 0.04107666015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.49969482421875,
+          "preprocess_checkerboard_2x2_fraction": 0.05267333984375,
+          "local_majority_agreement": 0.54840087890625,
+          "local_density_variance": 0.0181631688028574,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4307861328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0260009765625,
+          "preprocess_orthogonal_disagreement": 0.49969482421875,
+          "preprocess_checkerboard_2x2_fraction": 0.04107666015625,
+          "local_majority_agreement": 0.5452880859375,
+          "local_density_variance": 0.01855999231338501,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.58148193359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "diag_traffic_ne_diag_traffic_nw_diag_traffic_sw_diag_traffic_se_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0223388671875,
+      "min_orthogonal_disagreement": 0.49969482421875,
+      "min_checkerboard_2x2_fraction": 0.04107666015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0223388671875,
+          "preprocess_orthogonal_disagreement": 0.49969482421875,
+          "preprocess_checkerboard_2x2_fraction": 0.05267333984375,
+          "local_majority_agreement": 0.54840087890625,
+          "local_density_variance": 0.0181631688028574,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4307861328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0260009765625,
+          "preprocess_orthogonal_disagreement": 0.49969482421875,
+          "preprocess_checkerboard_2x2_fraction": 0.04107666015625,
+          "local_majority_agreement": 0.5452880859375,
+          "local_density_variance": 0.01855999231338501,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.58148193359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_b9b31aebc_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0098876953125,
+      "min_orthogonal_disagreement": 0.49951171875,
+      "min_checkerboard_2x2_fraction": 0.0,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0128173828125,
+          "preprocess_orthogonal_disagreement": 0.49951171875,
+          "preprocess_checkerboard_2x2_fraction": 0.0,
+          "local_majority_agreement": 0.52703857421875,
+          "local_density_variance": 0.030407875776290894,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0098876953125,
+          "preprocess_orthogonal_disagreement": 0.5029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.01092529296875,
+          "local_majority_agreement": 0.5299072265625,
+          "local_density_variance": 0.030399303883314133,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5726318359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_b9b31aebc_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0098876953125,
+      "min_orthogonal_disagreement": 0.49951171875,
+      "min_checkerboard_2x2_fraction": 0.0,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0128173828125,
+          "preprocess_orthogonal_disagreement": 0.49951171875,
+          "preprocess_checkerboard_2x2_fraction": 0.0,
+          "local_majority_agreement": 0.52703857421875,
+          "local_density_variance": 0.030407875776290894,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.418701171875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0098876953125,
+          "preprocess_orthogonal_disagreement": 0.5029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.01092529296875,
+          "local_majority_agreement": 0.5299072265625,
+          "local_density_variance": 0.030399303883314133,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5726318359375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_2_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.4610595703125,
+      "min_orthogonal_disagreement": 0.73760986328125,
+      "min_checkerboard_2x2_fraction": 0.4752197265625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.4610595703125,
+          "preprocess_orthogonal_disagreement": 0.73760986328125,
+          "preprocess_checkerboard_2x2_fraction": 0.4752197265625,
+          "local_majority_agreement": 0.54571533203125,
+          "local_density_variance": 0.01746992953121662,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44989013671875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.5858154296875,
+          "preprocess_orthogonal_disagreement": 0.7655029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.531005859375,
+          "local_majority_agreement": 0.545654296875,
+          "local_density_variance": 0.016231615096330643,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55047607421875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_2_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.4610595703125,
+      "min_orthogonal_disagreement": 0.73760986328125,
+      "min_checkerboard_2x2_fraction": 0.4752197265625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.4610595703125,
+          "preprocess_orthogonal_disagreement": 0.73760986328125,
+          "preprocess_checkerboard_2x2_fraction": 0.4752197265625,
+          "local_majority_agreement": 0.54571533203125,
+          "local_density_variance": 0.01746992953121662,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4461669921875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.5858154296875,
+          "preprocess_orthogonal_disagreement": 0.7655029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.531005859375,
+          "local_majority_agreement": 0.545654296875,
+          "local_density_variance": 0.016231615096330643,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55047607421875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.2247314453125,
+      "min_orthogonal_disagreement": 0.68084716796875,
+      "min_checkerboard_2x2_fraction": 0.362060546875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.2247314453125,
+          "preprocess_orthogonal_disagreement": 0.70367431640625,
+          "preprocess_checkerboard_2x2_fraction": 0.40740966796875,
+          "local_majority_agreement": 0.5543212890625,
+          "local_density_variance": 0.015804648399353027,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.39959716796875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.2911376953125,
+          "preprocess_orthogonal_disagreement": 0.68084716796875,
+          "preprocess_checkerboard_2x2_fraction": 0.362060546875,
+          "local_majority_agreement": 0.54852294921875,
+          "local_density_variance": 0.017327234148979187,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.60797119140625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.2247314453125,
+      "min_orthogonal_disagreement": 0.68084716796875,
+      "min_checkerboard_2x2_fraction": 0.362060546875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.2247314453125,
+          "preprocess_orthogonal_disagreement": 0.70367431640625,
+          "preprocess_checkerboard_2x2_fraction": 0.40740966796875,
+          "local_majority_agreement": 0.5543212890625,
+          "local_density_variance": 0.015804648399353027,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.39642333984375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.2911376953125,
+          "preprocess_orthogonal_disagreement": 0.68084716796875,
+          "preprocess_checkerboard_2x2_fraction": 0.362060546875,
+          "local_majority_agreement": 0.54852294921875,
+          "local_density_variance": 0.017327234148979187,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.60858154296875
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_2_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.2464599609375,
+      "min_orthogonal_disagreement": 0.67413330078125,
+      "min_checkerboard_2x2_fraction": 0.3482666015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.2464599609375,
+          "preprocess_orthogonal_disagreement": 0.67413330078125,
+          "preprocess_checkerboard_2x2_fraction": 0.3482666015625,
+          "local_majority_agreement": 0.5455322265625,
+          "local_density_variance": 0.019697336480021477,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.41876220703125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.3009033203125,
+          "preprocess_orthogonal_disagreement": 0.68536376953125,
+          "preprocess_checkerboard_2x2_fraction": 0.3707275390625,
+          "local_majority_agreement": 0.5460205078125,
+          "local_density_variance": 0.019369272515177727,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56939697265625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_2_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.2464599609375,
+      "min_orthogonal_disagreement": 0.67413330078125,
+      "min_checkerboard_2x2_fraction": 0.3482666015625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.2464599609375,
+          "preprocess_orthogonal_disagreement": 0.67413330078125,
+          "preprocess_checkerboard_2x2_fraction": 0.3482666015625,
+          "local_majority_agreement": 0.5455322265625,
+          "local_density_variance": 0.019697336480021477,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.40911865234375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.3009033203125,
+          "preprocess_orthogonal_disagreement": 0.68536376953125,
+          "preprocess_checkerboard_2x2_fraction": 0.3707275390625,
+          "local_majority_agreement": 0.5460205078125,
+          "local_density_variance": 0.019369272515177727,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56939697265625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.1204833984375,
+      "min_orthogonal_disagreement": 0.657958984375,
+      "min_checkerboard_2x2_fraction": 0.31671142578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1204833984375,
+          "preprocess_orthogonal_disagreement": 0.68756103515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37542724609375,
+          "local_majority_agreement": 0.5555419921875,
+          "local_density_variance": 0.016286902129650116,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.394775390625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.1856689453125,
+          "preprocess_orthogonal_disagreement": 0.657958984375,
+          "preprocess_checkerboard_2x2_fraction": 0.31671142578125,
+          "local_majority_agreement": 0.5460205078125,
+          "local_density_variance": 0.017663301900029182,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.59747314453125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.1204833984375,
+      "min_orthogonal_disagreement": 0.657958984375,
+      "min_checkerboard_2x2_fraction": 0.31671142578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.1204833984375,
+          "preprocess_orthogonal_disagreement": 0.68756103515625,
+          "preprocess_checkerboard_2x2_fraction": 0.37542724609375,
+          "local_majority_agreement": 0.5555419921875,
+          "local_density_variance": 0.016286902129650116,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.3916015625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.1856689453125,
+          "preprocess_orthogonal_disagreement": 0.657958984375,
+          "preprocess_checkerboard_2x2_fraction": 0.31671142578125,
+          "local_majority_agreement": 0.5460205078125,
+          "local_density_variance": 0.017663301900029182,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.599853515625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_812b7dae7_2_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0513916015625,
+      "min_orthogonal_disagreement": 0.5897216796875,
+      "min_checkerboard_2x2_fraction": 0.2049560546875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0528564453125,
+          "preprocess_orthogonal_disagreement": 0.592041015625,
+          "preprocess_checkerboard_2x2_fraction": 0.21514892578125,
+          "local_majority_agreement": 0.54156494140625,
+          "local_density_variance": 0.023097220808267593,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44049072265625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0513916015625,
+          "preprocess_orthogonal_disagreement": 0.5897216796875,
+          "preprocess_checkerboard_2x2_fraction": 0.2049560546875,
+          "local_majority_agreement": 0.55010986328125,
+          "local_density_variance": 0.023215241730213165,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5592041015625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_812b7dae7_2_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0513916015625,
+      "min_orthogonal_disagreement": 0.5897216796875,
+      "min_checkerboard_2x2_fraction": 0.2049560546875,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0528564453125,
+          "preprocess_orthogonal_disagreement": 0.592041015625,
+          "preprocess_checkerboard_2x2_fraction": 0.21514892578125,
+          "local_majority_agreement": 0.54156494140625,
+          "local_density_variance": 0.023097220808267593,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44049072265625
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0513916015625,
+          "preprocess_orthogonal_disagreement": 0.5897216796875,
+          "preprocess_checkerboard_2x2_fraction": 0.2049560546875,
+          "local_majority_agreement": 0.55010986328125,
+          "local_density_variance": 0.023215241730213165,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56060791015625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_812b7dae7_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0579833984375,
+      "min_orthogonal_disagreement": 0.58868408203125,
+      "min_checkerboard_2x2_fraction": 0.18896484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0579833984375,
+          "preprocess_orthogonal_disagreement": 0.58868408203125,
+          "preprocess_checkerboard_2x2_fraction": 0.19219970703125,
+          "local_majority_agreement": 0.54083251953125,
+          "local_density_variance": 0.023047488182783127,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44610595703125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0587158203125,
+          "preprocess_orthogonal_disagreement": 0.58990478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.18896484375,
+          "local_majority_agreement": 0.5396728515625,
+          "local_density_variance": 0.022012624889612198,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.57659912109375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_812b7dae7_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0579833984375,
+      "min_orthogonal_disagreement": 0.58868408203125,
+      "min_checkerboard_2x2_fraction": 0.18896484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0579833984375,
+          "preprocess_orthogonal_disagreement": 0.58868408203125,
+          "preprocess_checkerboard_2x2_fraction": 0.19219970703125,
+          "local_majority_agreement": 0.54083251953125,
+          "local_density_variance": 0.023047488182783127,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44610595703125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0587158203125,
+          "preprocess_orthogonal_disagreement": 0.58990478515625,
+          "preprocess_checkerboard_2x2_fraction": 0.18896484375,
+          "local_majority_agreement": 0.5396728515625,
+          "local_density_variance": 0.022012624889612198,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.57659912109375
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_cand_6774f7e43_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0113525390625,
+      "min_orthogonal_disagreement": 0.55657958984375,
+      "min_checkerboard_2x2_fraction": 0.14483642578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0113525390625,
+          "preprocess_orthogonal_disagreement": 0.55657958984375,
+          "preprocess_checkerboard_2x2_fraction": 0.14483642578125,
+          "local_majority_agreement": 0.5450439453125,
+          "local_density_variance": 0.01685354858636856,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.46771240234375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0159912109375,
+          "preprocess_orthogonal_disagreement": 0.5599365234375,
+          "preprocess_checkerboard_2x2_fraction": 0.148193359375,
+          "local_majority_agreement": 0.5550537109375,
+          "local_density_variance": 0.016635501757264137,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56829833984375
+        }
+      ]
+    },
+    {
+      "schedule_name": "cand_b9b31aebc_cand_6774f7e43_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0113525390625,
+      "min_orthogonal_disagreement": 0.55657958984375,
+      "min_checkerboard_2x2_fraction": 0.14483642578125,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0113525390625,
+          "preprocess_orthogonal_disagreement": 0.55657958984375,
+          "preprocess_checkerboard_2x2_fraction": 0.14483642578125,
+          "local_majority_agreement": 0.5450439453125,
+          "local_density_variance": 0.01685354858636856,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.46771240234375
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0159912109375,
+          "preprocess_orthogonal_disagreement": 0.5599365234375,
+          "preprocess_checkerboard_2x2_fraction": 0.148193359375,
+          "local_majority_agreement": 0.5550537109375,
+          "local_density_variance": 0.016635501757264137,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.56829833984375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0179443359375,
+      "min_orthogonal_disagreement": 0.5572509765625,
+      "min_checkerboard_2x2_fraction": 0.14202880859375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.5572509765625,
+          "preprocess_checkerboard_2x2_fraction": 0.14202880859375,
+          "local_majority_agreement": 0.55615234375,
+          "local_density_variance": 0.018633365631103516,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44482421875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0267333984375,
+          "preprocess_orthogonal_disagreement": 0.5589599609375,
+          "preprocess_checkerboard_2x2_fraction": 0.14825439453125,
+          "local_majority_agreement": 0.55206298828125,
+          "local_density_variance": 0.018523823469877243,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5462646484375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_diag_traffic_ne_traffic_north_cand_6774f7e43_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.125,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0179443359375,
+      "min_orthogonal_disagreement": 0.5572509765625,
+      "min_checkerboard_2x2_fraction": 0.14202880859375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0179443359375,
+          "preprocess_orthogonal_disagreement": 0.5572509765625,
+          "preprocess_checkerboard_2x2_fraction": 0.14202880859375,
+          "local_majority_agreement": 0.55615234375,
+          "local_density_variance": 0.018633365631103516,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44482421875
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0267333984375,
+          "preprocess_orthogonal_disagreement": 0.5589599609375,
+          "preprocess_checkerboard_2x2_fraction": 0.14825439453125,
+          "local_majority_agreement": 0.55206298828125,
+          "local_density_variance": 0.018523823469877243,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5462646484375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_6774f7e43_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0213623046875,
+      "min_orthogonal_disagreement": 0.55072021484375,
+      "min_checkerboard_2x2_fraction": 0.126708984375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0213623046875,
+          "preprocess_orthogonal_disagreement": 0.5517578125,
+          "preprocess_checkerboard_2x2_fraction": 0.1270751953125,
+          "local_majority_agreement": 0.55133056640625,
+          "local_density_variance": 0.01821591518819332,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4542236328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0233154296875,
+          "preprocess_orthogonal_disagreement": 0.55072021484375,
+          "preprocess_checkerboard_2x2_fraction": 0.126708984375,
+          "local_majority_agreement": 0.54779052734375,
+          "local_density_variance": 0.018380654975771904,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5509033203125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_6774f7e43_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0213623046875,
+      "min_orthogonal_disagreement": 0.55072021484375,
+      "min_checkerboard_2x2_fraction": 0.126708984375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0213623046875,
+          "preprocess_orthogonal_disagreement": 0.5517578125,
+          "preprocess_checkerboard_2x2_fraction": 0.1270751953125,
+          "local_majority_agreement": 0.55133056640625,
+          "local_density_variance": 0.01821591518819332,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.4542236328125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0233154296875,
+          "preprocess_orthogonal_disagreement": 0.55072021484375,
+          "preprocess_checkerboard_2x2_fraction": 0.126708984375,
+          "local_majority_agreement": 0.54779052734375,
+          "local_density_variance": 0.018380654975771904,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5509033203125
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_6774f7e43_1_x32_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0235595703125,
+      "min_orthogonal_disagreement": 0.54986572265625,
+      "min_checkerboard_2x2_fraction": 0.12103271484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0277099609375,
+          "preprocess_orthogonal_disagreement": 0.55029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.1234130859375,
+          "local_majority_agreement": 0.5498046875,
+          "local_density_variance": 0.018723785877227783,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44268798828125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0235595703125,
+          "preprocess_orthogonal_disagreement": 0.54986572265625,
+          "preprocess_checkerboard_2x2_fraction": 0.12103271484375,
+          "local_majority_agreement": 0.543701171875,
+          "local_density_variance": 0.018590133637189865,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55950927734375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_6774f7e43_1_x32_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.90625,
+      "final_majority_accuracy_gap": 0.0625,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0235595703125,
+      "min_orthogonal_disagreement": 0.54986572265625,
+      "min_checkerboard_2x2_fraction": 0.12103271484375,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0277099609375,
+          "preprocess_orthogonal_disagreement": 0.55029296875,
+          "preprocess_checkerboard_2x2_fraction": 0.1234130859375,
+          "local_majority_agreement": 0.5498046875,
+          "local_density_variance": 0.018723785877227783,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.44268798828125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0235595703125,
+          "preprocess_orthogonal_disagreement": 0.54986572265625,
+          "preprocess_checkerboard_2x2_fraction": 0.12103271484375,
+          "local_majority_agreement": 0.543701171875,
+          "local_density_variance": 0.018590133637189865,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.55950927734375
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_029b09cea_1_x16_then_majority_vn_32",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0328369140625,
+      "min_orthogonal_disagreement": 0.54425048828125,
+      "min_checkerboard_2x2_fraction": 0.11773681640625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0328369140625,
+          "preprocess_orthogonal_disagreement": 0.54425048828125,
+          "preprocess_checkerboard_2x2_fraction": 0.11773681640625,
+          "local_majority_agreement": 0.53973388671875,
+          "local_density_variance": 0.02767862379550934,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.45733642578125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0345458984375,
+          "preprocess_orthogonal_disagreement": 0.5474853515625,
+          "preprocess_checkerboard_2x2_fraction": 0.12591552734375,
+          "local_majority_agreement": 0.5401611328125,
+          "local_density_variance": 0.02678542211651802,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5426025390625
+        }
+      ]
+    },
+    {
+      "schedule_name": "traffic_east_traffic_north_traffic_west_traffic_south_cand_029b09cea_1_x16_then_majority_vn_64",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_checkerboard_alignment": 0.0328369140625,
+      "min_orthogonal_disagreement": 0.54425048828125,
+      "min_checkerboard_2x2_fraction": 0.11773681640625,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "preprocess_checkerboard_alignment": 0.0328369140625,
+          "preprocess_orthogonal_disagreement": 0.54425048828125,
+          "preprocess_checkerboard_2x2_fraction": 0.11773681640625,
+          "local_majority_agreement": 0.53973388671875,
+          "local_density_variance": 0.02767862379550934,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.45733642578125
+        },
+        {
+          "probability": 0.51,
+          "preprocess_checkerboard_alignment": 0.0345458984375,
+          "preprocess_orthogonal_disagreement": 0.5474853515625,
+          "preprocess_checkerboard_2x2_fraction": 0.12591552734375,
+          "local_majority_agreement": 0.5401611328125,
+          "local_density_variance": 0.02678542211651802,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_rate": 0.0,
+          "final_consensus_accuracy": 0.0,
+          "mean_final_density": 0.5426025390625
+        }
+      ]
+    }
+  ]
+}

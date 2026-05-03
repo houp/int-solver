@@ -1,0 +1,7 @@
+# B-permutive family: toggling the south neighbor b flips the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, 0, c) != f(x, y, z, t, u, w, a, 1, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

@@ -1,0 +1,1032 @@
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_0 + x_8 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_1 + x_9 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_2 + x_10 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_3 + x_11 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_4 + x_12 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_5 + x_13 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_6 + x_14 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_7 + x_15 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_16 + x_24 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_17 + x_25 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_18 + x_26 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_19 + x_27 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_20 + x_28 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_21 + x_29 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_22 + x_30 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_23 + x_31 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_32 + x_40 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_33 + x_41 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_34 + x_42 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_35 + x_43 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_36 + x_44 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_37 + x_45 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_38 + x_46 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_39 + x_47 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_48 + x_56 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_49 + x_57 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_50 + x_58 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_51 + x_59 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_52 + x_60 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_53 + x_61 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_54 + x_62 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=0, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_55 + x_63 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_64 + x_72 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_65 + x_73 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_66 + x_74 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_67 + x_75 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_68 + x_76 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_69 + x_77 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_70 + x_78 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_71 + x_79 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_80 + x_88 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_81 + x_89 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_82 + x_90 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_83 + x_91 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_84 + x_92 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_85 + x_93 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_86 + x_94 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_87 + x_95 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_96 + x_104 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_97 + x_105 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_98 + x_106 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_99 + x_107 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_100 + x_108 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_101 + x_109 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_102 + x_110 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_103 + x_111 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_112 + x_120 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_113 + x_121 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_114 + x_122 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_115 + x_123 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_116 + x_124 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_117 + x_125 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_118 + x_126 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=0, z=1, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_119 + x_127 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_128 + x_136 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_129 + x_137 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_130 + x_138 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_131 + x_139 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_132 + x_140 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_133 + x_141 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_134 + x_142 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_135 + x_143 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_144 + x_152 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_145 + x_153 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_146 + x_154 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_147 + x_155 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_148 + x_156 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_149 + x_157 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_150 + x_158 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_151 + x_159 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_160 + x_168 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_161 + x_169 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_162 + x_170 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_163 + x_171 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_164 + x_172 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_165 + x_173 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_166 + x_174 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_167 + x_175 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_176 + x_184 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_177 + x_185 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_178 + x_186 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_179 + x_187 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_180 + x_188 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_181 + x_189 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_182 + x_190 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=0, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_183 + x_191 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_192 + x_200 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_193 + x_201 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_194 + x_202 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_195 + x_203 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_196 + x_204 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_197 + x_205 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_198 + x_206 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_199 + x_207 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_208 + x_216 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_209 + x_217 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_210 + x_218 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_211 + x_219 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_212 + x_220 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_213 + x_221 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_214 + x_222 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_215 + x_223 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_224 + x_232 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_225 + x_233 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_226 + x_234 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_227 + x_235 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_228 + x_236 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_229 + x_237 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_230 + x_238 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_231 + x_239 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_240 + x_248 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_241 + x_249 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_242 + x_250 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_243 + x_251 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_244 + x_252 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_245 + x_253 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_246 + x_254 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=0, y=1, z=1, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_247 + x_255 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_256 + x_264 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_257 + x_265 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_258 + x_266 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_259 + x_267 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_260 + x_268 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_261 + x_269 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_262 + x_270 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_263 + x_271 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_272 + x_280 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_273 + x_281 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_274 + x_282 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_275 + x_283 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_276 + x_284 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_277 + x_285 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_278 + x_286 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_279 + x_287 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_288 + x_296 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_289 + x_297 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_290 + x_298 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_291 + x_299 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_292 + x_300 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_293 + x_301 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_294 + x_302 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_295 + x_303 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_304 + x_312 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_305 + x_313 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_306 + x_314 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_307 + x_315 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_308 + x_316 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_309 + x_317 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_310 + x_318 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=0, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_311 + x_319 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_320 + x_328 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_321 + x_329 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_322 + x_330 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_323 + x_331 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_324 + x_332 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_325 + x_333 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_326 + x_334 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_327 + x_335 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_336 + x_344 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_337 + x_345 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_338 + x_346 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_339 + x_347 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_340 + x_348 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_341 + x_349 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_342 + x_350 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_343 + x_351 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_352 + x_360 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_353 + x_361 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_354 + x_362 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_355 + x_363 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_356 + x_364 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_357 + x_365 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_358 + x_366 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_359 + x_367 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_368 + x_376 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_369 + x_377 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_370 + x_378 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_371 + x_379 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_372 + x_380 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_373 + x_381 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_374 + x_382 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=0, z=1, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_375 + x_383 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_384 + x_392 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_385 + x_393 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_386 + x_394 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_387 + x_395 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_388 + x_396 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_389 + x_397 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_390 + x_398 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_391 + x_399 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_400 + x_408 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_401 + x_409 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_402 + x_410 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_403 + x_411 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_404 + x_412 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_405 + x_413 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_406 + x_414 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_407 + x_415 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_416 + x_424 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_417 + x_425 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_418 + x_426 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_419 + x_427 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_420 + x_428 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_421 + x_429 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_422 + x_430 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_423 + x_431 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_432 + x_440 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_433 + x_441 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_434 + x_442 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_435 + x_443 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_436 + x_444 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_437 + x_445 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_438 + x_446 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=0, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_439 + x_447 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_448 + x_456 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_449 + x_457 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_450 + x_458 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_451 + x_459 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_452 + x_460 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_453 + x_461 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_454 + x_462 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_455 + x_463 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_464 + x_472 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_465 + x_473 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_466 + x_474 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_467 + x_475 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_468 + x_476 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_469 + x_477 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_470 + x_478 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=0, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_471 + x_479 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_480 + x_488 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_481 + x_489 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_482 + x_490 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_483 + x_491 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_484 + x_492 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_485 + x_493 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_486 + x_494 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=0, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_487 + x_495 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=0, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_496 + x_504 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=0, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_497 + x_505 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=0, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_498 + x_506 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=0, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_499 + x_507 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=1, b=0, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_500 + x_508 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=1, b=0, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_501 + x_509 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=1, b=1, c=0)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_502 + x_510 = 1
+
+identity=1 vars=(x, y, z, t, u, a, b, c) assignment=(x=1, y=1, z=1, t=1, u=1, a=1, b=1, c=1)
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c)
+x_503 + x_511 = 1
+
+identity=2 vars=() assignment=()
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0
+x_0 = 0
+
+identity=3 vars=() assignment=()
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1
+x_511 = 1
+

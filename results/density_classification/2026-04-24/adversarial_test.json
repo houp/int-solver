@@ -1,0 +1,415 @@
+{
+  "runs": [
+    {
+      "grid": 192,
+      "elapsed_seconds": 2.241431951522827,
+      "num_cases": 16,
+      "num_correct": 3,
+      "num_consensus": 3,
+      "per_case": [
+        {
+          "kind": "stripes_h_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999728732638889,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999728732638889,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl0",
+          "label": 0,
+          "initial_density": 0.4791937934027778,
+          "final_density": 0.0,
+          "consensus": true,
+          "correct": true
+        },
+        {
+          "kind": "two_blobs_lbl0",
+          "label": 1,
+          "initial_density": 0.5124782986111112,
+          "final_density": 0.4853786892361111,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl0",
+          "label": 0,
+          "initial_density": 0.4974500868055556,
+          "final_density": 0.0,
+          "consensus": true,
+          "correct": true
+        },
+        {
+          "kind": "stripes_h_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000271267361112,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000271267361112,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl1",
+          "label": 1,
+          "initial_density": 0.5208062065972222,
+          "final_density": 1.0,
+          "consensus": true,
+          "correct": true
+        },
+        {
+          "kind": "two_blobs_lbl1",
+          "label": 0,
+          "initial_density": 0.4875217013888889,
+          "final_density": 0.5199381510416666,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl1",
+          "label": 1,
+          "initial_density": 0.5000271267361112,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl1",
+          "label": 1,
+          "initial_density": 0.5000271267361112,
+          "final_density": 0.5195041232638888,
+          "consensus": false,
+          "correct": false
+        }
+      ]
+    },
+    {
+      "grid": 256,
+      "elapsed_seconds": 3.4142088890075684,
+      "num_cases": 16,
+      "num_correct": 3,
+      "num_consensus": 3,
+      "per_case": [
+        {
+          "kind": "stripes_h_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999847412109375,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999847412109375,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl0",
+          "label": 0,
+          "initial_density": 0.4793853759765625,
+          "final_density": 0.0,
+          "consensus": true,
+          "correct": true
+        },
+        {
+          "kind": "two_blobs_lbl0",
+          "label": 1,
+          "initial_density": 0.5126953125,
+          "final_density": 0.4969635009765625,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl0",
+          "label": 0,
+          "initial_density": 0.4999847412109375,
+          "final_density": 0.4137420654296875,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_h_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000152587890625,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000152587890625,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl1",
+          "label": 1,
+          "initial_density": 0.5206146240234375,
+          "final_density": 1.0,
+          "consensus": true,
+          "correct": true
+        },
+        {
+          "kind": "two_blobs_lbl1",
+          "label": 0,
+          "initial_density": 0.4873046875,
+          "final_density": 0.50030517578125,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl1",
+          "label": 1,
+          "initial_density": 0.5000152587890625,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl1",
+          "label": 1,
+          "initial_density": 0.501373291015625,
+          "final_density": 1.0,
+          "consensus": true,
+          "correct": true
+        }
+      ]
+    },
+    {
+      "grid": 384,
+      "elapsed_seconds": 8.341962814331055,
+      "num_cases": 16,
+      "num_correct": 0,
+      "num_consensus": 0,
+      "per_case": [
+        {
+          "kind": "stripes_h_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999932183159722,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl0",
+          "label": 0,
+          "initial_density": 0.4999932183159722,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl0",
+          "label": 0,
+          "initial_density": 0.48565673828125,
+          "final_density": 0.2985500759548611,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "two_blobs_lbl0",
+          "label": 1,
+          "initial_density": 0.5192599826388888,
+          "final_density": 0.50042724609375,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl0",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl0",
+          "label": 0,
+          "initial_density": 0.4999932183159722,
+          "final_density": 0.4523790147569444,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_h_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000067816840278,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "stripes_v_w1_lbl1",
+          "label": 1,
+          "initial_density": 0.5000067816840278,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "checkerboard_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "block_checker_2x2_lbl1",
+          "label": 0,
+          "initial_density": 0.5,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "one_big_blob_lbl1",
+          "label": 1,
+          "initial_density": 0.51434326171875,
+          "final_density": 0.7014499240451388,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "two_blobs_lbl1",
+          "label": 0,
+          "initial_density": 0.4807400173611111,
+          "final_density": 0.5013359917534722,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "half_half_vertical_lbl1",
+          "label": 1,
+          "initial_density": 0.5000067816840278,
+          "final_density": 0.5,
+          "consensus": false,
+          "correct": false
+        },
+        {
+          "kind": "near_critical_random_lbl1",
+          "label": 1,
+          "initial_density": 0.5031873914930556,
+          "final_density": 0.9264390733506944,
+          "consensus": false,
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

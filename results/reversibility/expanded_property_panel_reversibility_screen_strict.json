@@ -1,0 +1,67 @@
+{
+  "binary_path": "expanded_property_panel_nonzero.bin",
+  "metadata_path": "expanded_property_panel_nonzero.json",
+  "total_rules": 16,
+  "trivial_reversible_rules": 0,
+  "nontrivial_rules": 16,
+  "stages": [
+    {
+      "stage": "particle-sector:2@4x4",
+      "tested_rules": 16,
+      "rejected_rules": 0,
+      "surviving_rules": 16
+    },
+    {
+      "stage": "particle-sector:3@4x4",
+      "tested_rules": 16,
+      "rejected_rules": 0,
+      "surviving_rules": 16
+    },
+    {
+      "stage": "particle-sector:4@4x4",
+      "tested_rules": 16,
+      "rejected_rules": 16,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "hole-sector:1@4x4",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "hole-sector:2@4x4",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "hole-sector:3@4x4",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "hole-sector:4@4x4",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "torus:3x3",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    },
+    {
+      "stage": "torus:4x4",
+      "tested_rules": 0,
+      "rejected_rules": 0,
+      "surviving_rules": 0
+    }
+  ],
+  "surviving_rule_count": 0,
+  "surviving_legacy_indices": [],
+  "surviving_stable_indices": [],
+  "surviving_stable_ids": []
+}

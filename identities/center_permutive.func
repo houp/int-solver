@@ -1,0 +1,8 @@
+# Center-permutive family for 2D binary cellular automata with a Moore neighborhood.
+# For every fixed outer neighborhood, toggling the center cell flips the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, 0, w, a, b, c) != f(x, y, z, t, 1, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

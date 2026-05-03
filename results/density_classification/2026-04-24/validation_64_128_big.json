@@ -1,0 +1,247 @@
+{
+  "sid_pre": "sid:58ed6b657afb",
+  "sid_shake": "sid:58ed6b657afb",
+  "amplifier": "moore81",
+  "schedule": {
+    "T_pre": 128,
+    "T_amp": 256,
+    "T_shake": 64,
+    "num_shakes": 2,
+    "T_amp_final": 1024
+  },
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "trials_per_seed": 128,
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "runs": [
+    {
+      "grid": 64,
+      "total_trials": 2560,
+      "total_failures": 406,
+      "aggregate_correct_consensus_rate": 0.84140625,
+      "per_seed": [
+        {
+          "trials": 256,
+          "consensus_rate": 0.8515625,
+          "correct_consensus_rate": 0.84375,
+          "final_majority_accuracy": 0.94921875,
+          "num_failures": 40,
+          "seed": 1,
+          "grid": 64,
+          "elapsed_seconds": 3.5781450271606445
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.84375,
+          "correct_consensus_rate": 0.8359375,
+          "final_majority_accuracy": 0.95703125,
+          "num_failures": 42,
+          "seed": 2,
+          "grid": 64,
+          "elapsed_seconds": 3.48511004447937
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.85546875,
+          "correct_consensus_rate": 0.84765625,
+          "final_majority_accuracy": 0.96875,
+          "num_failures": 39,
+          "seed": 3,
+          "grid": 64,
+          "elapsed_seconds": 3.4657557010650635
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.86328125,
+          "correct_consensus_rate": 0.85546875,
+          "final_majority_accuracy": 0.9765625,
+          "num_failures": 37,
+          "seed": 4,
+          "grid": 64,
+          "elapsed_seconds": 3.478322982788086
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.81640625,
+          "correct_consensus_rate": 0.80078125,
+          "final_majority_accuracy": 0.94140625,
+          "num_failures": 51,
+          "seed": 5,
+          "grid": 64,
+          "elapsed_seconds": 3.5247907638549805
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.86328125,
+          "correct_consensus_rate": 0.83984375,
+          "final_majority_accuracy": 0.953125,
+          "num_failures": 41,
+          "seed": 6,
+          "grid": 64,
+          "elapsed_seconds": 3.570688009262085
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.83984375,
+          "correct_consensus_rate": 0.83984375,
+          "final_majority_accuracy": 0.98046875,
+          "num_failures": 41,
+          "seed": 7,
+          "grid": 64,
+          "elapsed_seconds": 3.666958808898926
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.8671875,
+          "correct_consensus_rate": 0.84375,
+          "final_majority_accuracy": 0.9609375,
+          "num_failures": 40,
+          "seed": 8,
+          "grid": 64,
+          "elapsed_seconds": 3.7025129795074463
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.87109375,
+          "correct_consensus_rate": 0.85546875,
+          "final_majority_accuracy": 0.953125,
+          "num_failures": 37,
+          "seed": 9,
+          "grid": 64,
+          "elapsed_seconds": 3.675948143005371
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.8671875,
+          "correct_consensus_rate": 0.8515625,
+          "final_majority_accuracy": 0.9375,
+          "num_failures": 38,
+          "seed": 10,
+          "grid": 64,
+          "elapsed_seconds": 3.6905760765075684
+        }
+      ]
+    },
+    {
+      "grid": 128,
+      "total_trials": 2560,
+      "total_failures": 17,
+      "aggregate_correct_consensus_rate": 0.993359375,
+      "per_seed": [
+        {
+          "trials": 256,
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 0.99609375,
+          "final_majority_accuracy": 0.99609375,
+          "num_failures": 1,
+          "seed": 1,
+          "grid": 128,
+          "elapsed_seconds": 18.82016396522522
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.984375,
+          "correct_consensus_rate": 0.984375,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 4,
+          "seed": 2,
+          "grid": 128,
+          "elapsed_seconds": 19.35612201690674
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 0.99609375,
+          "final_majority_accuracy": 0.99609375,
+          "num_failures": 1,
+          "seed": 3,
+          "grid": 128,
+          "elapsed_seconds": 21.249123096466064
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.9921875,
+          "correct_consensus_rate": 0.9921875,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 2,
+          "seed": 4,
+          "grid": 128,
+          "elapsed_seconds": 24.56325602531433
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 0.99609375,
+          "final_majority_accuracy": 0.99609375,
+          "num_failures": 1,
+          "seed": 5,
+          "grid": 128,
+          "elapsed_seconds": 24.184194087982178
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 1.0,
+          "correct_consensus_rate": 1.0,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 0,
+          "seed": 6,
+          "grid": 128,
+          "elapsed_seconds": 25.94119095802307
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.98828125,
+          "correct_consensus_rate": 0.98828125,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 3,
+          "seed": 7,
+          "grid": 128,
+          "elapsed_seconds": 25.16541886329651
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.9921875,
+          "correct_consensus_rate": 0.98828125,
+          "final_majority_accuracy": 0.99609375,
+          "num_failures": 3,
+          "seed": 8,
+          "grid": 128,
+          "elapsed_seconds": 25.486293077468872
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.99609375,
+          "correct_consensus_rate": 0.99609375,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 1,
+          "seed": 9,
+          "grid": 128,
+          "elapsed_seconds": 26.489073991775513
+        },
+        {
+          "trials": 256,
+          "consensus_rate": 0.99609375,
+          "correct_consensus_rate": 0.99609375,
+          "final_majority_accuracy": 1.0,
+          "num_failures": 1,
+          "seed": 10,
+          "grid": 128,
+          "elapsed_seconds": 24.474233865737915
+        }
+      ]
+    }
+  ]
+}

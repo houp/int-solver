@@ -1,0 +1,11 @@
+{
+  "name": "ca-rule-visualization",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:data": "python3 scripts/build_dataset.py",
+    "test": "node --test",
+    "serve": "python3 -m http.server 4173"
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "args": {
+    "candidates_file": "classifier/h2h_candidates_tier1.json",
+    "L": 96,
+    "delta": 0.02,
+    "n_seeds": 8,
+    "n_random_per_side": 64,
+    "adv_densities": [
+      0.01,
+      0.02,
+      0.05
+    ],
+    "max_steps_mult": 32,
+    "seed_base": 2026,
+    "output": "results/density_classification/2026-04-30/h2h_tier2b_L96.json"
+  },
+  "candidates": [
+    {
+      "name": "baseline_published",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj"
+      ],
+      "weights": [
+        0.7,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1
+      ]
+    },
+    {
+      "name": "r_break_augmented",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj",
+        "witek:21535079"
+      ],
+      "weights": [
+        0.65,
+        0.05,
+        0.05,
+        0.05,
+        0.05,
+        0.1,
+        0.05
+      ]
+    },
+    {
+      "name": "autotune_rebalanced",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj"
+      ],
+      "weights": [
+        0.041,
+        0.049,
+        0.126,
+        0.017,
+        0.579,
+        0.188
+      ]
+    },
+    {
+      "name": "combined_r_break_plus_rebalanced",
+      "rules": [
+        "sid:58ed6b657afb",
+        "traffic_ne",
+        "traffic_nw",
+        "traffic_se",
+        "traffic_sw",
+        "moore_maj",
+        "witek:21535079"
+      ],
+      "weights": [
+        0.04,
+        0.05,
+        0.12,
+        0.02,
+        0.55,
+        0.17,
+        0.05
+      ]
+    }
+  ],
+  "summary": {
+    "baseline_published": {
+      "random_correct": 858,
+      "random_total": 1024,
+      "random_cc": 0.837890625,
+      "random_ci_95": [
+        0.814060849628076,
+        0.8591946403229048
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 252.4375,
+      "median_steps_adv_mean": 46.25
+    },
+    "r_break_augmented": {
+      "random_correct": 945,
+      "random_total": 1024,
+      "random_cc": 0.9228515625,
+      "random_ci_95": [
+        0.9048821844438139,
+        0.9376600905526448
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 396.125,
+      "median_steps_adv_mean": 44.1875
+    },
+    "autotune_rebalanced": {
+      "random_correct": 990,
+      "random_total": 1024,
+      "random_cc": 0.966796875,
+      "random_ci_95": [
+        0.9539606979079529,
+        0.9761437072844426
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 302.625,
+      "median_steps_adv_mean": 25.75
+    },
+    "combined_r_break_plus_rebalanced": {
+      "random_correct": 967,
+      "random_total": 1024,
+      "random_cc": 0.9443359375,
+      "random_ci_95": [
+        0.928560540994002,
+        0.9567898865426924
+      ],
+      "adversarial_correct": 384,
+      "adversarial_total": 384,
+      "adversarial_cc": 1.0,
+      "adversarial_ci_95": [
+        0.9900949253509681,
+        1.0
+      ],
+      "median_steps_random_mean": 488.25,
+      "median_steps_adv_mean": 27.125
+    }
+  },
+  "paired_mcnemar": [
+    {
+      "a": "baseline_published",
+      "b": "r_break_augmented",
+      "kind": "random",
+      "a_only_correct": 65,
+      "b_only_correct": 152,
+      "n_disagreements": 217,
+      "p_value_two_sided": 3.282453878431456e-09
+    },
+    {
+      "a": "baseline_published",
+      "b": "r_break_augmented",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "baseline_published",
+      "b": "autotune_rebalanced",
+      "kind": "random",
+      "a_only_correct": 26,
+      "b_only_correct": 158,
+      "n_disagreements": 184,
+      "p_value_two_sided": 2.9024672675812567e-24
+    },
+    {
+      "a": "baseline_published",
+      "b": "autotune_rebalanced",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "baseline_published",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "random",
+      "a_only_correct": 51,
+      "b_only_correct": 160,
+      "n_disagreements": 211,
+      "p_value_two_sided": 2.701460054238531e-14
+    },
+    {
+      "a": "baseline_published",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "r_break_augmented",
+      "b": "autotune_rebalanced",
+      "kind": "random",
+      "a_only_correct": 31,
+      "b_only_correct": 76,
+      "n_disagreements": 107,
+      "p_value_two_sided": 1.6028586145575527e-05
+    },
+    {
+      "a": "r_break_augmented",
+      "b": "autotune_rebalanced",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "r_break_augmented",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "random",
+      "a_only_correct": 52,
+      "b_only_correct": 74,
+      "n_disagreements": 126,
+      "p_value_two_sided": 0.06093825261566013
+    },
+    {
+      "a": "r_break_augmented",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    },
+    {
+      "a": "autotune_rebalanced",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "random",
+      "a_only_correct": 48,
+      "b_only_correct": 25,
+      "n_disagreements": 73,
+      "p_value_two_sided": 0.009542211425865475
+    },
+    {
+      "a": "autotune_rebalanced",
+      "b": "combined_r_break_plus_rebalanced",
+      "kind": "adversarial",
+      "a_only_correct": 0,
+      "b_only_correct": 0,
+      "n_disagreements": 0,
+      "p_value_two_sided": 1.0
+    }
+  ],
+  "elapsed_total_seconds": 1509.9349896907806
+}

@@ -1,0 +1,110 @@
+{
+  "sid": "sid:58ed6b657afb",
+  "amplifier": "moore9",
+  "mode": "mix_then_det",
+  "total_steps": 4096,
+  "final_det_steps": 1024,
+  "grid": 64,
+  "runs": [
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.71875,
+      "correct_consensus_rate": 0.6171875,
+      "final_majority_accuracy": 0.796875,
+      "final_density_mean": 0.4791908264160156,
+      "p_F": 0.55,
+      "dataset": "random",
+      "grid": 64,
+      "elapsed_seconds": 12.838371992111206
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.3,
+      "correct_consensus_rate": 0.1,
+      "final_majority_accuracy": 0.5,
+      "final_density_mean": 0.6681884765625,
+      "p_F": 0.55,
+      "dataset": "adversarial",
+      "grid": 64,
+      "elapsed_seconds": 2.5393950939178467
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.84375,
+      "correct_consensus_rate": 0.734375,
+      "final_majority_accuracy": 0.84375,
+      "final_density_mean": 0.5024566650390625,
+      "p_F": 0.6,
+      "dataset": "random",
+      "grid": 64,
+      "elapsed_seconds": 12.062427282333374
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.3,
+      "correct_consensus_rate": 0.1,
+      "final_majority_accuracy": 0.4,
+      "final_density_mean": 0.5957763671875,
+      "p_F": 0.6,
+      "dataset": "adversarial",
+      "grid": 64,
+      "elapsed_seconds": 2.5042600631713867
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.7578125,
+      "correct_consensus_rate": 0.6484375,
+      "final_majority_accuracy": 0.8359375,
+      "final_density_mean": 0.5439605712890625,
+      "p_F": 0.65,
+      "dataset": "random",
+      "grid": 64,
+      "elapsed_seconds": 11.817039966583252
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.5,
+      "correct_consensus_rate": 0.5,
+      "final_majority_accuracy": 0.8,
+      "final_density_mean": 0.533837890625,
+      "p_F": 0.65,
+      "dataset": "adversarial",
+      "grid": 64,
+      "elapsed_seconds": 2.2916018962860107
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.6953125,
+      "correct_consensus_rate": 0.609375,
+      "final_majority_accuracy": 0.8515625,
+      "final_density_mean": 0.5203609466552734,
+      "p_F": 0.7,
+      "dataset": "random",
+      "grid": 64,
+      "elapsed_seconds": 11.619707822799683
+    },
+    {
+      "total_steps": 5120,
+      "consensus_rate": 0.2,
+      "correct_consensus_rate": 0.0,
+      "final_majority_accuracy": 0.4,
+      "final_density_mean": 0.564111328125,
+      "p_F": 0.7,
+      "dataset": "adversarial",
+      "grid": 64,
+      "elapsed_seconds": 2.1971778869628906
+    }
+  ],
+  "adversarial_case_names": [
+    "stripes_h_lbl0",
+    "stripes_v_lbl0",
+    "checker_lbl0",
+    "block_checker_lbl0",
+    "half_half_lbl0",
+    "stripes_h_lbl1",
+    "stripes_v_lbl1",
+    "checker_lbl1",
+    "block_checker_lbl1",
+    "half_half_lbl1"
+  ]
+}

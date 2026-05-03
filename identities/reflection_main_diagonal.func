@@ -1,0 +1,7 @@
+# Reflection across the main diagonal for 2D binary cellular automata with a Moore neighborhood.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(x, t, a, y, u, b, z, w, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

@@ -1,0 +1,20 @@
+# Orthogonal/diagonal semi-totalistic family.
+# The rule may depend on:
+#   - the center cell u,
+#   - the multiset of diagonal cells {x, z, a, c},
+#   - the multiset of orthogonal cells {y, t, w, b},
+# but not on positions within either class.
+vars: x, y, z, t, u, w, a, b, c
+
+# Diagonal permutations
+f(x, y, z, t, u, w, a, b, c) = f(z, y, x, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, a, t, u, w, z, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, c, b, a);
+
+# Orthogonal permutations
+f(x, y, z, t, u, w, a, b, c) = f(x, t, z, y, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, w, u, t, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, b, a, w, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

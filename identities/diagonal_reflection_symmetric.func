@@ -1,0 +1,8 @@
+# Invariance under both diagonal reflections.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(x, t, a, y, u, b, z, w, c);
+f(x, y, z, t, u, w, a, b, c) = f(c, w, z, b, u, y, a, t, x);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

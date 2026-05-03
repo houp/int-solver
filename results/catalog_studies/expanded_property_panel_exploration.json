@@ -1,0 +1,587 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "rule_count": 133713,
+  "nonsimple_count": 133696,
+  "backend": "mlx",
+  "grid": {
+    "width": 32,
+    "height": 32
+  },
+  "steps": 48,
+  "batch_size": 1024,
+  "top_candidates": [
+    {
+      "id": 28354,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southeast",
+        "isolated_hole:northwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "score": 0.7139104008674622,
+      "mean_activity_random": 0.952880859375,
+      "mean_activity_sparse": 0.302734375,
+      "final_entropy_random": 0.9996669888496399,
+      "final_entropy_sparse": 0.6132511496543884
+    },
+    {
+      "id": 85932,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:northwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northwest",
+      "score": 0.7039086222648621,
+      "mean_activity_random": 0.956787109375,
+      "mean_activity_sparse": 0.279296875,
+      "final_entropy_random": 0.9993807673454285,
+      "final_entropy_sparse": 0.5833173394203186
+    },
+    {
+      "id": 93021,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:north",
+        "isolated_hole:south"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "south",
+      "score": 0.7034072279930115,
+      "mean_activity_random": 0.9361165165901184,
+      "mean_activity_sparse": 0.294921875,
+      "final_entropy_random": 0.99977707862854,
+      "final_entropy_sparse": 0.6034496426582336
+    },
+    {
+      "id": 99452,
+      "mask": 58720256,
+      "properties": [
+        "outer_monotone",
+        "orthogonal_monotone",
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northeast",
+        "isolated_hole:southwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "southwest",
+      "score": 0.7030206918716431,
+      "mean_activity_random": 0.9376627802848816,
+      "mean_activity_sparse": 0.29296875,
+      "final_entropy_random": 0.9994605779647827,
+      "final_entropy_sparse": 0.600972056388855
+    },
+    {
+      "id": 12435,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:west",
+        "isolated_hole:east"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "west",
+      "isolated_hole_velocity": "east",
+      "score": 0.7026613354682922,
+      "mean_activity_random": 0.9583333134651184,
+      "mean_activity_sparse": 0.275390625,
+      "final_entropy_random": 0.9999009370803833,
+      "final_entropy_sparse": 0.5781710743904114
+    },
+    {
+      "id": 48212,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southwest",
+        "isolated_hole:northeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "score": 0.7017043828964233,
+      "mean_activity_random": 0.9532063603401184,
+      "mean_activity_sparse": 0.2764485776424408,
+      "final_entropy_random": 0.9999312162399292,
+      "final_entropy_sparse": 0.5833173394203186
+    },
+    {
+      "id": 7685,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:west",
+        "isolated_hole:southeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "west",
+      "isolated_hole_velocity": "southeast",
+      "score": 0.701289176940918,
+      "mean_activity_random": 0.9453125,
+      "mean_activity_sparse": 0.283203125,
+      "final_entropy_random": 0.9996036887168884,
+      "final_entropy_sparse": 0.5884178280830383
+    },
+    {
+      "id": 98759,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northeast",
+        "isolated_hole:southwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "southwest",
+      "score": 0.6994295120239258,
+      "mean_activity_random": 0.9551594853401184,
+      "mean_activity_sparse": 0.271484375,
+      "final_entropy_random": 0.9998238682746887,
+      "final_entropy_sparse": 0.5729784369468689
+    },
+    {
+      "id": 98758,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northeast",
+        "isolated_hole:southwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "southwest",
+      "score": 0.69931960105896,
+      "mean_activity_random": 0.949951171875,
+      "mean_activity_sparse": 0.275390625,
+      "final_entropy_random": 0.9999752640724182,
+      "final_entropy_sparse": 0.5781710743904114
+    },
+    {
+      "id": 29045,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southeast",
+        "isolated_hole:northwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "score": 0.698992133140564,
+      "mean_activity_random": 0.942138671875,
+      "mean_activity_sparse": 0.28125,
+      "final_entropy_random": 0.9992046356201172,
+      "final_entropy_sparse": 0.5858733057975769
+    },
+    {
+      "id": 34521,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "north",
+      "score": 0.6982612013816833,
+      "mean_activity_random": 0.930908203125,
+      "mean_activity_sparse": 0.2890625,
+      "final_entropy_random": 0.9985438585281372,
+      "final_entropy_sparse": 0.5959838032722473
+    },
+    {
+      "id": 24795,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southwest",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "north",
+      "score": 0.6982125639915466,
+      "mean_activity_random": 0.93505859375,
+      "mean_activity_sparse": 0.28515625,
+      "final_entropy_random": 0.9999972581863403,
+      "final_entropy_sparse": 0.5909510850906372
+    },
+    {
+      "id": 2370,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:east",
+        "isolated_hole:west"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "west",
+      "score": 0.6973011493682861,
+      "mean_activity_random": 0.927978515625,
+      "mean_activity_sparse": 0.2890625,
+      "final_entropy_random": 0.999955952167511,
+      "final_entropy_sparse": 0.5959838032722473
+    },
+    {
+      "id": 55897,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northwest",
+        "isolated_hole:east"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "east",
+      "score": 0.6968026757240295,
+      "mean_activity_random": 0.9412434697151184,
+      "mean_activity_sparse": 0.27734375,
+      "final_entropy_random": 0.9999312162399292,
+      "final_entropy_sparse": 0.5807499885559082
+    },
+    {
+      "id": 24438,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southwest",
+        "isolated_hole:northeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "score": 0.6964285373687744,
+      "mean_activity_random": 0.9403483271598816,
+      "mean_activity_sparse": 0.27734375,
+      "final_entropy_random": 0.9998238682746887,
+      "final_entropy_sparse": 0.5807499885559082
+    },
+    {
+      "id": 97196,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:east",
+        "isolated_hole:west"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "west",
+      "score": 0.6963993310928345,
+      "mean_activity_random": 0.9353840947151184,
+      "mean_activity_sparse": 0.28125,
+      "final_entropy_random": 0.9999312162399292,
+      "final_entropy_sparse": 0.5858733057975769
+    },
+    {
+      "id": 65408,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:east",
+        "isolated_hole:west"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "west",
+      "score": 0.6960809826850891,
+      "mean_activity_random": 0.9517415165901184,
+      "mean_activity_sparse": 0.267578125,
+      "final_entropy_random": 0.9996669888496399,
+      "final_entropy_sparse": 0.5677388906478882
+    },
+    {
+      "id": 60336,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northwest",
+        "isolated_hole:southeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "southeast",
+      "score": 0.696060299873352,
+      "mean_activity_random": 0.94921875,
+      "mean_activity_sparse": 0.26953125,
+      "final_entropy_random": 0.999724805355072,
+      "final_entropy_sparse": 0.5703645348548889
+    },
+    {
+      "id": 77603,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northeast",
+        "isolated_hole:south"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "south",
+      "score": 0.695956826210022,
+      "mean_activity_random": 0.9200032353401184,
+      "mean_activity_sparse": 0.29296875,
+      "final_entropy_random": 0.9994605779647827,
+      "final_entropy_sparse": 0.600972056388855
+    },
+    {
+      "id": 103556,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southeast",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "north",
+      "score": 0.6955156326293945,
+      "mean_activity_random": 0.9170735478401184,
+      "mean_activity_sparse": 0.2939453125,
+      "final_entropy_random": 0.9999009370803833,
+      "final_entropy_sparse": 0.6034496426582336
+    },
+    {
+      "id": 54532,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:northwest",
+        "isolated_hole:southeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "southeast",
+      "score": 0.6951600313186646,
+      "mean_activity_random": 0.949462890625,
+      "mean_activity_sparse": 0.267578125,
+      "final_entropy_random": 0.9996036887168884,
+      "final_entropy_sparse": 0.5677388906478882
+    },
+    {
+      "id": 24392,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southwest",
+        "isolated_hole:northeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "score": 0.694894552230835,
+      "mean_activity_random": 0.9307454228401184,
+      "mean_activity_sparse": 0.28125,
+      "final_entropy_random": 0.999724805355072,
+      "final_entropy_sparse": 0.5884178280830383
+    },
+    {
+      "id": 12445,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:west",
+        "isolated_hole:northeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "west",
+      "isolated_hole_velocity": "northeast",
+      "score": 0.6947232484817505,
+      "mean_activity_random": 0.9336751103401184,
+      "mean_activity_sparse": 0.279296875,
+      "final_entropy_random": 0.99977707862854,
+      "final_entropy_sparse": 0.5833173394203186
+    },
+    {
+      "id": 52744,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "north",
+      "score": 0.694635808467865,
+      "mean_activity_random": 0.938232421875,
+      "mean_activity_sparse": 0.275390625,
+      "final_entropy_random": 1.0,
+      "final_entropy_sparse": 0.5781710743904114
+    },
+    {
+      "id": 104557,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:east",
+        "isolated_hole:west"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "west",
+      "score": 0.6943749785423279,
+      "mean_activity_random": 0.9375813603401184,
+      "mean_activity_sparse": 0.275390625,
+      "final_entropy_random": 0.9999972581863403,
+      "final_entropy_sparse": 0.5781710743904114
+    },
+    {
+      "id": 17528,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "north",
+      "score": 0.6942508220672607,
+      "mean_activity_random": 0.94482421875,
+      "mean_activity_sparse": 0.26953125,
+      "final_entropy_random": 0.9993807673454285,
+      "final_entropy_sparse": 0.5703645348548889
+    },
+    {
+      "id": 17538,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:static"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "static",
+      "score": 0.6942144632339478,
+      "mean_activity_random": 0.9226887822151184,
+      "mean_activity_sparse": 0.287109375,
+      "final_entropy_random": 0.9999009370803833,
+      "final_entropy_sparse": 0.5934730172157288
+    },
+    {
+      "id": 24673,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southwest",
+        "isolated_hole:northeast"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "score": 0.6940925121307373,
+      "mean_activity_random": 0.9466959834098816,
+      "mean_activity_sparse": 0.267578125,
+      "final_entropy_random": 0.9998651742935181,
+      "final_entropy_sparse": 0.5677388906478882
+    },
+    {
+      "id": 28588,
+      "mask": 33554432,
+      "properties": [
+        "diagonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:southeast",
+        "isolated_hole:northwest"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "score": 0.6935829520225525,
+      "mean_activity_random": 0.9627278447151184,
+      "mean_activity_sparse": 0.25390625,
+      "final_entropy_random": 0.99977707862854,
+      "final_entropy_sparse": 0.5490224957466125
+    },
+    {
+      "id": 34522,
+      "mask": 16777216,
+      "properties": [
+        "orthogonal_monotone"
+      ],
+      "tags": [
+        "isolated_particle:south",
+        "isolated_hole:north"
+      ],
+      "rigid_velocity": null,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "north",
+      "score": 0.6935765743255615,
+      "mean_activity_random": 0.916748046875,
+      "mean_activity_sparse": 0.291015625,
+      "final_entropy_random": 0.9986677765846252,
+      "final_entropy_sparse": 0.5984835028648376
+    }
+  ]
+}

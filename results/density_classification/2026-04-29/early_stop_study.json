@@ -1,0 +1,489 @@
+{
+  "schedule_params": {
+    "sid": "sid:58ed6b657afb",
+    "c_pre": 0.5,
+    "c_amp": 1.0,
+    "c_shake": 0.25,
+    "c_final": 4.0,
+    "k_swap": 8.0,
+    "num_shakes": 2
+  },
+  "runs": [
+    {
+      "L": 128,
+      "delta": 0.05,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 1.8033239841461182
+    },
+    {
+      "L": 128,
+      "delta": 0.05,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 0.8835556507110596
+    },
+    {
+      "L": 128,
+      "delta": 0.02,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 1.741210699081421
+    },
+    {
+      "L": 128,
+      "delta": 0.02,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 0.8743407726287842
+    },
+    {
+      "L": 128,
+      "delta": 0.01,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 59,
+        "after_amp2": 5
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 1.7252469062805176
+    },
+    {
+      "L": 128,
+      "delta": 0.01,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 6,
+        "never_reached": 1,
+        "after_amp2": 2,
+        "after_final_amp": 1
+      },
+      "early_consensus": 8,
+      "final_amp_needed": 1,
+      "never_reached": 1,
+      "correct": 9,
+      "elapsed_seconds": 0.8555717468261719
+    },
+    {
+      "L": 128,
+      "delta": 0.005,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 15,
+        "after_amp2": 40,
+        "after_final_amp": 5,
+        "never_reached": 4
+      },
+      "early_consensus": 55,
+      "final_amp_needed": 5,
+      "never_reached": 4,
+      "correct": 60,
+      "elapsed_seconds": 1.7066681385040283
+    },
+    {
+      "L": 128,
+      "delta": 0.005,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "never_reached": 6,
+        "after_amp1": 2,
+        "after_final_amp": 2
+      },
+      "early_consensus": 2,
+      "final_amp_needed": 2,
+      "never_reached": 6,
+      "correct": 4,
+      "elapsed_seconds": 0.853665828704834
+    },
+    {
+      "L": 192,
+      "delta": 0.05,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 6.374403953552246
+    },
+    {
+      "L": 192,
+      "delta": 0.05,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 1.367987871170044
+    },
+    {
+      "L": 192,
+      "delta": 0.02,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 6.186785936355591
+    },
+    {
+      "L": 192,
+      "delta": 0.02,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 1.312459945678711
+    },
+    {
+      "L": 192,
+      "delta": 0.01,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 61,
+        "after_amp2": 3
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 6.0604658126831055
+    },
+    {
+      "L": 192,
+      "delta": 0.01,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 7,
+        "after_amp2": 3
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 1.333946943283081
+    },
+    {
+      "L": 192,
+      "delta": 0.005,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp2": 33,
+        "after_final_amp": 3,
+        "after_amp1": 27,
+        "never_reached": 1
+      },
+      "early_consensus": 60,
+      "final_amp_needed": 3,
+      "never_reached": 1,
+      "correct": 63,
+      "elapsed_seconds": 6.0980119705200195
+    },
+    {
+      "L": 192,
+      "delta": 0.005,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "never_reached": 4,
+        "after_final_amp": 2,
+        "after_amp1": 3,
+        "after_amp2": 1
+      },
+      "early_consensus": 4,
+      "final_amp_needed": 2,
+      "never_reached": 4,
+      "correct": 6,
+      "elapsed_seconds": 1.2980539798736572
+    },
+    {
+      "L": 256,
+      "delta": 0.05,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 18.582641124725342
+    },
+    {
+      "L": 256,
+      "delta": 0.05,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 2.695134162902832
+    },
+    {
+      "L": 256,
+      "delta": 0.02,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 19.065027952194214
+    },
+    {
+      "L": 256,
+      "delta": 0.02,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 9,
+        "after_amp2": 1
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 2.4367480278015137
+    },
+    {
+      "L": 256,
+      "delta": 0.01,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 18.185556173324585
+    },
+    {
+      "L": 256,
+      "delta": 0.01,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 6,
+        "after_amp2": 4
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 2.195827007293701
+    },
+    {
+      "L": 256,
+      "delta": 0.005,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 27,
+        "after_amp2": 37
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 17.442171096801758
+    },
+    {
+      "L": 256,
+      "delta": 0.005,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 4,
+        "after_final_amp": 3,
+        "after_amp2": 1,
+        "never_reached": 2
+      },
+      "early_consensus": 5,
+      "final_amp_needed": 3,
+      "never_reached": 2,
+      "correct": 8,
+      "elapsed_seconds": 2.143519878387451
+    },
+    {
+      "L": 384,
+      "delta": 0.05,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 77.00384783744812
+    },
+    {
+      "L": 384,
+      "delta": 0.05,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 10
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 8.650437116622925
+    },
+    {
+      "L": 384,
+      "delta": 0.02,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 78.21109199523926
+    },
+    {
+      "L": 384,
+      "delta": 0.02,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 8,
+        "after_amp2": 2
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 9.785648822784424
+    },
+    {
+      "L": 384,
+      "delta": 0.01,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 64
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 82.21578288078308
+    },
+    {
+      "L": 384,
+      "delta": 0.01,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_amp1": 7,
+        "after_amp2": 3
+      },
+      "early_consensus": 10,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 10,
+      "elapsed_seconds": 9.338839054107666
+    },
+    {
+      "L": 384,
+      "delta": 0.005,
+      "dataset": "random",
+      "n_trials": 64,
+      "phase_counts": {
+        "after_amp1": 36,
+        "after_amp2": 28
+      },
+      "early_consensus": 64,
+      "final_amp_needed": 0,
+      "never_reached": 0,
+      "correct": 64,
+      "elapsed_seconds": 78.51969408988953
+    },
+    {
+      "L": 384,
+      "delta": 0.005,
+      "dataset": "adversarial",
+      "n_trials": 10,
+      "phase_counts": {
+        "after_final_amp": 4,
+        "after_amp1": 4,
+        "never_reached": 2
+      },
+      "early_consensus": 4,
+      "final_amp_needed": 4,
+      "never_reached": 2,
+      "correct": 8,
+      "elapsed_seconds": 8.299836158752441
+    }
+  ]
+}

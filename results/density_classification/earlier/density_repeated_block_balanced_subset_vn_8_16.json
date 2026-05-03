@@ -1,0 +1,1791 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "backend": "mlx",
+  "grid": [
+    32,
+    32
+  ],
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "trials": 16,
+  "preprocess_steps": 8,
+  "amplifier_steps": 16,
+  "repetitions": 16,
+  "amplifier": "majority_vn",
+  "majority_metric": "moore",
+  "include_property": [
+    "outer_monotone",
+    "orthogonal_monotone",
+    "center_blind"
+  ],
+  "sample_property": {
+    "diagonal_monotone": 2000
+  },
+  "selection_seed": 0,
+  "top_k": 40,
+  "results": [
+    {
+      "stable_index": 13103,
+      "stable_id": "ac809b9cab033bb642f61f793ffeead816c411c531f1855949e474255feee2d6",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 15511,
+      "stable_id": "550c4c8e4d2dd525d6500448bf355534919a5943edd319568449e3835e7d2252",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 15955,
+      "stable_id": "6059a92526a252b70ec4bd54006e6ad0f53d6b034051ab2ea4d58827f2bfe93c",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 16883,
+      "stable_id": "d3ed8a57a6ad0bede316bf4ee9eda3b02779bd01beb0a33dbe20f080b935e123",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 19330,
+      "stable_id": "ca91b7ccf1dd0d6835b8dcb5d7bae3406225faefd0d50802b8ba3b6be37a9280",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 34983,
+      "stable_id": "42fe7d096584f4369bfaf2947c33ea45bc7c60de0b1fa1866281a20310d48d99",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "west",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 50972,
+      "stable_id": "ecf659a64362695c265f05250bc860449fc80dad7076a0b79746fe8d96ade5ea",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 65571,
+      "stable_id": "88d9132e9080337ce63201eacaa34cb82c68d13d1590ad4abda159a87c77ef48",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 69767,
+      "stable_id": "d02bf97c83fbd534f15a028d4daa18f85ec3ec79f709189417ff8a008a0d47c6",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "west",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 98728,
+      "stable_id": "e6a907261cf16c804e4184cf6012d5315717feccbd3335f81b3114ce899b00f9",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "southeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 127015,
+      "stable_id": "706de8fdddabeae4915e8349f9abef3b3ef62bd48091e781c78c87a45ff81c4f",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "southwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 100248,
+      "stable_id": "84dd9974f203562bb013f334af3ec185eb3ac830e7de6f924018956ce557c1e2",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.001903192256577313,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "southeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9398193359375,
+          "local_density_variance": 0.001903192256577313,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 14202,
+      "stable_id": "f6c8e8f2996d684f75747cd87a11c2e93b56329e97f47ffe037ac9d663047c1b",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "west",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 14267,
+      "stable_id": "a9a7e7c0cfda87d813d75bdf8769d90a2eb0bacd2eb8fed5ef2642221e3c5b12",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 34773,
+      "stable_id": "55039712e9544b01eb19d9d3ffbc970a39fe801d5fd0e0431dcb1ec0e64e3bf0",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 35828,
+      "stable_id": "6aab77f2c0bdebe590a34fe0dd3d954ca16f43efcf93eb28139c2827d3207f4f",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 50538,
+      "stable_id": "457f07597ec7eb432b78ea7f8eda1a7c3d5c06e8622878f75ae3cb34b70f221c",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.3125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 65614,
+      "stable_id": "7c9d81076a4756d25da50c073abd97ef6ef031de06e77793a05fb821e287e300",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 100094,
+      "stable_id": "0ebef87f1247b64ba4d7b63d0fc469b240ff9edbe29660d8890fa117a5e495b6",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 100273,
+      "stable_id": "3474ffdc993fc0976b3f63692b7b490ad2ec2271dbfa15787ffcc15723664321",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.3125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 100427,
+      "stable_id": "af48ed8b720eda41e1d2865cbc331f785eab25c757f2b5a4dda1b305187cce86",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 100567,
+      "stable_id": "adec4b951f702be2e8caa0012ce6ed40153483944da1e5d1d38a8c2446a088ec",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 102385,
+      "stable_id": "742cb69be1c75553da7ca861c2c1d71fb83d9b313f7d3d1b1a97b69836bc6f21",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.3125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 113420,
+      "stable_id": "7e2677b1f28f96755fad4817a48048fdab49ba30c55464e91c79ac2b224f662e",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "west",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.3125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 122835,
+      "stable_id": "58ed6b657afb36193450f5ec7883e983e8817daa30d668aadc8ffaef51f3da37",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "southeast",
+      "mask": 58720256,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 127184,
+      "stable_id": "8861e4a8bcdcbee475a905400dabbc7cf063c629879999f429befe140aeba347",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "southeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 88734,
+      "stable_id": "6861ef3e9768de2d42158bf181b7e6228b960795df30ca8a07a5066f9149c4d7",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0007687763427384198,
+      "min_local_majority_agreement": 0.93701171875,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.93701171875,
+          "local_density_variance": 0.0007687763427384198,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 71641,
+      "stable_id": "9eb3cd3da42cb7e555955d7f233af88e1c3229715bc3fafee36a329212addc44",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 1.0,
+      "mean_final_majority_accuracy": 1.0,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.004871337674558163,
+      "min_local_majority_agreement": 0.97784423828125,
+      "isolated_particle_velocity": "southwest",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.97784423828125,
+          "local_density_variance": 0.004871337674558163,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.28936767578125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 1.0,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 1.0,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    },
+    {
+      "stable_index": 14205,
+      "stable_id": "2667f2c59840b4db4085954c9c8600685aa35412ff431674843baf3585f020a2",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0014919706154614687,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.939453125,
+          "local_density_variance": 0.0014919706154614687,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.25390625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 93711,
+      "stable_id": "d8cea7aff10a480a7f76cf1dc47cf8cd80e1736534026e2ce279cb09f8875be2",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0031191506423056126,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "west",
+      "isolated_hole_velocity": "southeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.946044921875,
+          "local_density_variance": 0.0031191506423056126,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.368896484375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 23816,
+      "stable_id": "4b3f88f52556cd976cce4729901594cae7f9d30a4da7d1f459e8df8dbabca727",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.003879123367369175,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "north",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.947265625,
+          "local_density_variance": 0.003879123367369175,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.26171875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 127516,
+      "stable_id": "05f85c8e9a7c0dbf295402d57be6bbf1ebe3c281e4c17d7c0872526b241883af",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.005721948575228453,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.95538330078125,
+          "local_density_variance": 0.005721948575228453,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.3580322265625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.875
+        }
+      ]
+    },
+    {
+      "stable_index": 122976,
+      "stable_id": "57b4546ec2237a97bf6c6fdf600df9ef74c41d11c0fdc8913ffd17d7521ee7df",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.9375,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.008794954046607018,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "south",
+      "mask": 16777216,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.96551513671875,
+          "local_density_variance": 0.008794954046607018,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.8472900390625
+        }
+      ]
+    },
+    {
+      "stable_index": 50193,
+      "stable_id": "07d2ab6eb80a02e4660ed8910c41e248359e13847b2e425f9949f5a3b2273132",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0014919702662155032,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northeast",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.998046875,
+          "local_density_variance": 0.0014919702662155032,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.30859375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 99952,
+      "stable_id": "c6bf8495ba623bf965cdc9142afbed7057e8f1323a30a2f85eca420cb936cdd8",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.002271864330396056,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "northwest",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.25
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.99609375,
+          "local_density_variance": 0.002271864330396056,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.818359375
+        }
+      ]
+    },
+    {
+      "stable_index": 126289,
+      "stable_id": "e765085d984f34de5e3f9e34e15b0364a123c3ea8704d2043be7390c70dfbd8a",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.0023398096673190594,
+      "min_local_majority_agreement": 0.9375,
+      "isolated_particle_velocity": "north",
+      "isolated_hole_velocity": "south",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.99554443359375,
+          "local_density_variance": 0.0023398096673190594,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.31451416015625
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9375,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.75
+        }
+      ]
+    },
+    {
+      "stable_index": 88836,
+      "stable_id": "b2d055eac50ce982f7498c5384f1e6206f0ed42ede3b9248f893dee956792605",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 0.9375,
+      "min_final_consensus_accuracy": 0.9375,
+      "min_final_majority_accuracy": 0.9375,
+      "mean_final_majority_accuracy": 0.96875,
+      "final_majority_accuracy_gap": 0.0625,
+      "max_local_density_variance": 0.006800001487135887,
+      "min_local_majority_agreement": 0.9625244140625,
+      "isolated_particle_velocity": "northeast",
+      "isolated_hole_velocity": "southwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.98455810546875,
+          "local_density_variance": 0.005064195953309536,
+          "final_majority_accuracy": 1.0,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.29669189453125
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.9625244140625,
+          "local_density_variance": 0.006800001487135887,
+          "final_majority_accuracy": 0.9375,
+          "final_consensus_accuracy": 0.9375,
+          "final_consensus_rate": 0.9375,
+          "mean_final_density": 0.85003662109375
+        }
+      ]
+    },
+    {
+      "stable_index": 12369,
+      "stable_id": "adbbda080f5447db6407f991554193521b871e12e794f7377bede427dc7bc45a",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.875,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.875,
+      "isolated_particle_velocity": "east",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.4375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.9375
+        }
+      ]
+    },
+    {
+      "stable_index": 16728,
+      "stable_id": "24fc626f131e43ba4207af11ba46e06e51c67a5c489d10fc4df790d39119eb83",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.875,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.875,
+      "isolated_particle_velocity": "south",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.1875
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.6875
+        }
+      ]
+    },
+    {
+      "stable_index": 16832,
+      "stable_id": "f3674db3dc7baf427fdca9f7a1058fa311f9545d4d2fa0cb282e683fbd2e48ba",
+      "preprocess_steps": 8,
+      "amplifier_steps": 16,
+      "repetitions": 16,
+      "amplifier_name": "majority_vn",
+      "probabilities": [
+        0.49,
+        0.51
+      ],
+      "trials": 16,
+      "min_final_consensus_rate": 1.0,
+      "min_final_consensus_accuracy": 0.875,
+      "min_final_majority_accuracy": 0.875,
+      "mean_final_majority_accuracy": 0.875,
+      "final_majority_accuracy_gap": 0.0,
+      "max_local_density_variance": 0.0,
+      "min_local_majority_agreement": 0.875,
+      "isolated_particle_velocity": "southeast",
+      "isolated_hole_velocity": "northwest",
+      "mask": 33554432,
+      "ones": 256,
+      "per_probability": [
+        {
+          "probability": 0.49,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.4375
+        },
+        {
+          "probability": 0.51,
+          "local_majority_agreement": 0.875,
+          "local_density_variance": 0.0,
+          "final_majority_accuracy": 0.875,
+          "final_consensus_accuracy": 0.875,
+          "final_consensus_rate": 1.0,
+          "mean_final_density": 0.8125
+        }
+      ]
+    }
+  ]
+}

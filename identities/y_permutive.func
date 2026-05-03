@@ -1,0 +1,7 @@
+# Y-permutive family: toggling the north neighbor y flips the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, 0, z, t, u, w, a, b, c) != f(x, 1, z, t, u, w, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

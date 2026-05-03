@@ -1,0 +1,574 @@
+{
+  "input_paths": [
+    "witek/worker_0.bin",
+    "witek/worker_1.bin",
+    "witek/worker_10.bin",
+    "witek/worker_11.bin",
+    "witek/worker_2.bin",
+    "witek/worker_3.bin",
+    "witek/worker_4.bin",
+    "witek/worker_5.bin",
+    "witek/worker_6.bin",
+    "witek/worker_7.bin",
+    "witek/worker_8.bin",
+    "witek/worker_9.bin"
+  ],
+  "total_rules": 147309433,
+  "stages": [
+    {
+      "stage": "particle-sector:2@4x4",
+      "tested_rules": 147309433,
+      "rejected_rules": 142408932,
+      "surviving_rules": 4900501,
+      "unique_rule_bits_touched": 45
+    },
+    {
+      "stage": "particle-sector:3@4x4",
+      "tested_rules": 4900501,
+      "rejected_rules": 4893144,
+      "surviving_rules": 7357,
+      "unique_rule_bits_touched": 129
+    },
+    {
+      "stage": "particle-sector:4@4x4",
+      "tested_rules": 7357,
+      "rejected_rules": 7292,
+      "surviving_rules": 65,
+      "unique_rule_bits_touched": 255
+    }
+  ],
+  "surviving_rule_count": 65,
+  "output_path": "witek_reversibility_survivors.bin",
+  "survivor_summaries_truncated": false,
+  "survivors": [
+    {
+      "stable_id": "022af077287f342ac523f7ec037572ab96b7e498d0731ac5d294f7168701296b",
+      "stable_id_short": "022af077287f",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "0e8fda453b54b71c8a166d935702eeeca04a410520a1b0006325f9d8d995f0c1",
+      "stable_id_short": "0e8fda453b54",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "0e9b17ef45cf13ea89494cd1bbdd2f307fb809b3a2ecb16730487a2dc4386040",
+      "stable_id_short": "0e9b17ef45cf",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "0f75f6eaaf799ce578f5810f48567303df1f37e5cef55d39763b8a7d2c051a10",
+      "stable_id_short": "0f75f6eaaf79",
+      "simple_tags": [
+        "rigid_shift:south",
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "1056a2aa9ab3604b2ecc68c961e549a85edf628e6e177c9362fccaad2191eb3e",
+      "stable_id_short": "1056a2aa9ab3",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "1c46646d5bff3c85f0f8e8a37df8627c5ccf8a2ee115f25f7a7fc75cb70625ee",
+      "stable_id_short": "1c46646d5bff",
+      "simple_tags": [
+        "rigid_shift:northeast",
+        "isolated_particle:northeast",
+        "isolated_hole:northeast"
+      ]
+    },
+    {
+      "stable_id": "1ff3e236b4b75174f9017303e544dc9769db3d2c4292c0a318f98445557c4083",
+      "stable_id_short": "1ff3e236b4b7",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "22f8b7286ee7b28ea6cb0669a586efff6f59031168d7762141728b6fe9d225b2",
+      "stable_id_short": "22f8b7286ee7",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "2c86c7cc24817aa4ded527e560775523c725776845085760ee0719523745dae3",
+      "stable_id_short": "2c86c7cc2481",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "307ec0a8debc6671776a589a1a2dc13d01f61cbe1e238ab731cdfd59e8e5e024",
+      "stable_id_short": "307ec0a8debc",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "34bd307735df7434495a988ef560be9fa639d1fc6f634e2832d68c981a12cebd",
+      "stable_id_short": "34bd307735df",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "36e5c5ad14c197d306ef1c347f042ab227c0a174fd384d71cae6ab5569ea5239",
+      "stable_id_short": "36e5c5ad14c1",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "3fff0ea8fa0c45c82bae14b552f3f773e1d1ea8ccfc0f8e518493c7d209d8e3e",
+      "stable_id_short": "3fff0ea8fa0c",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "510280ec27ea7f7fd829795b11b70f71f7135f6fab892fd0c6a140fc6f6d6499",
+      "stable_id_short": "510280ec27ea",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "51c94de460f8cae7d49231a9bdcaa4e52a24467e0296567e52c25638abe848ee",
+      "stable_id_short": "51c94de460f8",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "5264d7dac714c06f16cb0602873081846ae2b601626b84fa3efd9625f93ca15d",
+      "stable_id_short": "5264d7dac714",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:northeast"
+      ]
+    },
+    {
+      "stable_id": "5272c193818e8fae196d91c74a7f743ba7bd758e3d79a2478a0fdc6e4febaa34",
+      "stable_id_short": "5272c193818e",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "55bfd8a44a3162721c0c4ac886091c55af4f961b887f0d149325d51ecfa991fc",
+      "stable_id_short": "55bfd8a44a31",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:southwest"
+      ]
+    },
+    {
+      "stable_id": "565b4fbfde75b5cfd5460c3027e7fe1869c0e5d8f8ac840e29646cc5bae23270",
+      "stable_id_short": "565b4fbfde75",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "57ab22ea9c2d12ecb083f291cd99e034524c72303c8c42f1b97d6921e67f5f3d",
+      "stable_id_short": "57ab22ea9c2d",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "5ba70c7129725e4326b70bbf5c7d9ac55bbfd4b90362b49cf7f9930c9958be05",
+      "stable_id_short": "5ba70c712972",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "6423cd9a7527e73ebb6fccbd8e10657db6c8bfb5f0d1bbcdb11bb350a2231756",
+      "stable_id_short": "6423cd9a7527",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "65d88ab79482ab0917e767384df653b1db16b70cb1bcff6781eb6106ed050aa0",
+      "stable_id_short": "65d88ab79482",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "6836cf13bac400e9105071cd6af47084dfacad4e5e302c94bfed24e013afb73e",
+      "stable_id_short": "6836cf13bac4",
+      "simple_tags": [
+        "rigid_shift:northwest",
+        "isolated_particle:northwest",
+        "isolated_hole:northwest"
+      ]
+    },
+    {
+      "stable_id": "6a6135222c53abf7eee3ee006e877a000566fa5fb7de8ca96dfd7210a2ffe463",
+      "stable_id_short": "6a6135222c53",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:southeast"
+      ]
+    },
+    {
+      "stable_id": "6dd4eae08aed7b30d219c980c5f143bf667642767696b5216a34db704692fdfe",
+      "stable_id_short": "6dd4eae08aed",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "730739b43f426edb6b09724c0fbff67aa9da56d386d7c41a760b15c958351bc2",
+      "stable_id_short": "730739b43f42",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "7cb0741f02d2e4fbd9c055c2682304f7d55d592a1253f42ff9d4efe11f30b261",
+      "stable_id_short": "7cb0741f02d2",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "7cc0898f5e294e880b9c5a7b12730651b52f036044e3325798635876d9ad6f18",
+      "stable_id_short": "7cc0898f5e29",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "7e9e3e4e21ee718f7b67b7dd6f0128cb0487862f440e97279b7006db6a537ded",
+      "stable_id_short": "7e9e3e4e21ee",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "84c2f3325eb7a512c96faeb4f07ab5c4a30f894482244a2dca0244b29c258250",
+      "stable_id_short": "84c2f3325eb7",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "86cf48510864e20e6db5a4eca12dd002af8bf9e8264cb37d75c9eab1990c4c58",
+      "stable_id_short": "86cf48510864",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "8c97a6bfcd4e8ead3ab06b68ca51ccbd7e6d2a7e6392d33e8787ff7af1d054fd",
+      "stable_id_short": "8c97a6bfcd4e",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:southwest"
+      ]
+    },
+    {
+      "stable_id": "90c282832e03fe2894ba17499edc9a05ef55428556ce81cc9efbb131f9e9ac51",
+      "stable_id_short": "90c282832e03",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "93b79bcc2567a3cdc986e15af74afafffe6736e8d4f0801282b7d316e6d1111b",
+      "stable_id_short": "93b79bcc2567",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "96428cc93370b2d5e479f027e120e8772f7bda543ad203420825d143d03cd0b3",
+      "stable_id_short": "96428cc93370",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "9b47a640629d3bc71cca9e264cb0459ea348654680849c368129e5c4702ac73c",
+      "stable_id_short": "9b47a640629d",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "9fed53aadb5af1e40dabcc1d486895578e5e1e2b8a8c93e1591ccb53fdd182cd",
+      "stable_id_short": "9fed53aadb5a",
+      "simple_tags": [
+        "identity",
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "a0336114238aade86691b5e18e994a7894df20b0eb350a1a300e85026d9efe5f",
+      "stable_id_short": "a0336114238a",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:southeast"
+      ]
+    },
+    {
+      "stable_id": "a5d6e6e93c2b7f5385a796127ee4bd82bedecf6e0213e867aac4662c8adae9d0",
+      "stable_id_short": "a5d6e6e93c2b",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "a633076807660728f1a6d96bb9401f4317b289bb1896df3fb2bfd43a9af98298",
+      "stable_id_short": "a63307680766",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "ad6dddd2dcd9cc9094cc841166d5ca49a37560706d925c32c136db32d756b66c",
+      "stable_id_short": "ad6dddd2dcd9",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:northwest"
+      ]
+    },
+    {
+      "stable_id": "b36afc1ae64dcce4013af09b94c9d0fbba1bfca14ae15600867c1a03160a0742",
+      "stable_id_short": "b36afc1ae64d",
+      "simple_tags": [
+        "isolated_particle:south",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "bdefc3da4e907f770178843e11be8520e6693e144164e58c36d192144d5261b5",
+      "stable_id_short": "bdefc3da4e90",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "be6aafcb83dda4bc76a7b0e95f1f987107ddf8959502bbc4a56730ced7cb317a",
+      "stable_id_short": "be6aafcb83dd",
+      "simple_tags": [
+        "rigid_shift:east",
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "bed1e4d628c419ba560799cb88539bba9da40b00101483fa4c8cd9dba8e1f847",
+      "stable_id_short": "bed1e4d628c4",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:northwest"
+      ]
+    },
+    {
+      "stable_id": "bf682fd6a96f78648b152306d1682a4a5a8f23c2471b79273c70c0e4ef6581f4",
+      "stable_id_short": "bf682fd6a96f",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "c6d722f3e2ffa544664b5042cab1c550ade4c68e233d2b95a45667d4699c2c20",
+      "stable_id_short": "c6d722f3e2ff",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "c6f5cccd95f4e7aeab818006373f27f65015a725589881f7ecac178c633f7224",
+      "stable_id_short": "c6f5cccd95f4",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "cbd5e88ae4cd5c7c96be6c8f7615235641af48e787395bb4c44ad596db880b83",
+      "stable_id_short": "cbd5e88ae4cd",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "cfc52422e5e59cfdb608afee8983bdf9d3b84887deb262e31453b45beafe0864",
+      "stable_id_short": "cfc52422e5e5",
+      "simple_tags": [
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "d559e17863e8c6ce1bccb4b65d44da74082963e2cef50861a2ac47986c663126",
+      "stable_id_short": "d559e17863e8",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "e0e2a3bb3f35207049eb015ae299f8ae4f636bede6c2566e55ee05c43cdd2afd",
+      "stable_id_short": "e0e2a3bb3f35",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "e11fed82e03f4579a35a36ad9732d39bbc2fdc270acccca712a3864f923bae89",
+      "stable_id_short": "e11fed82e03f",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "e13ee89fdf651140fea804813dbdd033d69c2e3f95574252503bfd1089ad3c2c",
+      "stable_id_short": "e13ee89fdf65",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "e2b9bc0f3a1f7ec29965fddffc7a8c855fd0618c1f2f74f789455f19a5a46c8d",
+      "stable_id_short": "e2b9bc0f3a1f",
+      "simple_tags": [
+        "isolated_particle:east",
+        "isolated_hole:east"
+      ]
+    },
+    {
+      "stable_id": "e2bd2dcef148b54e935fe552c7c83978103f85b2d970d55f482717bb3904b7ac",
+      "stable_id_short": "e2bd2dcef148",
+      "simple_tags": [
+        "rigid_shift:southeast",
+        "isolated_particle:southeast",
+        "isolated_hole:southeast"
+      ]
+    },
+    {
+      "stable_id": "e2be42c5b41e1dcbd3c3bfc6dc8adf3d3bf4c8c125e22860ebd4f4a3b702bb2d",
+      "stable_id_short": "e2be42c5b41e",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "e5dc28d67309c1f3b41b160e5e06c7881007cde8f74949c9cf6c890ad1bdd032",
+      "stable_id_short": "e5dc28d67309",
+      "simple_tags": [
+        "rigid_shift:north",
+        "isolated_particle:north",
+        "isolated_hole:north"
+      ]
+    },
+    {
+      "stable_id": "f204320d1888cc22cedbe4f90be19acda4c98eb028931fa652821f680492cd59",
+      "stable_id_short": "f204320d1888",
+      "simple_tags": [
+        "isolated_particle:north",
+        "isolated_hole:northeast"
+      ]
+    },
+    {
+      "stable_id": "f733068bda999240fa47eb0cbdbb47c82b2bb299b36c5651c15c4e4cdde38463",
+      "stable_id_short": "f733068bda99",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "f86f17477949fbf049b1fbb8ed392736a1fd9a73d692e6bac08d6f84dee1ed0b",
+      "stable_id_short": "f86f17477949",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:static"
+      ]
+    },
+    {
+      "stable_id": "fa1072537ba5f25595f6c3e4d4dd8915f11d07bfe6fa74532191a24aa306c47a",
+      "stable_id_short": "fa1072537ba5",
+      "simple_tags": [
+        "rigid_shift:west",
+        "isolated_particle:west",
+        "isolated_hole:west"
+      ]
+    },
+    {
+      "stable_id": "fb3c37234848847fd588976fc77e47b81f4a7291d9a695a12b20778ff882572b",
+      "stable_id_short": "fb3c37234848",
+      "simple_tags": [
+        "isolated_particle:static",
+        "isolated_hole:south"
+      ]
+    },
+    {
+      "stable_id": "fbebb182efe6240f0dfb357906c91cce8abed4d1ae6d85c6c0e26fb27ccd9d8f",
+      "stable_id_short": "fbebb182efe6",
+      "simple_tags": [
+        "rigid_shift:southwest",
+        "isolated_particle:southwest",
+        "isolated_hole:southwest"
+      ]
+    }
+  ]
+}

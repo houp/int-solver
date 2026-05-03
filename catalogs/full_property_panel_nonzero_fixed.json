@@ -1,0 +1,412 @@
+{
+  "format": "ca_property_mask_v1",
+  "base_property": {
+    "path": "simplified_equations.txt",
+    "nvars": 510,
+    "nrows": 399
+  },
+  "additional_properties": [
+    {
+      "bit": 0,
+      "name": "axis_reflection_symmetric",
+      "path": "axis_reflection_symmetric_equations.txt",
+      "nrows": 440,
+      "fixed_checks": 0,
+      "relation_checks": 344,
+      "generic_rows": 0
+    },
+    {
+      "bit": 1,
+      "name": "black_white_symmetric",
+      "path": "black_white_symmetric_equations.txt",
+      "nrows": 255,
+      "fixed_checks": 0,
+      "relation_checks": 255,
+      "generic_rows": 0
+    },
+    {
+      "bit": 2,
+      "name": "center_blind",
+      "path": "center_blind_equations.txt",
+      "nrows": 256,
+      "fixed_checks": 1,
+      "relation_checks": 255,
+      "generic_rows": 0
+    },
+    {
+      "bit": 3,
+      "name": "diagonal_only",
+      "path": "diagonal_only_equations.txt",
+      "nrows": 1024,
+      "fixed_checks": 1,
+      "relation_checks": 479,
+      "generic_rows": 0
+    },
+    {
+      "bit": 4,
+      "name": "diagonal_reflection_symmetric",
+      "path": "diagonal_reflection_symmetric_equations.txt",
+      "nrows": 440,
+      "fixed_checks": 0,
+      "relation_checks": 344,
+      "generic_rows": 0
+    },
+    {
+      "bit": 5,
+      "name": "diagonal_totalistic",
+      "path": "diagonal_totalistic_equations.txt",
+      "nrows": 1408,
+      "fixed_checks": 1,
+      "relation_checks": 501,
+      "generic_rows": 0
+    },
+    {
+      "bit": 6,
+      "name": "isotropic_non_totalistic",
+      "path": "isotropic_non_totalistic_equations.txt",
+      "nrows": 664,
+      "fixed_checks": 0,
+      "relation_checks": 410,
+      "generic_rows": 0
+    },
+    {
+      "bit": 7,
+      "name": "life_like",
+      "path": "life_like_equations.txt",
+      "nrows": 896,
+      "fixed_checks": 0,
+      "relation_checks": 494,
+      "generic_rows": 0
+    },
+    {
+      "bit": 8,
+      "name": "ortho_diag_semitotalistic",
+      "path": "ortho_diag_semitotalistic_equations.txt",
+      "nrows": 768,
+      "fixed_checks": 0,
+      "relation_checks": 462,
+      "generic_rows": 0
+    },
+    {
+      "bit": 9,
+      "name": "orthogonal_totalistic",
+      "path": "orthogonal_totalistic_equations.txt",
+      "nrows": 1408,
+      "fixed_checks": 1,
+      "relation_checks": 501,
+      "generic_rows": 0
+    },
+    {
+      "bit": 10,
+      "name": "outer_totalistic",
+      "path": "outer_totalistic_equations.txt",
+      "nrows": 896,
+      "fixed_checks": 0,
+      "relation_checks": 494,
+      "generic_rows": 0
+    },
+    {
+      "bit": 11,
+      "name": "reflection_anti_diagonal",
+      "path": "reflection_anti_diagonal_equations.txt",
+      "nrows": 224,
+      "fixed_checks": 0,
+      "relation_checks": 224,
+      "generic_rows": 0
+    },
+    {
+      "bit": 12,
+      "name": "reflection_left_right",
+      "path": "reflection_left_right_equations.txt",
+      "nrows": 224,
+      "fixed_checks": 0,
+      "relation_checks": 224,
+      "generic_rows": 0
+    },
+    {
+      "bit": 13,
+      "name": "reflection_main_diagonal",
+      "path": "reflection_main_diagonal_equations.txt",
+      "nrows": 224,
+      "fixed_checks": 0,
+      "relation_checks": 224,
+      "generic_rows": 0
+    },
+    {
+      "bit": 14,
+      "name": "reflection_top_bottom",
+      "path": "reflection_top_bottom_equations.txt",
+      "nrows": 224,
+      "fixed_checks": 0,
+      "relation_checks": 224,
+      "generic_rows": 0
+    },
+    {
+      "bit": 15,
+      "name": "rotation_180",
+      "path": "rotation_180_equations.txt",
+      "nrows": 240,
+      "fixed_checks": 0,
+      "relation_checks": 240,
+      "generic_rows": 0
+    },
+    {
+      "bit": 16,
+      "name": "rotation_symmetric",
+      "path": "rotation_symmetric_equations.txt",
+      "nrows": 492,
+      "fixed_checks": 0,
+      "relation_checks": 372,
+      "generic_rows": 0
+    },
+    {
+      "bit": 17,
+      "name": "totalistic",
+      "path": "totalistic_equations.txt",
+      "nrows": 1024,
+      "fixed_checks": 0,
+      "relation_checks": 502,
+      "generic_rows": 0
+    },
+    {
+      "bit": 18,
+      "name": "von_neumann",
+      "path": "von_neumann_equations.txt",
+      "nrows": 1024,
+      "fixed_checks": 1,
+      "relation_checks": 479,
+      "generic_rows": 0
+    }
+  ],
+  "mask_bits_are_little_endian": true,
+  "mask_bytes_per_record": 3,
+  "solution_bytes_per_record": 64,
+  "write_nonzero_masks_only": true,
+  "total_base_solutions": 147309433,
+  "written_solution_records": 7217,
+  "elapsed_seconds": 43.2078,
+  "property_counts": [
+    {
+      "bit": 0,
+      "name": "axis_reflection_symmetric",
+      "count": 1
+    },
+    {
+      "bit": 1,
+      "name": "black_white_symmetric",
+      "count": 1447
+    },
+    {
+      "bit": 2,
+      "name": "center_blind",
+      "count": 144
+    },
+    {
+      "bit": 3,
+      "name": "diagonal_only",
+      "count": 9
+    },
+    {
+      "bit": 4,
+      "name": "diagonal_reflection_symmetric",
+      "count": 1
+    },
+    {
+      "bit": 5,
+      "name": "diagonal_totalistic",
+      "count": 1
+    },
+    {
+      "bit": 6,
+      "name": "isotropic_non_totalistic",
+      "count": 1
+    },
+    {
+      "bit": 7,
+      "name": "life_like",
+      "count": 1
+    },
+    {
+      "bit": 8,
+      "name": "ortho_diag_semitotalistic",
+      "count": 1
+    },
+    {
+      "bit": 9,
+      "name": "orthogonal_totalistic",
+      "count": 1
+    },
+    {
+      "bit": 10,
+      "name": "outer_totalistic",
+      "count": 1
+    },
+    {
+      "bit": 11,
+      "name": "reflection_anti_diagonal",
+      "count": 173
+    },
+    {
+      "bit": 12,
+      "name": "reflection_left_right",
+      "count": 2667
+    },
+    {
+      "bit": 13,
+      "name": "reflection_main_diagonal",
+      "count": 173
+    },
+    {
+      "bit": 14,
+      "name": "reflection_top_bottom",
+      "count": 2667
+    },
+    {
+      "bit": 15,
+      "name": "rotation_180",
+      "count": 21
+    },
+    {
+      "bit": 16,
+      "name": "rotation_symmetric",
+      "count": 5
+    },
+    {
+      "bit": 17,
+      "name": "totalistic",
+      "count": 0
+    },
+    {
+      "bit": 18,
+      "name": "von_neumann",
+      "count": 9
+    }
+  ],
+  "exact_mask_counts": [
+    {
+      "mask": 0,
+      "mask_hex": "0x0",
+      "count": 147302216
+    },
+    {
+      "mask": 2,
+      "mask_hex": "0x2",
+      "count": 1384
+    },
+    {
+      "mask": 4,
+      "mask_hex": "0x4",
+      "count": 128
+    },
+    {
+      "mask": 6,
+      "mask_hex": "0x6",
+      "count": 8
+    },
+    {
+      "mask": 2048,
+      "mask_hex": "0x800",
+      "count": 166
+    },
+    {
+      "mask": 2050,
+      "mask_hex": "0x802",
+      "count": 2
+    },
+    {
+      "mask": 2056,
+      "mask_hex": "0x808",
+      "count": 2
+    },
+    {
+      "mask": 2062,
+      "mask_hex": "0x80e",
+      "count": 2
+    },
+    {
+      "mask": 4096,
+      "mask_hex": "0x1000",
+      "count": 2644
+    },
+    {
+      "mask": 4098,
+      "mask_hex": "0x1002",
+      "count": 18
+    },
+    {
+      "mask": 8192,
+      "mask_hex": "0x2000",
+      "count": 166
+    },
+    {
+      "mask": 8194,
+      "mask_hex": "0x2002",
+      "count": 2
+    },
+    {
+      "mask": 8200,
+      "mask_hex": "0x2008",
+      "count": 2
+    },
+    {
+      "mask": 8206,
+      "mask_hex": "0x200e",
+      "count": 2
+    },
+    {
+      "mask": 16384,
+      "mask_hex": "0x4000",
+      "count": 2644
+    },
+    {
+      "mask": 16386,
+      "mask_hex": "0x4002",
+      "count": 18
+    },
+    {
+      "mask": 32768,
+      "mask_hex": "0x8000",
+      "count": 12
+    },
+    {
+      "mask": 32770,
+      "mask_hex": "0x8002",
+      "count": 4
+    },
+    {
+      "mask": 98304,
+      "mask_hex": "0x18000",
+      "count": 2
+    },
+    {
+      "mask": 98306,
+      "mask_hex": "0x18002",
+      "count": 2
+    },
+    {
+      "mask": 266240,
+      "mask_hex": "0x41000",
+      "count": 2
+    },
+    {
+      "mask": 266246,
+      "mask_hex": "0x41006",
+      "count": 2
+    },
+    {
+      "mask": 278528,
+      "mask_hex": "0x44000",
+      "count": 2
+    },
+    {
+      "mask": 278534,
+      "mask_hex": "0x44006",
+      "count": 2
+    },
+    {
+      "mask": 393211,
+      "mask_hex": "0x5fffb",
+      "count": 1
+    }
+  ]
+}

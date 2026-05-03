@@ -1,0 +1,18 @@
+# Orthogonal-totalistic family.
+# The rule depends only on the center cell u and on the number of live orthogonal neighbors.
+# Diagonal cells are irrelevant.
+vars: x, y, z, t, u, w, a, b, c
+
+# Diagonal cells irrelevant
+f(x, y, z, t, u, w, a, b, c) = f(1 - x, y, z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, 1 - z, t, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, 1 - a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, w, a, b, 1 - c);
+
+# Orthogonal permutation invariance
+f(x, y, z, t, u, w, a, b, c) = f(x, t, z, y, u, w, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, w, u, t, a, b, c);
+f(x, y, z, t, u, w, a, b, c) = f(x, y, z, t, u, b, a, w, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

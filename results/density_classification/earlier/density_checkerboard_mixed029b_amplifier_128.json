@@ -1,0 +1,260 @@
+{
+  "results": [
+    {
+      "schedule": "mixed029b_r32_then_majority_moore_16",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4490318298339844,
+      "mean_final_density_high": 0.5564117431640625
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_moore_32",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44906044006347656,
+      "mean_final_density_high": 0.5565834045410156
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_moore_64",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44906044006347656,
+      "mean_final_density_high": 0.5565834045410156
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_moore_8",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44977569580078125,
+      "mean_final_density_high": 0.5553073883056641
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_vn_16",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.45606040954589844,
+      "mean_final_density_high": 0.5478992462158203
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_vn_32",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4561195373535156,
+      "mean_final_density_high": 0.5480289459228516
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_vn_64",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4561195373535156,
+      "mean_final_density_high": 0.5480308532714844
+    },
+    {
+      "schedule": "mixed029b_r32_then_majority_vn_8",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.45748329162597656,
+      "mean_final_density_high": 0.5463905334472656
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_5_16",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4490318298339844,
+      "mean_final_density_high": 0.5564117431640625
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_5_32",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44906044006347656,
+      "mean_final_density_high": 0.5565834045410156
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_5_64",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44906044006347656,
+      "mean_final_density_high": 0.5565834045410156
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_5_8",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.44977569580078125,
+      "mean_final_density_high": 0.5553073883056641
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_3_16",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.45606040954589844,
+      "mean_final_density_high": 0.5478992462158203
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_3_32",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4561195373535156,
+      "mean_final_density_high": 0.5480289459228516
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_3_64",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.4561195373535156,
+      "mean_final_density_high": 0.5480308532714844
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_3_8",
+      "min_final_majority_accuracy": 1.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.45748329162597656,
+      "mean_final_density_high": 0.5463905334472656
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_4_32",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_4_64",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_6_32",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_6_64",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_2_16",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_2_32",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_2_64",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_2_8",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 1.0,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_4_16",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_4_32",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_4_64",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_vn_threshold_4_8",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 1.0,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 0.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_4_16",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.90625,
+      "mean_final_density_low": 0.9999713897705078,
+      "mean_final_density_high": 1.0
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_6_16",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.875,
+      "mean_final_density_low": 0.0,
+      "mean_final_density_high": 6.4849853515625e-05
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_4_8",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.9947490692138672,
+      "mean_final_density_high": 0.9983024597167969
+    },
+    {
+      "schedule": "mixed029b_r32_then_moore_threshold_6_8",
+      "min_final_majority_accuracy": 0.0,
+      "min_final_consensus_accuracy": 0.0,
+      "min_final_consensus_rate": 0.0,
+      "mean_final_density_low": 0.0020160675048828125,
+      "mean_final_density_high": 0.00482177734375
+    }
+  ]
+}

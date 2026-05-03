@@ -1,0 +1,12 @@
+# Rotation-symmetric identity family for 2D binary cellular automata with a Moore neighborhood.
+# A 90-degree clockwise rotation maps
+#   x y z      a t x
+#   t u w  ->  b u y
+#   a b c      c w z
+# Invariance under this generator implies invariance under 180 and 270 degree rotations.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, w, a, b, c) = f(a, t, x, b, u, y, c, w, z);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

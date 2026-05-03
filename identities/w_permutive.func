@@ -1,0 +1,7 @@
+# W-permutive family: toggling the east neighbor w flips the output.
+vars: x, y, z, t, u, w, a, b, c
+
+f(x, y, z, t, u, 0, a, b, c) != f(x, y, z, t, u, 1, a, b, c);
+
+f(0, 0, 0, 0, 0, 0, 0, 0, 0) = 0;
+f(1, 1, 1, 1, 1, 1, 1, 1, 1) = 1;

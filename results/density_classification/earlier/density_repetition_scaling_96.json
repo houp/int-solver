@@ -1,0 +1,87 @@
+{
+  "binary": "expanded_property_panel_nonzero.bin",
+  "metadata": "expanded_property_panel_nonzero.json",
+  "grid": [
+    96,
+    96
+  ],
+  "probabilities": [
+    0.49,
+    0.51
+  ],
+  "trials": 32,
+  "reports": [
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "eq_812b7_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8921373155381944,
+        "local_density_variance": 0.04738963395357132,
+        "final_majority_accuracy": 0.9375,
+        "final_consensus_accuracy": 0.4375,
+        "final_consensus_rate": 0.4375,
+        "mean_final_density": 0.13783772786458334
+      }
+    },
+    {
+      "probability": 0.49,
+      "schedule": {
+        "schedule": "eq_29154_8_then_majority_moore_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8125203450520834,
+        "local_density_variance": 0.08722788095474243,
+        "final_majority_accuracy": 0.9375,
+        "final_consensus_accuracy": 0.21875,
+        "final_consensus_rate": 0.21875,
+        "mean_final_density": 0.20054456922743055
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "eq_812b7_8_then_majority_vn_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8769361707899306,
+        "local_density_variance": 0.031238403171300888,
+        "final_majority_accuracy": 0.84375,
+        "final_consensus_accuracy": 0.625,
+        "final_consensus_rate": 0.625,
+        "mean_final_density": 0.8762613932291666
+      }
+    },
+    {
+      "probability": 0.51,
+      "schedule": {
+        "schedule": "eq_29154_8_then_majority_moore_8_x16",
+        "grid": "96x96",
+        "trials": 32,
+        "tied_initial_states": 0,
+        "effective_trials": 32,
+        "preprocess_steps": 248,
+        "final_steps": 8,
+        "local_majority_agreement": 0.8788859049479166,
+        "local_density_variance": 0.061510033905506134,
+        "final_majority_accuracy": 0.9375,
+        "final_consensus_accuracy": 0.375,
+        "final_consensus_rate": 0.375,
+        "mean_final_density": 0.8826361762152778
+      }
+    }
+  ]
+}

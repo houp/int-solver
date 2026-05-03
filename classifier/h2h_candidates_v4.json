@@ -1,0 +1,41 @@
+[
+  {
+    "name": "rebalanced_v2_weights",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "moore_maj"
+    ],
+    "weights": [0.04094834116264222, 0.037964809068865284, 0.11971909455899025, 0.016103503474545, 0.6244987253625784, 0.1607655263723788]
+  },
+  {
+    "name": "set_B_card_traffic_template",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "traffic_n", "traffic_s", "traffic_e", "traffic_w",
+      "moore_maj"
+    ],
+    "weights": [0.041, 0.049, 0.126, 0.017, 0.579, 0.0235, 0.0235, 0.0235, 0.0235, 0.094]
+  },
+  {
+    "name": "autotune_10rule_top1",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "traffic_n", "traffic_s", "traffic_e", "traffic_w",
+      "moore_maj"
+    ],
+    "weights": [0.05307678922365261, 0.03480145265463713, 0.14366091776915554, 0.015106802087312852, 0.5590180892934185, 0.019660362863238003, 0.03469818723653763, 0.032156716255454, 0.021298343710893675, 0.08652233890569985]
+  },
+  {
+    "name": "autotune_10rule_top5mean",
+    "rules": [
+      "sid:58ed6b657afb",
+      "traffic_ne", "traffic_nw", "traffic_se", "traffic_sw",
+      "traffic_n", "traffic_s", "traffic_e", "traffic_w",
+      "moore_maj"
+    ],
+    "weights": [0.04651196685196887, 0.05028856081339383, 0.12424309956525423, 0.022157288429083346, 0.5756731554466324, 0.02036272189213718, 0.03138750414456869, 0.030309700627810653, 0.027340818235794803, 0.07172518399335596]
+  }
+]
